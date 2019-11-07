@@ -1,0 +1,73 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+ <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <title>Analysis Situs: reverse engineering overview</title>
+  <link rel="shortcut icon" type="image/png" href="../imgs/favicon.png"/>
+  <link rel="stylesheet" type="text/css" href="../css/situ-main-style.css">
+
+  <!-- [begin] Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-112292727-2"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-112292727-2');
+  </script>
+  <!-- [end] Google Analytics -->
+
+ </head>
+<body>
+
+<table align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr>
+  <td align="left" class="header">
+    <span class="header-logo"><a href="../index.html" class="header-href">Analysis&nbsp;Situs</a></span>
+    &nbsp;
+    ./<a class="header-href" href="../features.html">features</a>/reverse engineering overview
+  </td>
+</tr>
+</table>
+<table align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr>
+  <td class="header-menu"><a href='http://quaoar.su/blog/page/analysis-situs'>Download</a></td>
+  <td class="header-menu"><a href="../features.html">Features</a></td>
+  <td class="header-menu"><a href="https://gitlab.com/ssv/AnalysisSitus">Source code</a></td>
+  <td class="header-menu"><a href="../terminology.html">Terminology</a></td>
+  <td class="header-menu"><a href="../references.html">References</a></td>
+</tr>
+</table>
+
+<h1>Reverse engineering overview</h1>
+
+<p>
+One can think of reverse engineering as a specific CAD modeling
+process where you start from an existing artifact instead of a blank
+workspace. The whole process is driven by a reference shape represented
+with either a point cloud or mesh geometry. Looking from this standpoint,
+Analysis Situs is designed to become a modeling system where the main
+prerequisite is the existence of a reference part guiding the design
+process and used to snap points, curves, and surfaces. The following
+figure illustrates the entire reverse engineering workflow in
+Analysis Situs.
+</p>
+
+<div align="center"><img src="../imgs/re-workflow.png"/></div>
+
+<p>
+It all starts with importing a mesh model. The most popular format
+for unorganized triangulations today is the stereolithography format
+(STL). Once the import is done, you begin
+<a href="./features_re-define-topology.html">retopologizing your model</a> by outlining the
+feature lines. The goal of this stage is to build a network of curves
+bounding the surface patches. It is practical to sketch the boundary
+curves following the curvature map of your mesh. Once you are done
+with the topology, it is time to fit surfaces and construct a final
+manifold shell. In the end, you may want to check the obtained deviation
+map and export the result to one of the popular CAD exchange formats, e.g.,
+IGES or STEP.
+</p>
+
+</body>
+</html>

@@ -1,0 +1,5 @@
+-DWIN32
+--compiler-flavor=msvc
+-o
+D:/WeNext3D/AnalysisSitus-v0.3.0/src/asiUI/viewers/moc_asiUI_ViewerDomain.cpp
+D:/WeNext3D/AnalysisSitus-v0.3.0/src/asiUI/viewers/asiUI_ViewerDomain.h

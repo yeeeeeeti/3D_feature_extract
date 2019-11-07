@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\cmdMisc\cmdMisc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\cmdMisc\cmdMisc_Coons.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\cmdMisc\cmdMisc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\cmdMisc\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{B95166DC-5349-363B-B2F3-9C707E092AAB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{632DAB89-F98D-3A54-A4EB-6A26BA1E4645}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,185 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{DD82EACC-493B-33D0-930B-A643F50C43DA}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\WeNext3D\AnalysisSitus-v0.3.0\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/WeNext3D/AnalysisSitus-v0.3.0/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -HD:/WeNext3D/AnalysisSitus-v0.3.0 -BD:/WeNext3D/AnalysisSitus-v0.3.0 --check-stamp-file D:/WeNext3D/AnalysisSitus-v0.3.0/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:/WeNext3D/AnalysisSitus-v0.3.0/CMakeLists.txt;D:\WeNext3D\AnalysisSitus-v0.3.0\CMakeLists.txt;D:\WeNext3D\AnalysisSitus-v0.3.0\CMakeFiles\3.11.3\CMakeSystem.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\CMakeSystemSpecificInitialize.cmake;D:\WeNext3D\AnalysisSitus-v0.3.0\CMakeFiles\3.11.3\CMakeCXXCompiler.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\CMakeSystemSpecificInformation.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\CMakeGenericSystem.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\CMakeInitializeConfigs.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\Platform\Windows.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\Platform\WindowsPaths.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\CMakeCXXInformation.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\CMakeLanguageInformation.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\MSVC-CXX.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\Platform\Windows-MSVC-CXX.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\Platform\Windows-MSVC.cmake;D:\WeNext3D\AnalysisSitus-v0.3.0\CMakeFiles\3.11.3\CMakeRCCompiler.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\CMakeRCInformation.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\CMakeCommonLanguageInclude.cmake;D:\WeNext3D\AnalysisSitus-v0.3.0\cmake\asitus_3rdparty_macros.cmake;D:\WeNext3D\AnalysisSitus-v0.3.0\cmake\asitus_functions.cmake;D:\WeNext3D\AnalysisSitus-v0.3.0\cmake\asitus_macros.cmake;D:\WeNext3D\AnalysisSitus-v0.3.0\cmake\asitus_Qt.cmake;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\qt-5.9.1-vc12-64\lib\cmake\Qt5\Qt5ConfigVersion.cmake;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\qt-5.9.1-vc12-64\lib\cmake\Qt5\Qt5Config.cmake;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\qt-5.9.1-vc12-64\lib\cmake\Qt5\Qt5ModuleLocation.cmake;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\qt-5.9.1-vc12-64\lib\cmake\Qt5Widgets\Qt5WidgetsConfigVersion.cmake;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\qt-5.9.1-vc12-64\lib\cmake\Qt5Widgets\Qt5WidgetsConfig.cmake;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\qt-5.9.1-vc12-64\lib\cmake\Qt5Gui\Qt5GuiConfigVersion.cmake;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\qt-5.9.1-vc12-64\lib\cmake\Qt5Gui\Qt5GuiConfig.cmake;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\qt-5.9.1-vc12-64\lib\cmake\Qt5Core\Qt5CoreConfigVersion.cmake;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\qt-5.9.1-vc12-64\lib\cmake\Qt5Core\Qt5CoreConfig.cmake;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\qt-5.9.1-vc12-64\lib\cmake\Qt5Core\Qt5CoreConfigExtras.cmake;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\qt-5.9.1-vc12-64\lib\cmake\Qt5Core\Qt5CoreConfigExtrasMkspecDir.cmake;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\qt-5.9.1-vc12-64\lib\cmake\Qt5Core\Qt5CoreMacros.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\CMakeParseArguments.cmake;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\qt-5.9.1-vc12-64\lib\cmake\Qt5Gui\Qt5Gui_QGifPlugin.cmake;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\qt-5.9.1-vc12-64\lib\cmake\Qt5Gui\Qt5Gui_QICNSPlugin.cmake;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\qt-5.9.1-vc12-64\lib\cmake\Qt5Gui\Qt5Gui_QICOPlugin.cmake;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\qt-5.9.1-vc12-64\lib\cmake\Qt5Gui\Qt5Gui_QJpegPlugin.cmake;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\qt-5.9.1-vc12-64\lib\cmake\Qt5Gui\Qt5Gui_QMinimalIntegrationPlugin.cmake;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\qt-5.9.1-vc12-64\lib\cmake\Qt5Gui\Qt5Gui_QOffscreenIntegrationPlugin.cmake;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\qt-5.9.1-vc12-64\lib\cmake\Qt5Gui\Qt5Gui_QTgaPlugin.cmake;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\qt-5.9.1-vc12-64\lib\cmake\Qt5Gui\Qt5Gui_QTiffPlugin.cmake;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\qt-5.9.1-vc12-64\lib\cmake\Qt5Gui\Qt5Gui_QTuioTouchPlugin.cmake;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\qt-5.9.1-vc12-64\lib\cmake\Qt5Gui\Qt5Gui_QWbmpPlugin.cmake;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\qt-5.9.1-vc12-64\lib\cmake\Qt5Gui\Qt5Gui_QWebpPlugin.cmake;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\qt-5.9.1-vc12-64\lib\cmake\Qt5Gui\Qt5Gui_QWindowsDirect2DIntegrationPlugin.cmake;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\qt-5.9.1-vc12-64\lib\cmake\Qt5Gui\Qt5Gui_QWindowsIntegrationPlugin.cmake;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\qt-5.9.1-vc12-64\lib\cmake\Qt5Gui\Qt5GuiConfigExtras.cmake;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\qt-5.9.1-vc12-64\lib\cmake\Qt5Widgets\Qt5WidgetsConfigExtras.cmake;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\qt-5.9.1-vc12-64\lib\cmake\Qt5Widgets\Qt5WidgetsMacros.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\CMakeParseArguments.cmake;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\qt-5.9.1-vc12-64\lib\cmake\Qt5Core\Qt5CoreConfigVersion.cmake;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\qt-5.9.1-vc12-64\lib\cmake\Qt5Core\Qt5CoreConfig.cmake;D:\WeNext3D\AnalysisSitus-v0.3.0\cmake\asitus_ActiveData.cmake;D:\WeNext3D\AnalysisSitus-v0.3.0\cmake\asitus_Eigen.cmake;D:\WeNext3D\AnalysisSitus-v0.3.0\cmake\asitus_VTK.cmake;D:\WeNext3D\AnalysisSitus-v0.3.0\cmake\asitus_OCCT.cmake;D:\WeNext3D\AnalysisSitus-v0.3.0\cmake\asitus_OCCT_3rdparty.cmake;D:\WeNext3D\AnalysisSitus-v0.3.0\cmake\asitus_InnoSetup.cmake;D:\WeNext3D\AnalysisSitus-v0.3.0\cmake\asitus_Mobius.cmake;D:\WeNext3D\AnalysisSitus-v0.3.0\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\WeNext3D\AnalysisSitus-v0.3.0\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/WeNext3D/AnalysisSitus-v0.3.0/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -HD:/WeNext3D/AnalysisSitus-v0.3.0 -BD:/WeNext3D/AnalysisSitus-v0.3.0 --check-stamp-file D:/WeNext3D/AnalysisSitus-v0.3.0/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:/WeNext3D/AnalysisSitus-v0.3.0/CMakeLists.txt;D:\WeNext3D\AnalysisSitus-v0.3.0\CMakeLists.txt;D:\WeNext3D\AnalysisSitus-v0.3.0\CMakeFiles\3.11.3\CMakeSystem.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\CMakeSystemSpecificInitialize.cmake;D:\WeNext3D\AnalysisSitus-v0.3.0\CMakeFiles\3.11.3\CMakeCXXCompiler.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\CMakeSystemSpecificInformation.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\CMakeGenericSystem.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\CMakeInitializeConfigs.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\Platform\Windows.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\Platform\WindowsPaths.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\CMakeCXXInformation.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\CMakeLanguageInformation.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\MSVC-CXX.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\Platform\Windows-MSVC-CXX.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\Platform\Windows-MSVC.cmake;D:\WeNext3D\AnalysisSitus-v0.3.0\CMakeFiles\3.11.3\CMakeRCCompiler.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\CMakeRCInformation.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\CMakeCommonLanguageInclude.cmake;D:\WeNext3D\AnalysisSitus-v0.3.0\cmake\asitus_3rdparty_macros.cmake;D:\WeNext3D\AnalysisSitus-v0.3.0\cmake\asitus_functions.cmake;D:\WeNext3D\AnalysisSitus-v0.3.0\cmake\asitus_macros.cmake;D:\WeNext3D\AnalysisSitus-v0.3.0\cmake\asitus_Qt.cmake;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\qt-5.9.1-vc12-64\lib\cmake\Qt5\Qt5ConfigVersion.cmake;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\qt-5.9.1-vc12-64\lib\cmake\Qt5\Qt5Config.cmake;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\qt-5.9.1-vc12-64\lib\cmake\Qt5\Qt5ModuleLocation.cmake;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\qt-5.9.1-vc12-64\lib\cmake\Qt5Widgets\Qt5WidgetsConfigVersion.cmake;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\qt-5.9.1-vc12-64\lib\cmake\Qt5Widgets\Qt5WidgetsConfig.cmake;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\qt-5.9.1-vc12-64\lib\cmake\Qt5Gui\Qt5GuiConfigVersion.cmake;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\qt-5.9.1-vc12-64\lib\cmake\Qt5Gui\Qt5GuiConfig.cmake;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\qt-5.9.1-vc12-64\lib\cmake\Qt5Core\Qt5CoreConfigVersion.cmake;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\qt-5.9.1-vc12-64\lib\cmake\Qt5Core\Qt5CoreConfig.cmake;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\qt-5.9.1-vc12-64\lib\cmake\Qt5Core\Qt5CoreConfigExtras.cmake;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\qt-5.9.1-vc12-64\lib\cmake\Qt5Core\Qt5CoreConfigExtrasMkspecDir.cmake;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\qt-5.9.1-vc12-64\lib\cmake\Qt5Core\Qt5CoreMacros.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\CMakeParseArguments.cmake;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\qt-5.9.1-vc12-64\lib\cmake\Qt5Gui\Qt5Gui_QGifPlugin.cmake;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\qt-5.9.1-vc12-64\lib\cmake\Qt5Gui\Qt5Gui_QICNSPlugin.cmake;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\qt-5.9.1-vc12-64\lib\cmake\Qt5Gui\Qt5Gui_QICOPlugin.cmake;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\qt-5.9.1-vc12-64\lib\cmake\Qt5Gui\Qt5Gui_QJpegPlugin.cmake;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\qt-5.9.1-vc12-64\lib\cmake\Qt5Gui\Qt5Gui_QMinimalIntegrationPlugin.cmake;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\qt-5.9.1-vc12-64\lib\cmake\Qt5Gui\Qt5Gui_QOffscreenIntegrationPlugin.cmake;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\qt-5.9.1-vc12-64\lib\cmake\Qt5Gui\Qt5Gui_QTgaPlugin.cmake;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\qt-5.9.1-vc12-64\lib\cmake\Qt5Gui\Qt5Gui_QTiffPlugin.cmake;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\qt-5.9.1-vc12-64\lib\cmake\Qt5Gui\Qt5Gui_QTuioTouchPlugin.cmake;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\qt-5.9.1-vc12-64\lib\cmake\Qt5Gui\Qt5Gui_QWbmpPlugin.cmake;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\qt-5.9.1-vc12-64\lib\cmake\Qt5Gui\Qt5Gui_QWebpPlugin.cmake;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\qt-5.9.1-vc12-64\lib\cmake\Qt5Gui\Qt5Gui_QWindowsDirect2DIntegrationPlugin.cmake;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\qt-5.9.1-vc12-64\lib\cmake\Qt5Gui\Qt5Gui_QWindowsIntegrationPlugin.cmake;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\qt-5.9.1-vc12-64\lib\cmake\Qt5Gui\Qt5GuiConfigExtras.cmake;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\qt-5.9.1-vc12-64\lib\cmake\Qt5Widgets\Qt5WidgetsConfigExtras.cmake;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\qt-5.9.1-vc12-64\lib\cmake\Qt5Widgets\Qt5WidgetsMacros.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\CMakeParseArguments.cmake;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\qt-5.9.1-vc12-64\lib\cmake\Qt5Core\Qt5CoreConfigVersion.cmake;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\qt-5.9.1-vc12-64\lib\cmake\Qt5Core\Qt5CoreConfig.cmake;D:\WeNext3D\AnalysisSitus-v0.3.0\cmake\asitus_ActiveData.cmake;D:\WeNext3D\AnalysisSitus-v0.3.0\cmake\asitus_Eigen.cmake;D:\WeNext3D\AnalysisSitus-v0.3.0\cmake\asitus_VTK.cmake;D:\WeNext3D\AnalysisSitus-v0.3.0\cmake\asitus_OCCT.cmake;D:\WeNext3D\AnalysisSitus-v0.3.0\cmake\asitus_OCCT_3rdparty.cmake;D:\WeNext3D\AnalysisSitus-v0.3.0\cmake\asitus_InnoSetup.cmake;D:\WeNext3D\AnalysisSitus-v0.3.0\cmake\asitus_Mobius.cmake;D:\WeNext3D\AnalysisSitus-v0.3.0\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\WeNext3D\AnalysisSitus-v0.3.0\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule D:/WeNext3D/AnalysisSitus-v0.3.0/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -HD:/WeNext3D/AnalysisSitus-v0.3.0 -BD:/WeNext3D/AnalysisSitus-v0.3.0 --check-stamp-file D:/WeNext3D/AnalysisSitus-v0.3.0/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:/WeNext3D/AnalysisSitus-v0.3.0/CMakeLists.txt;D:\WeNext3D\AnalysisSitus-v0.3.0\CMakeLists.txt;D:\WeNext3D\AnalysisSitus-v0.3.0\CMakeFiles\3.11.3\CMakeSystem.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\CMakeSystemSpecificInitialize.cmake;D:\WeNext3D\AnalysisSitus-v0.3.0\CMakeFiles\3.11.3\CMakeCXXCompiler.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\CMakeSystemSpecificInformation.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\CMakeGenericSystem.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\CMakeInitializeConfigs.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\Platform\Windows.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\Platform\WindowsPaths.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\CMakeCXXInformation.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\CMakeLanguageInformation.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\MSVC-CXX.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\Platform\Windows-MSVC-CXX.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\Platform\Windows-MSVC.cmake;D:\WeNext3D\AnalysisSitus-v0.3.0\CMakeFiles\3.11.3\CMakeRCCompiler.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\CMakeRCInformation.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\CMakeCommonLanguageInclude.cmake;D:\WeNext3D\AnalysisSitus-v0.3.0\cmake\asitus_3rdparty_macros.cmake;D:\WeNext3D\AnalysisSitus-v0.3.0\cmake\asitus_functions.cmake;D:\WeNext3D\AnalysisSitus-v0.3.0\cmake\asitus_macros.cmake;D:\WeNext3D\AnalysisSitus-v0.3.0\cmake\asitus_Qt.cmake;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\qt-5.9.1-vc12-64\lib\cmake\Qt5\Qt5ConfigVersion.cmake;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\qt-5.9.1-vc12-64\lib\cmake\Qt5\Qt5Config.cmake;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\qt-5.9.1-vc12-64\lib\cmake\Qt5\Qt5ModuleLocation.cmake;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\qt-5.9.1-vc12-64\lib\cmake\Qt5Widgets\Qt5WidgetsConfigVersion.cmake;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\qt-5.9.1-vc12-64\lib\cmake\Qt5Widgets\Qt5WidgetsConfig.cmake;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\qt-5.9.1-vc12-64\lib\cmake\Qt5Gui\Qt5GuiConfigVersion.cmake;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\qt-5.9.1-vc12-64\lib\cmake\Qt5Gui\Qt5GuiConfig.cmake;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\qt-5.9.1-vc12-64\lib\cmake\Qt5Core\Qt5CoreConfigVersion.cmake;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\qt-5.9.1-vc12-64\lib\cmake\Qt5Core\Qt5CoreConfig.cmake;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\qt-5.9.1-vc12-64\lib\cmake\Qt5Core\Qt5CoreConfigExtras.cmake;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\qt-5.9.1-vc12-64\lib\cmake\Qt5Core\Qt5CoreConfigExtrasMkspecDir.cmake;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\qt-5.9.1-vc12-64\lib\cmake\Qt5Core\Qt5CoreMacros.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\CMakeParseArguments.cmake;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\qt-5.9.1-vc12-64\lib\cmake\Qt5Gui\Qt5Gui_QGifPlugin.cmake;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\qt-5.9.1-vc12-64\lib\cmake\Qt5Gui\Qt5Gui_QICNSPlugin.cmake;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\qt-5.9.1-vc12-64\lib\cmake\Qt5Gui\Qt5Gui_QICOPlugin.cmake;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\qt-5.9.1-vc12-64\lib\cmake\Qt5Gui\Qt5Gui_QJpegPlugin.cmake;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\qt-5.9.1-vc12-64\lib\cmake\Qt5Gui\Qt5Gui_QMinimalIntegrationPlugin.cmake;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\qt-5.9.1-vc12-64\lib\cmake\Qt5Gui\Qt5Gui_QOffscreenIntegrationPlugin.cmake;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\qt-5.9.1-vc12-64\lib\cmake\Qt5Gui\Qt5Gui_QTgaPlugin.cmake;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\qt-5.9.1-vc12-64\lib\cmake\Qt5Gui\Qt5Gui_QTiffPlugin.cmake;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\qt-5.9.1-vc12-64\lib\cmake\Qt5Gui\Qt5Gui_QTuioTouchPlugin.cmake;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\qt-5.9.1-vc12-64\lib\cmake\Qt5Gui\Qt5Gui_QWbmpPlugin.cmake;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\qt-5.9.1-vc12-64\lib\cmake\Qt5Gui\Qt5Gui_QWebpPlugin.cmake;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\qt-5.9.1-vc12-64\lib\cmake\Qt5Gui\Qt5Gui_QWindowsDirect2DIntegrationPlugin.cmake;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\qt-5.9.1-vc12-64\lib\cmake\Qt5Gui\Qt5Gui_QWindowsIntegrationPlugin.cmake;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\qt-5.9.1-vc12-64\lib\cmake\Qt5Gui\Qt5GuiConfigExtras.cmake;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\qt-5.9.1-vc12-64\lib\cmake\Qt5Widgets\Qt5WidgetsConfigExtras.cmake;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\qt-5.9.1-vc12-64\lib\cmake\Qt5Widgets\Qt5WidgetsMacros.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\CMakeParseArguments.cmake;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\qt-5.9.1-vc12-64\lib\cmake\Qt5Core\Qt5CoreConfigVersion.cmake;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\qt-5.9.1-vc12-64\lib\cmake\Qt5Core\Qt5CoreConfig.cmake;D:\WeNext3D\AnalysisSitus-v0.3.0\cmake\asitus_ActiveData.cmake;D:\WeNext3D\AnalysisSitus-v0.3.0\cmake\asitus_Eigen.cmake;D:\WeNext3D\AnalysisSitus-v0.3.0\cmake\asitus_VTK.cmake;D:\WeNext3D\AnalysisSitus-v0.3.0\cmake\asitus_OCCT.cmake;D:\WeNext3D\AnalysisSitus-v0.3.0\cmake\asitus_OCCT_3rdparty.cmake;D:\WeNext3D\AnalysisSitus-v0.3.0\cmake\asitus_InnoSetup.cmake;D:\WeNext3D\AnalysisSitus-v0.3.0\cmake\asitus_Mobius.cmake;D:\WeNext3D\AnalysisSitus-v0.3.0\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\WeNext3D\AnalysisSitus-v0.3.0\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:\WeNext3D\AnalysisSitus-v0.3.0\ZERO_CHECK.vcxproj">
+      <Project>{A2F89574-7973-3083-836F-7DF44CE5B3F0}</Project>
+      <Name>ZERO_CHECK</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\asiAlgo.vcxproj">
+      <Project>{5980D0B9-1BA1-3553-8BF2-50C02FA843B9}</Project>
+      <Name>asiAlgo</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiData\asiData.vcxproj">
+      <Project>{EE908CEE-E579-3C2B-917A-53BBB3B336C8}</Project>
+      <Name>asiData</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiEngine\asiEngine.vcxproj">
+      <Project>{2838C651-5920-3C41-AAF3-EAB63FEFFA51}</Project>
+      <Name>asiEngine</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\exe\asiExe.vcxproj">
+      <Project>{58F67B15-EFD5-36E7-869D-7773197805C9}</Project>
+      <Name>asiExe</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiTcl\asiTcl.vcxproj">
+      <Project>{B33AB215-FCC7-36AE-956A-D71E66A2C9A3}</Project>
+      <Name>asiTcl</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiTest\asiTest.vcxproj">
+      <Project>{34871B6E-887C-3460-AACF-03DE995DF5C3}</Project>
+      <Name>asiTest</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiTestEngine\asiTestEngine.vcxproj">
+      <Project>{929E8C5D-2F27-3133-8FBD-F1D7EE8F3BBE}</Project>
+      <Name>asiTestEngine</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\asiUI.vcxproj">
+      <Project>{3446ED25-23BB-359B-B0C6-5DEC3CFF26DA}</Project>
+      <Name>asiUI</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\asiVisu.vcxproj">
+      <Project>{13F57342-D057-3DCC-8690-AB595D380CD6}</Project>
+      <Name>asiVisu</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\cmdEngine\cmdEngine.vcxproj">
+      <Project>{21905B05-8829-3D8B-B269-CEA7D2D37671}</Project>
+      <Name>cmdEngine</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\cmdMisc\cmdMisc.vcxproj">
+      <Project>{51A5CFCA-B1C3-37B0-9482-DF9D7FA7D1A0}</Project>
+      <Name>cmdMisc</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\cmdRE\cmdRE.vcxproj">
+      <Project>{A9333C75-27CC-3D91-A455-5CD190DCDCB1}</Project>
+      <Name>cmdRE</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

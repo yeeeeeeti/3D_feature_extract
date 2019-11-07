@@ -1,0 +1,146 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="EAAG_Adapter.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="logger.cpp" />
+    <ClCompile Include="WNAnalysisFeature.cpp" />
+    <ClCompile Include="src\argedit.cc">
+      <Filter>VFLib2</Filter>
+    </ClCompile>
+    <ClCompile Include="src\argloader.cc">
+      <Filter>VFLib2</Filter>
+    </ClCompile>
+    <ClCompile Include="src\argraph.cc">
+      <Filter>VFLib2</Filter>
+    </ClCompile>
+    <ClCompile Include="src\error.cc">
+      <Filter>VFLib2</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gene.cc">
+      <Filter>VFLib2</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gene_mesh.cc">
+      <Filter>VFLib2</Filter>
+    </ClCompile>
+    <ClCompile Include="src\match.cc">
+      <Filter>VFLib2</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sd_state.cc">
+      <Filter>VFLib2</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sortnodes.cc">
+      <Filter>VFLib2</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ull_state.cc">
+      <Filter>VFLib2</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ull_sub_state.cc">
+      <Filter>VFLib2</Filter>
+    </ClCompile>
+    <ClCompile Include="src\vf_mono_state.cc">
+      <Filter>VFLib2</Filter>
+    </ClCompile>
+    <ClCompile Include="src\vf_state.cc">
+      <Filter>VFLib2</Filter>
+    </ClCompile>
+    <ClCompile Include="src\vf_sub_state.cc">
+      <Filter>VFLib2</Filter>
+    </ClCompile>
+    <ClCompile Include="src\vf2_mono_state.cc">
+      <Filter>VFLib2</Filter>
+    </ClCompile>
+    <ClCompile Include="src\vf2_state.cc">
+      <Filter>VFLib2</Filter>
+    </ClCompile>
+    <ClCompile Include="src\vf2_sub_state.cc">
+      <Filter>VFLib2</Filter>
+    </ClCompile>
+    <ClCompile Include="src\xsubgraph.cc">
+      <Filter>VFLib2</Filter>
+    </ClCompile>
+    <ClCompile Include="WNXML.cpp" />
+    <ClCompile Include="WNAnalysisFeature_DumpInfo.cpp" />
+    <ClCompile Include="WNAnalysisFeature_Extraction.cpp" />
+    <ClCompile Include="WNAnalysisFeature_Match.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="dataFormat.h" />
+    <ClInclude Include="EAAG_Adapter.h" />
+    <ClInclude Include="src\allocpool.h">
+      <Filter>VFLib2</Filter>
+    </ClInclude>
+    <ClInclude Include="src\argedit.h">
+      <Filter>VFLib2</Filter>
+    </ClInclude>
+    <ClInclude Include="src\argloader.h">
+      <Filter>VFLib2</Filter>
+    </ClInclude>
+    <ClInclude Include="src\argraph.h">
+      <Filter>VFLib2</Filter>
+    </ClInclude>
+    <ClInclude Include="src\dict.h">
+      <Filter>VFLib2</Filter>
+    </ClInclude>
+    <ClInclude Include="src\error.h">
+      <Filter>VFLib2</Filter>
+    </ClInclude>
+    <ClInclude Include="src\xsubgraph.h">
+      <Filter>VFLib2</Filter>
+    </ClInclude>
+    <ClInclude Include="src\match.h">
+      <Filter>VFLib2</Filter>
+    </ClInclude>
+    <ClInclude Include="src\sd_state.h">
+      <Filter>VFLib2</Filter>
+    </ClInclude>
+    <ClInclude Include="src\sortnodes.h">
+      <Filter>VFLib2</Filter>
+    </ClInclude>
+    <ClInclude Include="src\state.h">
+      <Filter>VFLib2</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ull_state.h">
+      <Filter>VFLib2</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ull_sub_state.h">
+      <Filter>VFLib2</Filter>
+    </ClInclude>
+    <ClInclude Include="src\vf_mono_state.h">
+      <Filter>VFLib2</Filter>
+    </ClInclude>
+    <ClInclude Include="src\vf_state.h">
+      <Filter>VFLib2</Filter>
+    </ClInclude>
+    <ClInclude Include="src\vf_sub_state.h">
+      <Filter>VFLib2</Filter>
+    </ClInclude>
+    <ClInclude Include="src\vf2_mono_state.h">
+      <Filter>VFLib2</Filter>
+    </ClInclude>
+    <ClInclude Include="src\vf2_state.h">
+      <Filter>VFLib2</Filter>
+    </ClInclude>
+    <ClInclude Include="src\vf2_sub_state.h">
+      <Filter>VFLib2</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gene.h">
+      <Filter>VFLib2</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gene_mesh.h">
+      <Filter>VFLib2</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="WNAnalysisFeature.h" />
+    <ClInclude Include="WNXML.h" />
+    <ClInclude Include="WNAnalysisFeature_IncSetup.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="VFLib2">
+      <UniqueIdentifier>{2012d8a8-7464-4cc2-bbb2-f725e913e711}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="WeNext_FE.rc" />
+  </ItemGroup>
+</Project>

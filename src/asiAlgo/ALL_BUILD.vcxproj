@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{DD82EACC-493B-33D0-930B-A643F50C43DA}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo;D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\auxiliary;D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\blends;D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\dict;D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\dict\salome;D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\editing;D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\features;D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\interop;D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\mesh;D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\opt;D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\points;D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\re;D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\utils;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\occt-vc12-64\inc;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\active_data-vc12-64\include;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\eigen-3.3.4;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\vtk-8.0.1-vc12-64\include\vtk-8.0;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\tbb2018_20170919oss\include\tbb;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo;D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\auxiliary;D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\blends;D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\dict;D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\dict\salome;D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\editing;D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\features;D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\interop;D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\mesh;D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\opt;D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\points;D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\re;D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\utils;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\occt-vc12-64\inc;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\active_data-vc12-64\include;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\eigen-3.3.4;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\vtk-8.0.1-vc12-64\include\vtk-8.0;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\tbb2018_20170919oss\include\tbb;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo;D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\auxiliary;D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\blends;D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\dict;D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\dict\salome;D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\editing;D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\features;D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\interop;D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\mesh;D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\opt;D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\points;D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\re;D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\utils;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\occt-vc12-64\inc;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\active_data-vc12-64\include;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\eigen-3.3.4;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\vtk-8.0.1-vc12-64\include\vtk-8.0;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\tbb2018_20170919oss\include\tbb;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/WeNext3D/AnalysisSitus-v0.3.0/src/asiAlgo/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -HD:/WeNext3D/AnalysisSitus-v0.3.0 -BD:/WeNext3D/AnalysisSitus-v0.3.0 --check-stamp-file D:/WeNext3D/AnalysisSitus-v0.3.0/src/asiAlgo/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:/WeNext3D/AnalysisSitus-v0.3.0/src/asiAlgo/CMakeLists.txt;D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\CMakeLists.txt;D:\Program Files\CMake\share\cmake-3.11\Modules\CMakeDetermineCCompiler.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\CMakeDetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\CMakeDetermineCompilerId.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\CMakeCompilerIdDetection.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\ADSP-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\ARMCC-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\AppleClang-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\Borland-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\Clang-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\Cray-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\GHS-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\GNU-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\HP-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\IAR-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\Intel-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\MIPSpro-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\MSVC-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\PGI-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\PathScale-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\SCO-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\TI-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\Watcom-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\XL-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\zOS-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\CompilerId\VS-10.vcxproj.in;D:\Program Files\CMake\share\cmake-3.11\Modules\CMakeFindBinUtils.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\CMakeCCompiler.cmake.in;D:\WeNext3D\AnalysisSitus-v0.3.0\CMakeFiles\3.11.3\CMakeCCompiler.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\CMakeCInformation.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\CMakeLanguageInformation.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\Platform\Windows-MSVC-C.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\Platform\Windows-MSVC.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\CMakeCommonLanguageInclude.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\CMakeTestCCompiler.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\CMakeTestCompilerCommon.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\CMakeDetermineCompilerABI.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\CMakeParseImplicitLinkInfo.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\CMakeCCompilerABI.c;D:\Program Files\CMake\share\cmake-3.11\Modules\CMakeDetermineCompileFeatures.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\Internal\FeatureTesting.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\CMakeCCompiler.cmake.in;D:\WeNext3D\AnalysisSitus-v0.3.0\CMakeFiles\3.11.3\CMakeCCompiler.cmake;D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/WeNext3D/AnalysisSitus-v0.3.0/src/asiAlgo/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -HD:/WeNext3D/AnalysisSitus-v0.3.0 -BD:/WeNext3D/AnalysisSitus-v0.3.0 --check-stamp-file D:/WeNext3D/AnalysisSitus-v0.3.0/src/asiAlgo/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:/WeNext3D/AnalysisSitus-v0.3.0/src/asiAlgo/CMakeLists.txt;D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\CMakeLists.txt;D:\Program Files\CMake\share\cmake-3.11\Modules\CMakeDetermineCCompiler.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\CMakeDetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\CMakeDetermineCompilerId.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\CMakeCompilerIdDetection.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\ADSP-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\ARMCC-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\AppleClang-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\Borland-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\Clang-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\Cray-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\GHS-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\GNU-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\HP-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\IAR-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\Intel-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\MIPSpro-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\MSVC-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\PGI-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\PathScale-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\SCO-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\TI-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\Watcom-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\XL-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\zOS-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\CompilerId\VS-10.vcxproj.in;D:\Program Files\CMake\share\cmake-3.11\Modules\CMakeFindBinUtils.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\CMakeCCompiler.cmake.in;D:\WeNext3D\AnalysisSitus-v0.3.0\CMakeFiles\3.11.3\CMakeCCompiler.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\CMakeCInformation.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\CMakeLanguageInformation.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\Platform\Windows-MSVC-C.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\Platform\Windows-MSVC.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\CMakeCommonLanguageInclude.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\CMakeTestCCompiler.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\CMakeTestCompilerCommon.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\CMakeDetermineCompilerABI.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\CMakeParseImplicitLinkInfo.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\CMakeCCompilerABI.c;D:\Program Files\CMake\share\cmake-3.11\Modules\CMakeDetermineCompileFeatures.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\Internal\FeatureTesting.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\CMakeCCompiler.cmake.in;D:\WeNext3D\AnalysisSitus-v0.3.0\CMakeFiles\3.11.3\CMakeCCompiler.cmake;D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule D:/WeNext3D/AnalysisSitus-v0.3.0/src/asiAlgo/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -HD:/WeNext3D/AnalysisSitus-v0.3.0 -BD:/WeNext3D/AnalysisSitus-v0.3.0 --check-stamp-file D:/WeNext3D/AnalysisSitus-v0.3.0/src/asiAlgo/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:/WeNext3D/AnalysisSitus-v0.3.0/src/asiAlgo/CMakeLists.txt;D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\CMakeLists.txt;D:\Program Files\CMake\share\cmake-3.11\Modules\CMakeDetermineCCompiler.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\CMakeDetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\CMakeDetermineCompilerId.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\CMakeCompilerIdDetection.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\ADSP-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\ARMCC-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\AppleClang-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\Borland-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\Clang-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\Cray-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\GHS-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\GNU-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\HP-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\IAR-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\Intel-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\MIPSpro-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\MSVC-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\PGI-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\PathScale-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\SCO-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\TI-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\Watcom-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\XL-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\zOS-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\CompilerId\VS-10.vcxproj.in;D:\Program Files\CMake\share\cmake-3.11\Modules\CMakeFindBinUtils.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\CMakeCCompiler.cmake.in;D:\WeNext3D\AnalysisSitus-v0.3.0\CMakeFiles\3.11.3\CMakeCCompiler.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\CMakeCInformation.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\CMakeLanguageInformation.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\Platform\Windows-MSVC-C.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\Platform\Windows-MSVC.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\CMakeCommonLanguageInclude.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\CMakeTestCCompiler.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\CMakeTestCompilerCommon.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\CMakeDetermineCompilerABI.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\CMakeParseImplicitLinkInfo.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\CMakeCCompilerABI.c;D:\Program Files\CMake\share\cmake-3.11\Modules\CMakeDetermineCompileFeatures.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\Internal\FeatureTesting.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\CMakeCCompiler.cmake.in;D:\WeNext3D\AnalysisSitus-v0.3.0\CMakeFiles\3.11.3\CMakeCCompiler.cmake;D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:\WeNext3D\AnalysisSitus-v0.3.0\ZERO_CHECK.vcxproj">
+      <Project>{A2F89574-7973-3083-836F-7DF44CE5B3F0}</Project>
+      <Name>ZERO_CHECK</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\asiAlgo.vcxproj">
+      <Project>{5980D0B9-1BA1-3553-8BF2-50C02FA843B9}</Project>
+      <Name>asiAlgo</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,372 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiData\asiData_Partition.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiData\asiData_RootNode.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiData\part\asiData_AAGAttr.cpp">
+      <Filter>Source Files\Part</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiData\part\asiData_AAGParameter.cpp">
+      <Filter>Source Files\Part</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiData\part\asiData_BoundaryEdgesNode.cpp">
+      <Filter>Source Files\Part</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiData\part\asiData_BVHAttr.cpp">
+      <Filter>Source Files\Part</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiData\part\asiData_BVHParameter.cpp">
+      <Filter>Source Files\Part</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiData\part\asiData_CurvatureCombsNode.cpp">
+      <Filter>Source Files\Part</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiData\part\asiData_CurveNode.cpp">
+      <Filter>Source Files\Part</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiData\part\asiData_EdgeNode.cpp">
+      <Filter>Source Files\Part</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiData\part\asiData_FaceContourNode.cpp">
+      <Filter>Source Files\Part</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiData\part\asiData_FaceNode.cpp">
+      <Filter>Source Files\Part</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiData\part\asiData_FaceNormsNode.cpp">
+      <Filter>Source Files\Part</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiData\part\asiData_NamingAttr.cpp">
+      <Filter>Source Files\Part</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiData\part\asiData_NamingParameter.cpp">
+      <Filter>Source Files\Part</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiData\part\asiData_PartNode.cpp">
+      <Filter>Source Files\Part</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiData\part\asiData_SurfDeviationNode.cpp">
+      <Filter>Source Files\Part</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiData\part\asiData_SurfNode.cpp">
+      <Filter>Source Files\Part</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiData\part\asiData_TolerantRangeNode.cpp">
+      <Filter>Source Files\Part</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiData\part\asiData_TolerantShapesNode.cpp">
+      <Filter>Source Files\Part</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiData\part\asiData_VertexNode.cpp">
+      <Filter>Source Files\Part</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiData\mesh\asiData_TessNode.cpp">
+      <Filter>Source Files\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiData\mesh\asiData_TessNormsNode.cpp">
+      <Filter>Source Files\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiData\mesh\asiData_TriangulationNode.cpp">
+      <Filter>Source Files\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiData\iv\asiData_IVCurve2dNode.cpp">
+      <Filter>Source Files\IV</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiData\iv\asiData_IVCurveNode.cpp">
+      <Filter>Source Files\IV</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiData\iv\asiData_IVCurves2dNode.cpp">
+      <Filter>Source Files\IV</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiData\iv\asiData_IVCurvesNode.cpp">
+      <Filter>Source Files\IV</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiData\iv\asiData_IVNode.cpp">
+      <Filter>Source Files\IV</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiData\iv\asiData_IVPoints2dNode.cpp">
+      <Filter>Source Files\IV</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiData\iv\asiData_IVPointSet2dNode.cpp">
+      <Filter>Source Files\IV</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiData\iv\asiData_IVPointSetNode.cpp">
+      <Filter>Source Files\IV</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiData\iv\asiData_IVPointsNode.cpp">
+      <Filter>Source Files\IV</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiData\iv\asiData_IVSurfaceNode.cpp">
+      <Filter>Source Files\IV</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiData\iv\asiData_IVSurfacesNode.cpp">
+      <Filter>Source Files\IV</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiData\iv\asiData_IVTessItemNode.cpp">
+      <Filter>Source Files\IV</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiData\iv\asiData_IVTessNode.cpp">
+      <Filter>Source Files\IV</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiData\iv\asiData_IVTextItemNode.cpp">
+      <Filter>Source Files\IV</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiData\iv\asiData_IVTextNode.cpp">
+      <Filter>Source Files\IV</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiData\iv\asiData_IVTopoItemNode.cpp">
+      <Filter>Source Files\IV</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiData\iv\asiData_IVTopoNode.cpp">
+      <Filter>Source Files\IV</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiData\re\asiData_ReCoEdgeNode.cpp">
+      <Filter>Source Files\RE</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiData\re\asiData_ReEdgeNode.cpp">
+      <Filter>Source Files\RE</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiData\re\asiData_ReEdgesNode.cpp">
+      <Filter>Source Files\RE</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiData\re\asiData_RePatchesNode.cpp">
+      <Filter>Source Files\RE</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiData\re\asiData_RePatchNode.cpp">
+      <Filter>Source Files\RE</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiData\re\asiData_ReTopoNode.cpp">
+      <Filter>Source Files\RE</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiData\re\asiData_ReVertexNode.cpp">
+      <Filter>Source Files\RE</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiData\re\asiData_ReVerticesNode.cpp">
+      <Filter>Source Files\RE</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiData\misc\asiData_ContourNode.cpp">
+      <Filter>Source Files\Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiData\misc\asiData_DesignLawNode.cpp">
+      <Filter>Source Files\Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiData\misc\asiData_FuncAttr.cpp">
+      <Filter>Source Files\Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiData\misc\asiData_FuncParameter.cpp">
+      <Filter>Source Files\Misc</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiData\asiData.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiData\asiData_ParameterFlags.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiData\asiData_Partition.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiData\asiData_RootNode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiData\part\asiData_AAGAttr.h">
+      <Filter>Header Files\Part</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiData\part\asiData_AAGParameter.h">
+      <Filter>Header Files\Part</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiData\part\asiData_BoundaryEdgesNode.h">
+      <Filter>Header Files\Part</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiData\part\asiData_BVHAttr.h">
+      <Filter>Header Files\Part</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiData\part\asiData_BVHParameter.h">
+      <Filter>Header Files\Part</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiData\part\asiData_CurvatureCombsNode.h">
+      <Filter>Header Files\Part</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiData\part\asiData_CurveNode.h">
+      <Filter>Header Files\Part</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiData\part\asiData_EdgeNode.h">
+      <Filter>Header Files\Part</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiData\part\asiData_FaceContourNode.h">
+      <Filter>Header Files\Part</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiData\part\asiData_FaceNode.h">
+      <Filter>Header Files\Part</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiData\part\asiData_FaceNormsNode.h">
+      <Filter>Header Files\Part</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiData\part\asiData_NamingAttr.h">
+      <Filter>Header Files\Part</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiData\part\asiData_NamingParameter.h">
+      <Filter>Header Files\Part</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiData\part\asiData_PartNode.h">
+      <Filter>Header Files\Part</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiData\part\asiData_SurfDeviationNode.h">
+      <Filter>Header Files\Part</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiData\part\asiData_SurfNode.h">
+      <Filter>Header Files\Part</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiData\part\asiData_TolerantRangeNode.h">
+      <Filter>Header Files\Part</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiData\part\asiData_TolerantShapesNode.h">
+      <Filter>Header Files\Part</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiData\part\asiData_VertexNode.h">
+      <Filter>Header Files\Part</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiData\mesh\asiData_TessNode.h">
+      <Filter>Header Files\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiData\mesh\asiData_TessNormsNode.h">
+      <Filter>Header Files\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiData\mesh\asiData_TriangulationNode.h">
+      <Filter>Header Files\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiData\iv\asiData_IVCurve2dNode.h">
+      <Filter>Header Files\IV</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiData\iv\asiData_IVCurveNode.h">
+      <Filter>Header Files\IV</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiData\iv\asiData_IVCurves2dNode.h">
+      <Filter>Header Files\IV</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiData\iv\asiData_IVCurvesNode.h">
+      <Filter>Header Files\IV</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiData\iv\asiData_IVNode.h">
+      <Filter>Header Files\IV</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiData\iv\asiData_IVPoints2dNode.h">
+      <Filter>Header Files\IV</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiData\iv\asiData_IVPointSet2dNode.h">
+      <Filter>Header Files\IV</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiData\iv\asiData_IVPointSetNode.h">
+      <Filter>Header Files\IV</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiData\iv\asiData_IVPointsNode.h">
+      <Filter>Header Files\IV</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiData\iv\asiData_IVSurfaceNode.h">
+      <Filter>Header Files\IV</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiData\iv\asiData_IVSurfacesNode.h">
+      <Filter>Header Files\IV</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiData\iv\asiData_IVTessItemNode.h">
+      <Filter>Header Files\IV</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiData\iv\asiData_IVTessNode.h">
+      <Filter>Header Files\IV</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiData\iv\asiData_IVTextItemNode.h">
+      <Filter>Header Files\IV</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiData\iv\asiData_IVTextNode.h">
+      <Filter>Header Files\IV</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiData\iv\asiData_IVTopoItemNode.h">
+      <Filter>Header Files\IV</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiData\iv\asiData_IVTopoNode.h">
+      <Filter>Header Files\IV</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiData\re\asiData_ReCoEdgeNode.h">
+      <Filter>Header Files\RE</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiData\re\asiData_ReEdgeNode.h">
+      <Filter>Header Files\RE</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiData\re\asiData_ReEdgesNode.h">
+      <Filter>Header Files\RE</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiData\re\asiData_RePatchesNode.h">
+      <Filter>Header Files\RE</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiData\re\asiData_RePatchNode.h">
+      <Filter>Header Files\RE</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiData\re\asiData_ReTopoNode.h">
+      <Filter>Header Files\RE</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiData\re\asiData_ReVertexNode.h">
+      <Filter>Header Files\RE</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiData\re\asiData_ReVerticesNode.h">
+      <Filter>Header Files\RE</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiData\misc\asiData_ContourNode.h">
+      <Filter>Header Files\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiData\misc\asiData_DesignLawNode.h">
+      <Filter>Header Files\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiData\misc\asiData_FuncAttr.h">
+      <Filter>Header Files\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiData\misc\asiData_FuncParameter.h">
+      <Filter>Header Files\Misc</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiData\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{B95166DC-5349-363B-B2F3-9C707E092AAB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\IV">
+      <UniqueIdentifier>{1C2E20F8-D0F9-38AB-B7DB-9612CA68503A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Mesh">
+      <UniqueIdentifier>{BFE0EA80-EF71-3CFF-9807-F25BE7462803}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Misc">
+      <UniqueIdentifier>{5B16458E-B23B-32EC-9FAF-81A524A6A29B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Part">
+      <UniqueIdentifier>{95ADB4F2-ABA9-3092-96E1-5D8D73DFED9C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\RE">
+      <UniqueIdentifier>{4BDFC8C8-9AEC-3B3B-A392-0B2EBC42DD40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{632DAB89-F98D-3A54-A4EB-6A26BA1E4645}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\IV">
+      <UniqueIdentifier>{2FAF11C3-AC6C-31F6-9F7A-A803CC016E08}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Mesh">
+      <UniqueIdentifier>{CB3565F5-FABC-33F1-919E-5FADA2481AC3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Misc">
+      <UniqueIdentifier>{DC4C9BFE-95BB-3581-A2D9-B37BDA97FD8A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Part">
+      <UniqueIdentifier>{E3469B85-46E5-38F5-BD31-E75E3AB75097}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\RE">
+      <UniqueIdentifier>{723A8349-AB3F-386C-9EEC-3B8A96426FE5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

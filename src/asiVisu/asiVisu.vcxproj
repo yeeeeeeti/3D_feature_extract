@@ -1,0 +1,531 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{13F57342-D057-3DCC-8690-AB595D380CD6}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>asiVisu</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\WeNext3D\AnalysisSitus-v0.3.0\win64\vc12\bin\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">asiVisu.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">asiVisu</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\WeNext3D\AnalysisSitus-v0.3.0\win64\vc12\bind\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">asiVisu.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">asiVisu</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\WeNext3D\AnalysisSitus-v0.3.0\win64\vc12\bini\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">asiVisu.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">asiVisu</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu;D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\filters;D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\pipelines;D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\presentations;D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\providers;D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\selection;D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\sources;D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\utils;D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\widgets;D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo;D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\auxiliary;D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\blends;D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\dict;D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\dict\salome;D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\editing;D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\features;D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\interop;D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\mesh;D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\opt;D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\points;D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\re;D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\utils;D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiData;D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiData\part;D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiData\mesh;D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiData\iv;D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiData\re;D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiData\misc;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\occt-vc12-64\inc;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\active_data-vc12-64\include;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\eigen-3.3.4;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\vtk-8.0.1-vc12-64\include\vtk-8.0;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\tbb2018_20170919oss\include\tbb;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\qt-5.9.1-vc12-64\include;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\qt-5.9.1-vc12-64\include\QtCore;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\qt-5.9.1-vc12-64\.\mkspecs\win32-msvc;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\qt-5.9.1-vc12-64\include\QtWidgets;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\qt-5.9.1-vc12-64\include\QtGui;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\qt-5.9.1-vc12-64\include\QtANGLE;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Async</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;QT_CORE_LIB;QT_WIDGETS_LIB;QT_GUI_LIB;QT_NO_DEBUG;CMAKE_INTDIR="Release";asiVisu_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;QT_CORE_LIB;QT_WIDGETS_LIB;QT_GUI_LIB;QT_NO_DEBUG;CMAKE_INTDIR=\"Release\";asiVisu_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu;D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\filters;D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\pipelines;D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\presentations;D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\providers;D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\selection;D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\sources;D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\utils;D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\widgets;D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo;D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\auxiliary;D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\blends;D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\dict;D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\dict\salome;D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\editing;D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\features;D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\interop;D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\mesh;D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\opt;D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\points;D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\re;D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\utils;D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiData;D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiData\part;D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiData\mesh;D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiData\iv;D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiData\re;D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiData\misc;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\occt-vc12-64\inc;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\active_data-vc12-64\include;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\eigen-3.3.4;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\vtk-8.0.1-vc12-64\include\vtk-8.0;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\tbb2018_20170919oss\include\tbb;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\qt-5.9.1-vc12-64\include;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\qt-5.9.1-vc12-64\include\QtCore;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\qt-5.9.1-vc12-64\.\mkspecs\win32-msvc;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\qt-5.9.1-vc12-64\include\QtWidgets;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\qt-5.9.1-vc12-64\include\QtGui;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\qt-5.9.1-vc12-64\include\QtANGLE;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu;D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\filters;D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\pipelines;D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\presentations;D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\providers;D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\selection;D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\sources;D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\utils;D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\widgets;D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo;D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\auxiliary;D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\blends;D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\dict;D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\dict\salome;D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\editing;D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\features;D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\interop;D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\mesh;D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\opt;D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\points;D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\re;D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\utils;D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiData;D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiData\part;D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiData\mesh;D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiData\iv;D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiData\re;D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiData\misc;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\occt-vc12-64\inc;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\active_data-vc12-64\include;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\eigen-3.3.4;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\vtk-8.0.1-vc12-64\include\vtk-8.0;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\tbb2018_20170919oss\include\tbb;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\qt-5.9.1-vc12-64\include;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\qt-5.9.1-vc12-64\include\QtCore;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\qt-5.9.1-vc12-64\.\mkspecs\win32-msvc;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\qt-5.9.1-vc12-64\include\QtWidgets;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\qt-5.9.1-vc12-64\include\QtGui;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\qt-5.9.1-vc12-64\include\QtANGLE;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\..\win64\vc12\lib\asiData.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\qt-5.9.1-vc12-64\lib\Qt5Widgets.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\occt-vc12-64\win64\vc12\lib\TKernel.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\occt-vc12-64\win64\vc12\lib\TKMath.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\occt-vc12-64\win64\vc12\lib\TKBRep.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\occt-vc12-64\win64\vc12\lib\TKOffset.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\occt-vc12-64\win64\vc12\lib\TKTopAlgo.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\occt-vc12-64\win64\vc12\lib\TKG2d.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\occt-vc12-64\win64\vc12\lib\TKG3d.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\occt-vc12-64\win64\vc12\lib\TKGeomBase.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\occt-vc12-64\win64\vc12\lib\TKGeomAlgo.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\occt-vc12-64\win64\vc12\lib\TKMesh.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\occt-vc12-64\win64\vc12\lib\TKShHealing.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\occt-vc12-64\win64\vc12\lib\TKFeat.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\occt-vc12-64\win64\vc12\lib\TKBool.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\occt-vc12-64\win64\vc12\lib\TKBO.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\occt-vc12-64\win64\vc12\lib\TKPrim.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\occt-vc12-64\win64\vc12\lib\TKBin.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\occt-vc12-64\win64\vc12\lib\TKBinL.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\occt-vc12-64\win64\vc12\lib\TKBinXCAF.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\occt-vc12-64\win64\vc12\lib\TKLCAF.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\occt-vc12-64\win64\vc12\lib\TKCDF.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\occt-vc12-64\win64\vc12\lib\TKCAF.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\occt-vc12-64\win64\vc12\lib\TKXCAF.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\occt-vc12-64\win64\vc12\lib\TKService.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\occt-vc12-64\win64\vc12\lib\TKXSBase.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\occt-vc12-64\win64\vc12\lib\TKSTEP.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\occt-vc12-64\win64\vc12\lib\TKIGES.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\occt-vc12-64\win64\vc12\lib\TKXDESTEP.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\occt-vc12-64\win64\vc12\lib\TKXDEIGES.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\active_data-vc12-64\lib\ActiveDataAPI.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\active_data-vc12-64\lib\ActiveData.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\active_data-vc12-64\lib\ActiveDataAux.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\vtk-8.0.1-vc12-64\lib\vtkCommonCore-8.0.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\vtk-8.0.1-vc12-64\lib\vtkCommonDataModel-8.0.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\vtk-8.0.1-vc12-64\lib\vtkCommonExecutionModel-8.0.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\vtk-8.0.1-vc12-64\lib\vtkCommonMath-8.0.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\vtk-8.0.1-vc12-64\lib\vtkCommonTransforms-8.0.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\vtk-8.0.1-vc12-64\lib\vtkCommonMisc-8.0.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\vtk-8.0.1-vc12-64\lib\vtkFiltersCore-8.0.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\vtk-8.0.1-vc12-64\lib\vtkFiltersGeneral-8.0.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\vtk-8.0.1-vc12-64\lib\vtkFiltersSources-8.0.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\vtk-8.0.1-vc12-64\lib\vtkFiltersGeometry-8.0.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\vtk-8.0.1-vc12-64\lib\vtkFiltersParallel-8.0.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\vtk-8.0.1-vc12-64\lib\vtkFiltersExtraction-8.0.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\vtk-8.0.1-vc12-64\lib\vtkFiltersModeling-8.0.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\vtk-8.0.1-vc12-64\lib\vtkGUISupportQt-8.0.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\vtk-8.0.1-vc12-64\lib\vtkIOCore-8.0.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\vtk-8.0.1-vc12-64\lib\vtkIOImage-8.0.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\vtk-8.0.1-vc12-64\lib\vtkImagingCore-8.0.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\vtk-8.0.1-vc12-64\lib\vtkInteractionStyle-8.0.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\vtk-8.0.1-vc12-64\lib\vtkInteractionWidgets-8.0.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\vtk-8.0.1-vc12-64\lib\vtkRenderingAnnotation-8.0.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\vtk-8.0.1-vc12-64\lib\vtkRenderingCore-8.0.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\tbb2018_20170919oss\lib\intel64\vc12\tbb.lib;..\..\win64\vc12\lib\asiAlgo.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\occt-vc12-64\win64\vc12\lib\TKSTEPBase.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\occt-vc12-64\win64\vc12\lib\TKHLR.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\occt-vc12-64\win64\vc12\lib\TKFillet.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\occt-vc12-64\win64\vc12\lib\TKSTL.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\vtk-8.0.1-vc12-64\lib\vtkIOExport-8.0.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\occt-vc12-64\win64\vc12\lib\TKernel.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\occt-vc12-64\win64\vc12\lib\TKMath.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\occt-vc12-64\win64\vc12\lib\TKBRep.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\occt-vc12-64\win64\vc12\lib\TKOffset.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\occt-vc12-64\win64\vc12\lib\TKTopAlgo.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\occt-vc12-64\win64\vc12\lib\TKG2d.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\occt-vc12-64\win64\vc12\lib\TKG3d.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\occt-vc12-64\win64\vc12\lib\TKGeomBase.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\occt-vc12-64\win64\vc12\lib\TKGeomAlgo.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\occt-vc12-64\win64\vc12\lib\TKMesh.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\occt-vc12-64\win64\vc12\lib\TKShHealing.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\occt-vc12-64\win64\vc12\lib\TKFeat.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\occt-vc12-64\win64\vc12\lib\TKBool.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\occt-vc12-64\win64\vc12\lib\TKBO.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\occt-vc12-64\win64\vc12\lib\TKPrim.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\occt-vc12-64\win64\vc12\lib\TKBin.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\occt-vc12-64\win64\vc12\lib\TKBinL.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\occt-vc12-64\win64\vc12\lib\TKBinXCAF.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\occt-vc12-64\win64\vc12\lib\TKLCAF.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\occt-vc12-64\win64\vc12\lib\TKCDF.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\occt-vc12-64\win64\vc12\lib\TKCAF.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\occt-vc12-64\win64\vc12\lib\TKXCAF.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\occt-vc12-64\win64\vc12\lib\TKService.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\occt-vc12-64\win64\vc12\lib\TKXSBase.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\occt-vc12-64\win64\vc12\lib\TKSTEP.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\occt-vc12-64\win64\vc12\lib\TKIGES.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\occt-vc12-64\win64\vc12\lib\TKXDESTEP.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\occt-vc12-64\win64\vc12\lib\TKXDEIGES.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\active_data-vc12-64\lib\ActiveDataAPI.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\active_data-vc12-64\lib\ActiveData.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\active_data-vc12-64\lib\ActiveDataAux.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\vtk-8.0.1-vc12-64\lib\vtkCommonCore-8.0.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\vtk-8.0.1-vc12-64\lib\vtkCommonDataModel-8.0.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\vtk-8.0.1-vc12-64\lib\vtkCommonExecutionModel-8.0.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\vtk-8.0.1-vc12-64\lib\vtkCommonMath-8.0.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\vtk-8.0.1-vc12-64\lib\vtkCommonTransforms-8.0.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\vtk-8.0.1-vc12-64\lib\vtkCommonMisc-8.0.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\vtk-8.0.1-vc12-64\lib\vtkFiltersCore-8.0.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\vtk-8.0.1-vc12-64\lib\vtkFiltersGeneral-8.0.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\vtk-8.0.1-vc12-64\lib\vtkFiltersSources-8.0.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\vtk-8.0.1-vc12-64\lib\vtkFiltersGeometry-8.0.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\vtk-8.0.1-vc12-64\lib\vtkFiltersParallel-8.0.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\vtk-8.0.1-vc12-64\lib\vtkFiltersExtraction-8.0.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\vtk-8.0.1-vc12-64\lib\vtkFiltersModeling-8.0.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\qt-5.9.1-vc12-64\lib\Qt5Gui.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\qt-5.9.1-vc12-64\lib\Qt5Core.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\vtk-8.0.1-vc12-64\lib\vtkIOCore-8.0.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\vtk-8.0.1-vc12-64\lib\vtkIOImage-8.0.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\vtk-8.0.1-vc12-64\lib\vtkImagingCore-8.0.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\vtk-8.0.1-vc12-64\lib\vtkInteractionStyle-8.0.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\tbb2018_20170919oss\lib\intel64\vc12\tbb.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/WeNext3D/AnalysisSitus-v0.3.0/win64/vc12/lib/asiVisu.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/WeNext3D/AnalysisSitus-v0.3.0/win64/vc12/bin/asiVisu.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu;D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\filters;D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\pipelines;D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\presentations;D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\providers;D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\selection;D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\sources;D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\utils;D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\widgets;D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo;D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\auxiliary;D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\blends;D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\dict;D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\dict\salome;D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\editing;D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\features;D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\interop;D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\mesh;D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\opt;D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\points;D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\re;D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\utils;D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiData;D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiData\part;D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiData\mesh;D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiData\iv;D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiData\re;D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiData\misc;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\occt-vc12-64\inc;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\active_data-vc12-64\include;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\eigen-3.3.4;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\vtk-8.0.1-vc12-64\include\vtk-8.0;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\tbb2018_20170919oss\include\tbb;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\qt-5.9.1-vc12-64\include;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\qt-5.9.1-vc12-64\include\QtCore;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\qt-5.9.1-vc12-64\.\mkspecs\win32-msvc;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\qt-5.9.1-vc12-64\include\QtWidgets;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\qt-5.9.1-vc12-64\include\QtGui;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\qt-5.9.1-vc12-64\include\QtANGLE;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Async</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;QT_CORE_LIB;QT_WIDGETS_LIB;QT_GUI_LIB;CMAKE_INTDIR="Debug";asiVisu_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;QT_CORE_LIB;QT_WIDGETS_LIB;QT_GUI_LIB;CMAKE_INTDIR=\"Debug\";asiVisu_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu;D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\filters;D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\pipelines;D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\presentations;D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\providers;D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\selection;D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\sources;D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\utils;D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\widgets;D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo;D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\auxiliary;D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\blends;D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\dict;D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\dict\salome;D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\editing;D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\features;D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\interop;D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\mesh;D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\opt;D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\points;D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\re;D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\utils;D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiData;D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiData\part;D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiData\mesh;D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiData\iv;D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiData\re;D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiData\misc;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\occt-vc12-64\inc;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\active_data-vc12-64\include;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\eigen-3.3.4;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\vtk-8.0.1-vc12-64\include\vtk-8.0;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\tbb2018_20170919oss\include\tbb;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\qt-5.9.1-vc12-64\include;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\qt-5.9.1-vc12-64\include\QtCore;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\qt-5.9.1-vc12-64\.\mkspecs\win32-msvc;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\qt-5.9.1-vc12-64\include\QtWidgets;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\qt-5.9.1-vc12-64\include\QtGui;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\qt-5.9.1-vc12-64\include\QtANGLE;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu;D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\filters;D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\pipelines;D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\presentations;D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\providers;D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\selection;D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\sources;D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\utils;D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\widgets;D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo;D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\auxiliary;D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\blends;D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\dict;D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\dict\salome;D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\editing;D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\features;D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\interop;D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\mesh;D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\opt;D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\points;D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\re;D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\utils;D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiData;D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiData\part;D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiData\mesh;D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiData\iv;D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiData\re;D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiData\misc;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\occt-vc12-64\inc;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\active_data-vc12-64\include;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\eigen-3.3.4;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\vtk-8.0.1-vc12-64\include\vtk-8.0;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\tbb2018_20170919oss\include\tbb;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\qt-5.9.1-vc12-64\include;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\qt-5.9.1-vc12-64\include\QtCore;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\qt-5.9.1-vc12-64\.\mkspecs\win32-msvc;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\qt-5.9.1-vc12-64\include\QtWidgets;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\qt-5.9.1-vc12-64\include\QtGui;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\qt-5.9.1-vc12-64\include\QtANGLE;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\..\win64\vc12\libd\asiData.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\qt-5.9.1-vc12-64\lib\Qt5Widgetsd.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\occt-vc12-64\win64\vc12\lib\TKernel.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\occt-vc12-64\win64\vc12\lib\TKMath.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\occt-vc12-64\win64\vc12\lib\TKBRep.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\occt-vc12-64\win64\vc12\lib\TKOffset.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\occt-vc12-64\win64\vc12\lib\TKTopAlgo.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\occt-vc12-64\win64\vc12\lib\TKG2d.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\occt-vc12-64\win64\vc12\lib\TKG3d.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\occt-vc12-64\win64\vc12\lib\TKGeomBase.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\occt-vc12-64\win64\vc12\lib\TKGeomAlgo.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\occt-vc12-64\win64\vc12\lib\TKMesh.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\occt-vc12-64\win64\vc12\lib\TKShHealing.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\occt-vc12-64\win64\vc12\lib\TKFeat.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\occt-vc12-64\win64\vc12\lib\TKBool.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\occt-vc12-64\win64\vc12\lib\TKBO.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\occt-vc12-64\win64\vc12\lib\TKPrim.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\occt-vc12-64\win64\vc12\lib\TKBin.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\occt-vc12-64\win64\vc12\lib\TKBinL.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\occt-vc12-64\win64\vc12\lib\TKBinXCAF.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\occt-vc12-64\win64\vc12\lib\TKLCAF.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\occt-vc12-64\win64\vc12\lib\TKCDF.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\occt-vc12-64\win64\vc12\lib\TKCAF.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\occt-vc12-64\win64\vc12\lib\TKXCAF.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\occt-vc12-64\win64\vc12\lib\TKService.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\occt-vc12-64\win64\vc12\lib\TKXSBase.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\occt-vc12-64\win64\vc12\lib\TKSTEP.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\occt-vc12-64\win64\vc12\lib\TKIGES.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\occt-vc12-64\win64\vc12\lib\TKXDESTEP.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\occt-vc12-64\win64\vc12\lib\TKXDEIGES.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\active_data-vc12-64\lib\ActiveDataAPI.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\active_data-vc12-64\lib\ActiveData.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\active_data-vc12-64\lib\ActiveDataAux.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\vtk-8.0.1-vc12-64\lib\vtkCommonCore-8.0.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\vtk-8.0.1-vc12-64\lib\vtkCommonDataModel-8.0.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\vtk-8.0.1-vc12-64\lib\vtkCommonExecutionModel-8.0.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\vtk-8.0.1-vc12-64\lib\vtkCommonMath-8.0.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\vtk-8.0.1-vc12-64\lib\vtkCommonTransforms-8.0.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\vtk-8.0.1-vc12-64\lib\vtkCommonMisc-8.0.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\vtk-8.0.1-vc12-64\lib\vtkFiltersCore-8.0.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\vtk-8.0.1-vc12-64\lib\vtkFiltersGeneral-8.0.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\vtk-8.0.1-vc12-64\lib\vtkFiltersSources-8.0.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\vtk-8.0.1-vc12-64\lib\vtkFiltersGeometry-8.0.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\vtk-8.0.1-vc12-64\lib\vtkFiltersParallel-8.0.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\vtk-8.0.1-vc12-64\lib\vtkFiltersExtraction-8.0.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\vtk-8.0.1-vc12-64\lib\vtkFiltersModeling-8.0.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\vtk-8.0.1-vc12-64\lib\vtkGUISupportQt-8.0.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\vtk-8.0.1-vc12-64\lib\vtkIOCore-8.0.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\vtk-8.0.1-vc12-64\lib\vtkIOImage-8.0.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\vtk-8.0.1-vc12-64\lib\vtkImagingCore-8.0.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\vtk-8.0.1-vc12-64\lib\vtkInteractionStyle-8.0.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\vtk-8.0.1-vc12-64\lib\vtkInteractionWidgets-8.0.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\vtk-8.0.1-vc12-64\lib\vtkRenderingAnnotation-8.0.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\vtk-8.0.1-vc12-64\lib\vtkRenderingCore-8.0.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\tbb2018_20170919oss\lib\intel64\vc12\tbb_debug.lib;..\..\win64\vc12\libd\asiAlgo.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\occt-vc12-64\win64\vc12\lib\TKSTEPBase.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\occt-vc12-64\win64\vc12\lib\TKHLR.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\occt-vc12-64\win64\vc12\lib\TKFillet.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\occt-vc12-64\win64\vc12\lib\TKSTL.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\vtk-8.0.1-vc12-64\lib\vtkIOExport-8.0.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\occt-vc12-64\win64\vc12\lib\TKernel.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\occt-vc12-64\win64\vc12\lib\TKMath.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\occt-vc12-64\win64\vc12\lib\TKBRep.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\occt-vc12-64\win64\vc12\lib\TKOffset.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\occt-vc12-64\win64\vc12\lib\TKTopAlgo.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\occt-vc12-64\win64\vc12\lib\TKG2d.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\occt-vc12-64\win64\vc12\lib\TKG3d.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\occt-vc12-64\win64\vc12\lib\TKGeomBase.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\occt-vc12-64\win64\vc12\lib\TKGeomAlgo.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\occt-vc12-64\win64\vc12\lib\TKMesh.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\occt-vc12-64\win64\vc12\lib\TKShHealing.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\occt-vc12-64\win64\vc12\lib\TKFeat.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\occt-vc12-64\win64\vc12\lib\TKBool.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\occt-vc12-64\win64\vc12\lib\TKBO.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\occt-vc12-64\win64\vc12\lib\TKPrim.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\occt-vc12-64\win64\vc12\lib\TKBin.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\occt-vc12-64\win64\vc12\lib\TKBinL.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\occt-vc12-64\win64\vc12\lib\TKBinXCAF.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\occt-vc12-64\win64\vc12\lib\TKLCAF.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\occt-vc12-64\win64\vc12\lib\TKCDF.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\occt-vc12-64\win64\vc12\lib\TKCAF.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\occt-vc12-64\win64\vc12\lib\TKXCAF.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\occt-vc12-64\win64\vc12\lib\TKService.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\occt-vc12-64\win64\vc12\lib\TKXSBase.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\occt-vc12-64\win64\vc12\lib\TKSTEP.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\occt-vc12-64\win64\vc12\lib\TKIGES.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\occt-vc12-64\win64\vc12\lib\TKXDESTEP.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\occt-vc12-64\win64\vc12\lib\TKXDEIGES.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\active_data-vc12-64\lib\ActiveDataAPI.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\active_data-vc12-64\lib\ActiveData.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\active_data-vc12-64\lib\ActiveDataAux.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\vtk-8.0.1-vc12-64\lib\vtkCommonCore-8.0.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\vtk-8.0.1-vc12-64\lib\vtkCommonDataModel-8.0.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\vtk-8.0.1-vc12-64\lib\vtkCommonExecutionModel-8.0.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\vtk-8.0.1-vc12-64\lib\vtkCommonMath-8.0.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\vtk-8.0.1-vc12-64\lib\vtkCommonTransforms-8.0.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\vtk-8.0.1-vc12-64\lib\vtkCommonMisc-8.0.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\vtk-8.0.1-vc12-64\lib\vtkFiltersCore-8.0.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\vtk-8.0.1-vc12-64\lib\vtkFiltersGeneral-8.0.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\vtk-8.0.1-vc12-64\lib\vtkFiltersSources-8.0.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\vtk-8.0.1-vc12-64\lib\vtkFiltersGeometry-8.0.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\vtk-8.0.1-vc12-64\lib\vtkFiltersParallel-8.0.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\vtk-8.0.1-vc12-64\lib\vtkFiltersExtraction-8.0.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\vtk-8.0.1-vc12-64\lib\vtkFiltersModeling-8.0.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\qt-5.9.1-vc12-64\lib\Qt5Guid.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\qt-5.9.1-vc12-64\lib\Qt5Cored.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\vtk-8.0.1-vc12-64\lib\vtkIOCore-8.0.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\vtk-8.0.1-vc12-64\lib\vtkIOImage-8.0.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\vtk-8.0.1-vc12-64\lib\vtkImagingCore-8.0.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\vtk-8.0.1-vc12-64\lib\vtkInteractionStyle-8.0.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\tbb2018_20170919oss\lib\intel64\vc12\tbb_debug.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/WeNext3D/AnalysisSitus-v0.3.0/win64/vc12/libd/asiVisu.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/WeNext3D/AnalysisSitus-v0.3.0/win64/vc12/bind/asiVisu.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu;D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\filters;D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\pipelines;D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\presentations;D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\providers;D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\selection;D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\sources;D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\utils;D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\widgets;D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo;D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\auxiliary;D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\blends;D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\dict;D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\dict\salome;D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\editing;D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\features;D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\interop;D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\mesh;D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\opt;D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\points;D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\re;D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\utils;D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiData;D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiData\part;D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiData\mesh;D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiData\iv;D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiData\re;D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiData\misc;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\occt-vc12-64\inc;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\active_data-vc12-64\include;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\eigen-3.3.4;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\vtk-8.0.1-vc12-64\include\vtk-8.0;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\tbb2018_20170919oss\include\tbb;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\qt-5.9.1-vc12-64\include;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\qt-5.9.1-vc12-64\include\QtCore;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\qt-5.9.1-vc12-64\.\mkspecs\win32-msvc;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\qt-5.9.1-vc12-64\include\QtWidgets;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\qt-5.9.1-vc12-64\include\QtGui;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\qt-5.9.1-vc12-64\include\QtANGLE;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Async</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;QT_CORE_LIB;QT_WIDGETS_LIB;QT_GUI_LIB;QT_NO_DEBUG;CMAKE_INTDIR="RelWithDebInfo";asiVisu_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;QT_CORE_LIB;QT_WIDGETS_LIB;QT_GUI_LIB;QT_NO_DEBUG;CMAKE_INTDIR=\"RelWithDebInfo\";asiVisu_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu;D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\filters;D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\pipelines;D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\presentations;D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\providers;D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\selection;D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\sources;D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\utils;D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\widgets;D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo;D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\auxiliary;D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\blends;D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\dict;D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\dict\salome;D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\editing;D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\features;D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\interop;D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\mesh;D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\opt;D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\points;D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\re;D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\utils;D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiData;D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiData\part;D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiData\mesh;D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiData\iv;D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiData\re;D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiData\misc;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\occt-vc12-64\inc;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\active_data-vc12-64\include;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\eigen-3.3.4;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\vtk-8.0.1-vc12-64\include\vtk-8.0;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\tbb2018_20170919oss\include\tbb;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\qt-5.9.1-vc12-64\include;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\qt-5.9.1-vc12-64\include\QtCore;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\qt-5.9.1-vc12-64\.\mkspecs\win32-msvc;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\qt-5.9.1-vc12-64\include\QtWidgets;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\qt-5.9.1-vc12-64\include\QtGui;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\qt-5.9.1-vc12-64\include\QtANGLE;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu;D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\filters;D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\pipelines;D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\presentations;D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\providers;D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\selection;D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\sources;D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\utils;D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\widgets;D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo;D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\auxiliary;D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\blends;D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\dict;D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\dict\salome;D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\editing;D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\features;D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\interop;D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\mesh;D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\opt;D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\points;D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\re;D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\utils;D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiData;D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiData\part;D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiData\mesh;D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiData\iv;D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiData\re;D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiData\misc;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\occt-vc12-64\inc;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\active_data-vc12-64\include;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\eigen-3.3.4;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\vtk-8.0.1-vc12-64\include\vtk-8.0;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\tbb2018_20170919oss\include\tbb;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\qt-5.9.1-vc12-64\include;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\qt-5.9.1-vc12-64\include\QtCore;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\qt-5.9.1-vc12-64\.\mkspecs\win32-msvc;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\qt-5.9.1-vc12-64\include\QtWidgets;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\qt-5.9.1-vc12-64\include\QtGui;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\qt-5.9.1-vc12-64\include\QtANGLE;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\..\win64\vc12\libi\asiData.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\qt-5.9.1-vc12-64\lib\Qt5Widgets.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\occt-vc12-64\win64\vc12\lib\TKernel.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\occt-vc12-64\win64\vc12\lib\TKMath.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\occt-vc12-64\win64\vc12\lib\TKBRep.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\occt-vc12-64\win64\vc12\lib\TKOffset.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\occt-vc12-64\win64\vc12\lib\TKTopAlgo.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\occt-vc12-64\win64\vc12\lib\TKG2d.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\occt-vc12-64\win64\vc12\lib\TKG3d.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\occt-vc12-64\win64\vc12\lib\TKGeomBase.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\occt-vc12-64\win64\vc12\lib\TKGeomAlgo.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\occt-vc12-64\win64\vc12\lib\TKMesh.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\occt-vc12-64\win64\vc12\lib\TKShHealing.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\occt-vc12-64\win64\vc12\lib\TKFeat.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\occt-vc12-64\win64\vc12\lib\TKBool.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\occt-vc12-64\win64\vc12\lib\TKBO.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\occt-vc12-64\win64\vc12\lib\TKPrim.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\occt-vc12-64\win64\vc12\lib\TKBin.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\occt-vc12-64\win64\vc12\lib\TKBinL.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\occt-vc12-64\win64\vc12\lib\TKBinXCAF.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\occt-vc12-64\win64\vc12\lib\TKLCAF.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\occt-vc12-64\win64\vc12\lib\TKCDF.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\occt-vc12-64\win64\vc12\lib\TKCAF.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\occt-vc12-64\win64\vc12\lib\TKXCAF.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\occt-vc12-64\win64\vc12\lib\TKService.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\occt-vc12-64\win64\vc12\lib\TKXSBase.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\occt-vc12-64\win64\vc12\lib\TKSTEP.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\occt-vc12-64\win64\vc12\lib\TKIGES.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\occt-vc12-64\win64\vc12\lib\TKXDESTEP.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\occt-vc12-64\win64\vc12\lib\TKXDEIGES.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\active_data-vc12-64\lib\ActiveDataAPI.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\active_data-vc12-64\lib\ActiveData.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\active_data-vc12-64\lib\ActiveDataAux.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\vtk-8.0.1-vc12-64\lib\vtkCommonCore-8.0.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\vtk-8.0.1-vc12-64\lib\vtkCommonDataModel-8.0.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\vtk-8.0.1-vc12-64\lib\vtkCommonExecutionModel-8.0.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\vtk-8.0.1-vc12-64\lib\vtkCommonMath-8.0.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\vtk-8.0.1-vc12-64\lib\vtkCommonTransforms-8.0.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\vtk-8.0.1-vc12-64\lib\vtkCommonMisc-8.0.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\vtk-8.0.1-vc12-64\lib\vtkFiltersCore-8.0.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\vtk-8.0.1-vc12-64\lib\vtkFiltersGeneral-8.0.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\vtk-8.0.1-vc12-64\lib\vtkFiltersSources-8.0.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\vtk-8.0.1-vc12-64\lib\vtkFiltersGeometry-8.0.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\vtk-8.0.1-vc12-64\lib\vtkFiltersParallel-8.0.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\vtk-8.0.1-vc12-64\lib\vtkFiltersExtraction-8.0.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\vtk-8.0.1-vc12-64\lib\vtkFiltersModeling-8.0.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\vtk-8.0.1-vc12-64\lib\vtkGUISupportQt-8.0.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\vtk-8.0.1-vc12-64\lib\vtkIOCore-8.0.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\vtk-8.0.1-vc12-64\lib\vtkIOImage-8.0.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\vtk-8.0.1-vc12-64\lib\vtkImagingCore-8.0.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\vtk-8.0.1-vc12-64\lib\vtkInteractionStyle-8.0.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\vtk-8.0.1-vc12-64\lib\vtkInteractionWidgets-8.0.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\vtk-8.0.1-vc12-64\lib\vtkRenderingAnnotation-8.0.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\vtk-8.0.1-vc12-64\lib\vtkRenderingCore-8.0.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\tbb2018_20170919oss\lib\intel64\vc12\tbb.lib;..\..\win64\vc12\libi\asiAlgo.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\occt-vc12-64\win64\vc12\lib\TKSTEPBase.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\occt-vc12-64\win64\vc12\lib\TKHLR.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\occt-vc12-64\win64\vc12\lib\TKFillet.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\occt-vc12-64\win64\vc12\lib\TKSTL.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\vtk-8.0.1-vc12-64\lib\vtkIOExport-8.0.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\occt-vc12-64\win64\vc12\lib\TKernel.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\occt-vc12-64\win64\vc12\lib\TKMath.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\occt-vc12-64\win64\vc12\lib\TKBRep.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\occt-vc12-64\win64\vc12\lib\TKOffset.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\occt-vc12-64\win64\vc12\lib\TKTopAlgo.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\occt-vc12-64\win64\vc12\lib\TKG2d.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\occt-vc12-64\win64\vc12\lib\TKG3d.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\occt-vc12-64\win64\vc12\lib\TKGeomBase.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\occt-vc12-64\win64\vc12\lib\TKGeomAlgo.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\occt-vc12-64\win64\vc12\lib\TKMesh.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\occt-vc12-64\win64\vc12\lib\TKShHealing.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\occt-vc12-64\win64\vc12\lib\TKFeat.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\occt-vc12-64\win64\vc12\lib\TKBool.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\occt-vc12-64\win64\vc12\lib\TKBO.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\occt-vc12-64\win64\vc12\lib\TKPrim.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\occt-vc12-64\win64\vc12\lib\TKBin.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\occt-vc12-64\win64\vc12\lib\TKBinL.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\occt-vc12-64\win64\vc12\lib\TKBinXCAF.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\occt-vc12-64\win64\vc12\lib\TKLCAF.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\occt-vc12-64\win64\vc12\lib\TKCDF.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\occt-vc12-64\win64\vc12\lib\TKCAF.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\occt-vc12-64\win64\vc12\lib\TKXCAF.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\occt-vc12-64\win64\vc12\lib\TKService.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\occt-vc12-64\win64\vc12\lib\TKXSBase.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\occt-vc12-64\win64\vc12\lib\TKSTEP.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\occt-vc12-64\win64\vc12\lib\TKIGES.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\occt-vc12-64\win64\vc12\lib\TKXDESTEP.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\occt-vc12-64\win64\vc12\lib\TKXDEIGES.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\active_data-vc12-64\lib\ActiveDataAPI.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\active_data-vc12-64\lib\ActiveData.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\active_data-vc12-64\lib\ActiveDataAux.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\vtk-8.0.1-vc12-64\lib\vtkCommonCore-8.0.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\vtk-8.0.1-vc12-64\lib\vtkCommonDataModel-8.0.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\vtk-8.0.1-vc12-64\lib\vtkCommonExecutionModel-8.0.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\vtk-8.0.1-vc12-64\lib\vtkCommonMath-8.0.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\vtk-8.0.1-vc12-64\lib\vtkCommonTransforms-8.0.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\vtk-8.0.1-vc12-64\lib\vtkCommonMisc-8.0.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\vtk-8.0.1-vc12-64\lib\vtkFiltersCore-8.0.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\vtk-8.0.1-vc12-64\lib\vtkFiltersGeneral-8.0.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\vtk-8.0.1-vc12-64\lib\vtkFiltersSources-8.0.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\vtk-8.0.1-vc12-64\lib\vtkFiltersGeometry-8.0.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\vtk-8.0.1-vc12-64\lib\vtkFiltersParallel-8.0.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\vtk-8.0.1-vc12-64\lib\vtkFiltersExtraction-8.0.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\vtk-8.0.1-vc12-64\lib\vtkFiltersModeling-8.0.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\qt-5.9.1-vc12-64\lib\Qt5Gui.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\qt-5.9.1-vc12-64\lib\Qt5Core.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\vtk-8.0.1-vc12-64\lib\vtkIOCore-8.0.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\vtk-8.0.1-vc12-64\lib\vtkIOImage-8.0.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\vtk-8.0.1-vc12-64\lib\vtkImagingCore-8.0.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\vtk-8.0.1-vc12-64\lib\vtkInteractionStyle-8.0.lib;D:\WeNext3D\analysissitus-v0.3.0-libpack-msvc2013\tbb2018_20170919oss\lib\intel64\vc12\tbb.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/WeNext3D/AnalysisSitus-v0.3.0/win64/vc12/libi/asiVisu.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/WeNext3D/AnalysisSitus-v0.3.0/win64/vc12/bini/asiVisu.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/WeNext3D/AnalysisSitus-v0.3.0/src/asiVisu/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -HD:/WeNext3D/AnalysisSitus-v0.3.0 -BD:/WeNext3D/AnalysisSitus-v0.3.0 --check-stamp-file D:/WeNext3D/AnalysisSitus-v0.3.0/src/asiVisu/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:/WeNext3D/AnalysisSitus-v0.3.0/src/asiVisu/CMakeLists.txt;D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\CMakeLists.txt;D:\WeNext3D\AnalysisSitus-v0.3.0\CMakeFiles\3.11.3\CMakeCCompiler.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\CMakeCInformation.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\CMakeLanguageInformation.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\Platform\Windows-MSVC-C.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\Platform\Windows-MSVC.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\CMakeCommonLanguageInclude.cmake;D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/WeNext3D/AnalysisSitus-v0.3.0/src/asiVisu/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -HD:/WeNext3D/AnalysisSitus-v0.3.0 -BD:/WeNext3D/AnalysisSitus-v0.3.0 --check-stamp-file D:/WeNext3D/AnalysisSitus-v0.3.0/src/asiVisu/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:/WeNext3D/AnalysisSitus-v0.3.0/src/asiVisu/CMakeLists.txt;D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\CMakeLists.txt;D:\WeNext3D\AnalysisSitus-v0.3.0\CMakeFiles\3.11.3\CMakeCCompiler.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\CMakeCInformation.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\CMakeLanguageInformation.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\Platform\Windows-MSVC-C.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\Platform\Windows-MSVC.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\CMakeCommonLanguageInclude.cmake;D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule D:/WeNext3D/AnalysisSitus-v0.3.0/src/asiVisu/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -HD:/WeNext3D/AnalysisSitus-v0.3.0 -BD:/WeNext3D/AnalysisSitus-v0.3.0 --check-stamp-file D:/WeNext3D/AnalysisSitus-v0.3.0/src/asiVisu/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:/WeNext3D/AnalysisSitus-v0.3.0/src/asiVisu/CMakeLists.txt;D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\CMakeLists.txt;D:\WeNext3D\AnalysisSitus-v0.3.0\CMakeFiles\3.11.3\CMakeCCompiler.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\CMakeCInformation.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\CMakeLanguageInformation.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\Platform\Windows-MSVC-C.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\Platform\Windows-MSVC.cmake;D:\Program Files\CMake\share\cmake-3.11\Modules\CMakeCommonLanguageInclude.cmake;D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\asiVisu.h" />
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\asiVisu_Common.h" />
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\asiVisu_MeshDisplayMode.h" />
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\asiVisu_MeshPrimitive.h" />
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\asiVisu_ShapeDisplayMode.h" />
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\asiVisu_ShapePrimitive.h" />
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\filters\asiVisu_MeshENScalarFilter.h" />
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\filters\asiVisu_MeshEScalarFilter.h" />
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\filters\asiVisu_MeshEVectorFilter.h" />
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\filters\asiVisu_MeshNScalarFilter.h" />
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\filters\asiVisu_PointsVectorFilter.h" />
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\filters\asiVisu_ShapeDisplayModeFilter.h" />
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\filters\asiVisu_ShrinkPolyFilter.h" />
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\filters\asiVisu_TriangulationDisplayModeFilter.h" />
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\filters\asiVisu_MeshENScalarFilter.cpp" />
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\filters\asiVisu_MeshEScalarFilter.cpp" />
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\filters\asiVisu_MeshEVectorFilter.cpp" />
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\filters\asiVisu_MeshNScalarFilter.cpp" />
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\filters\asiVisu_PointsVectorFilter.cpp" />
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\filters\asiVisu_ShapeDisplayModeFilter.cpp" />
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\filters\asiVisu_ShrinkPolyFilter.cpp" />
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\filters\asiVisu_TriangulationDisplayModeFilter.cpp" />
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\pipelines\asiVisu_BCurveHandlesPipeline.h" />
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\pipelines\asiVisu_BCurveKnotsPipeline.h" />
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\pipelines\asiVisu_BCurvePolesPipeline.h" />
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\pipelines\asiVisu_BCurveRepersPipeline.h" />
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\pipelines\asiVisu_BSurfAxesPipeline.h" />
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\pipelines\asiVisu_BSurfKnotsPipeline.h" />
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\pipelines\asiVisu_BSurfPolesPipeline.h" />
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\pipelines\asiVisu_CurvatureCombsPipeline.h" />
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\pipelines\asiVisu_CurvePipeline.h" />
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\pipelines\asiVisu_EdgeCurvePipeline.h" />
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\pipelines\asiVisu_EdgeDomainPipeline.h" />
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\pipelines\asiVisu_FaceContourPipeline.h" />
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\pipelines\asiVisu_FaceDomainPipeline.h" />
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\pipelines\asiVisu_FaceSurfaceIsosPipeline.h" />
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\pipelines\asiVisu_FaceSurfaceShadedPipeline.h" />
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\pipelines\asiVisu_FuncLevelsPipeline2d.h" />
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\pipelines\asiVisu_FuncLevelsPipeline3d.h" />
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\pipelines\asiVisu_FuncUnivariatePipeline.h" />
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\pipelines\asiVisu_IVSurfacePipeline.h" />
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\pipelines\asiVisu_MeshContourPipeline.h" />
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\pipelines\asiVisu_MeshENScalarPipeline.h" />
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\pipelines\asiVisu_MeshEScalarPipeline.h" />
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\pipelines\asiVisu_MeshEVectorPipeline.h" />
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\pipelines\asiVisu_MeshNScalarPipeline.h" />
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\pipelines\asiVisu_MeshPipeline.h" />
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\pipelines\asiVisu_PartEdgesPipeline.h" />
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\pipelines\asiVisu_PartPipeline.h" />
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\pipelines\asiVisu_PartPipelineBase.h" />
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\pipelines\asiVisu_Pipeline.h" />
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\pipelines\asiVisu_PointsPipeline.h" />
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\pipelines\asiVisu_ShapePipeline.h" />
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\pipelines\asiVisu_SurfaceDeviationPipeline.h" />
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\pipelines\asiVisu_TriangulationLinksPipeline.h" />
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\pipelines\asiVisu_TriangulationPipeline.h" />
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\pipelines\asiVisu_TriangulationPipelineBase.h" />
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\pipelines\asiVisu_VectorsPipeline.h" />
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\pipelines\asiVisu_BCurveHandlesPipeline.cpp" />
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\pipelines\asiVisu_BCurveKnotsPipeline.cpp" />
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\pipelines\asiVisu_BCurvePolesPipeline.cpp" />
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\pipelines\asiVisu_BCurveRepersPipeline.cpp" />
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\pipelines\asiVisu_BSurfAxesPipeline.cpp" />
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\pipelines\asiVisu_BSurfKnotsPipeline.cpp" />
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\pipelines\asiVisu_BSurfPolesPipeline.cpp" />
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\pipelines\asiVisu_CurvatureCombsPipeline.cpp" />
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\pipelines\asiVisu_CurvePipeline.cpp" />
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\pipelines\asiVisu_EdgeCurvePipeline.cpp" />
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\pipelines\asiVisu_EdgeDomainPipeline.cpp" />
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\pipelines\asiVisu_FaceContourPipeline.cpp" />
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\pipelines\asiVisu_FaceDomainPipeline.cpp" />
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\pipelines\asiVisu_FaceSurfaceIsosPipeline.cpp" />
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\pipelines\asiVisu_FaceSurfaceShadedPipeline.cpp" />
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\pipelines\asiVisu_FuncUnivariatePipeline.cpp" />
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\pipelines\asiVisu_IVSurfacePipeline.cpp" />
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\pipelines\asiVisu_MeshContourPipeline.cpp" />
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\pipelines\asiVisu_MeshENScalarPipeline.cpp" />
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\pipelines\asiVisu_MeshEScalarPipeline.cpp" />
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\pipelines\asiVisu_MeshEVectorPipeline.cpp" />
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\pipelines\asiVisu_MeshNScalarPipeline.cpp" />
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\pipelines\asiVisu_MeshPipeline.cpp" />
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\pipelines\asiVisu_PartEdgesPipeline.cpp" />
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\pipelines\asiVisu_PartPipeline.cpp" />
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\pipelines\asiVisu_PartPipelineBase.cpp" />
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\pipelines\asiVisu_Pipeline.cpp" />
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\pipelines\asiVisu_PointsPipeline.cpp" />
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\pipelines\asiVisu_ShapePipeline.cpp" />
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\pipelines\asiVisu_SurfaceDeviationPipeline.cpp" />
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\pipelines\asiVisu_TriangulationLinksPipeline.cpp" />
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\pipelines\asiVisu_TriangulationPipeline.cpp" />
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\pipelines\asiVisu_TriangulationPipelineBase.cpp" />
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\pipelines\asiVisu_VectorsPipeline.cpp" />
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\presentations\asiVisu_CalculusLawPrs.h" />
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\presentations\asiVisu_ContourPrs.h" />
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\presentations\asiVisu_CurvatureCombsPrs.h" />
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\presentations\asiVisu_DefaultPrs.h" />
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\presentations\asiVisu_GeomBoundaryEdgesPrs.h" />
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\presentations\asiVisu_GeomCurvePrs.h" />
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\presentations\asiVisu_GeomEdgePrs.h" />
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\presentations\asiVisu_GeomFaceContourPrs.h" />
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\presentations\asiVisu_GeomFaceNormsPrs.h" />
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\presentations\asiVisu_GeomFacePrs.h" />
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\presentations\asiVisu_GeomSurfPrs.h" />
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\presentations\asiVisu_IVCurve2dPrs.h" />
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\presentations\asiVisu_IVCurvePrs.h" />
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\presentations\asiVisu_IVPointSet2dPrs.h" />
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\presentations\asiVisu_IVPointSetPrs.h" />
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\presentations\asiVisu_IVSurfacePrs.h" />
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\presentations\asiVisu_IVTessItemPrs.h" />
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\presentations\asiVisu_IVTextItemPrs.h" />
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\presentations\asiVisu_IVTopoItemPrs.h" />
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\presentations\asiVisu_PartPrs.h" />
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\presentations\asiVisu_Prs.h" />
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\presentations\asiVisu_PrsManager.h" />
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\presentations\asiVisu_ReEdgePrs.h" />
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\presentations\asiVisu_ReVertexPrs.h" />
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\presentations\asiVisu_SurfDeviationPrs.h" />
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\presentations\asiVisu_TessellationNormsPrs.h" />
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\presentations\asiVisu_TessellationPrs.h" />
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\presentations\asiVisu_TolerantRangePrs.h" />
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\presentations\asiVisu_TriangulationPrs.h" />
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\presentations\asiVisu_CalculusLawPrs.cpp" />
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\presentations\asiVisu_ContourPrs.cpp" />
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\presentations\asiVisu_CurvatureCombsPrs.cpp" />
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\presentations\asiVisu_DefaultPrs.cpp" />
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\presentations\asiVisu_GeomBoundaryEdgesPrs.cpp" />
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\presentations\asiVisu_GeomCurvePrs.cpp" />
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\presentations\asiVisu_GeomEdgePrs.cpp" />
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\presentations\asiVisu_GeomFaceContourPrs.cpp" />
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\presentations\asiVisu_GeomFaceNormsPrs.cpp" />
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\presentations\asiVisu_GeomFacePrs.cpp" />
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\presentations\asiVisu_GeomSurfPrs.cpp" />
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\presentations\asiVisu_IVCurve2dPrs.cpp" />
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\presentations\asiVisu_IVCurvePrs.cpp" />
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\presentations\asiVisu_IVPointSet2dPrs.cpp" />
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\presentations\asiVisu_IVPointSetPrs.cpp" />
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\presentations\asiVisu_IVSurfacePrs.cpp" />
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\presentations\asiVisu_IVTessItemPrs.cpp" />
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\presentations\asiVisu_IVTextItemPrs.cpp" />
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\presentations\asiVisu_IVTopoItemPrs.cpp" />
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\presentations\asiVisu_PartPrs.cpp" />
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\presentations\asiVisu_Prs.cpp" />
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\presentations\asiVisu_PrsManager.cpp" />
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\presentations\asiVisu_ReEdgePrs.cpp" />
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\presentations\asiVisu_ReVertexPrs.cpp" />
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\presentations\asiVisu_SurfDeviationPrs.cpp" />
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\presentations\asiVisu_TessellationNormsPrs.cpp" />
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\presentations\asiVisu_TessellationPrs.cpp" />
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\presentations\asiVisu_TolerantRangePrs.cpp" />
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\presentations\asiVisu_TriangulationPrs.cpp" />
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\providers\asiVisu_ContourDataProvider.h" />
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\providers\asiVisu_ContourPointsDataProvider.h" />
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\providers\asiVisu_ContourPolesDataProvider.h" />
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\providers\asiVisu_CurvatureCombsDataProvider.h" />
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\providers\asiVisu_CurveDataProvider.h" />
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\providers\asiVisu_DataProvider.h" />
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\providers\asiVisu_EdgeDataProvider.h" />
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\providers\asiVisu_FaceContourDataProvider.h" />
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\providers\asiVisu_FaceDataProvider.h" />
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\providers\asiVisu_FaceNormalsDataProvider.h" />
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\providers\asiVisu_FuncDataProvider.h" />
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\providers\asiVisu_FuncUnivariateDataProvider.h" />
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\providers\asiVisu_IVCurve2dDataProvider.h" />
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\providers\asiVisu_IVCurveDataProvider.h" />
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\providers\asiVisu_IVPointSet2dDataProvider.h" />
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\providers\asiVisu_IVPointSetDataProvider.h" />
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\providers\asiVisu_IVSurfaceDataProvider.h" />
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\providers\asiVisu_LawDataProvider.h" />
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\providers\asiVisu_MeshDataProvider.h" />
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\providers\asiVisu_PartDataProvider.h" />
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\providers\asiVisu_PointsDataProvider.h" />
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\providers\asiVisu_PointsFromListDataProvider.h" />
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\providers\asiVisu_ReEdgeCurveDataProvider.h" />
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\providers\asiVisu_ReEdgePolylineDataProvider.h" />
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\providers\asiVisu_ReVertexDataProvider.h" />
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\providers\asiVisu_ShapeDataProvider.h" />
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\providers\asiVisu_SurfaceDataProvider.h" />
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\providers\asiVisu_SurfaceDeviationDataProvider.h" />
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\providers\asiVisu_TessNormalsDataProvider.h" />
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\providers\asiVisu_TriangulationDataProvider.h" />
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\providers\asiVisu_VectorsDataProvider.h" />
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\providers\asiVisu_ContourDataProvider.cpp" />
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\providers\asiVisu_ContourPointsDataProvider.cpp" />
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\providers\asiVisu_ContourPolesDataProvider.cpp" />
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\providers\asiVisu_DataProvider.cpp" />
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\providers\asiVisu_EdgeDataProvider.cpp" />
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\providers\asiVisu_FaceContourDataProvider.cpp" />
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\providers\asiVisu_FaceDataProvider.cpp" />
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\providers\asiVisu_FaceNormalsDataProvider.cpp" />
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\providers\asiVisu_IVCurve2dDataProvider.cpp" />
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\providers\asiVisu_IVCurveDataProvider.cpp" />
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\providers\asiVisu_IVPointSet2dDataProvider.cpp" />
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\providers\asiVisu_IVPointSetDataProvider.cpp" />
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\providers\asiVisu_IVSurfaceDataProvider.cpp" />
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\providers\asiVisu_LawDataProvider.cpp" />
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\providers\asiVisu_MeshDataProvider.cpp" />
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\providers\asiVisu_PartDataProvider.cpp" />
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\providers\asiVisu_PointsDataProvider.cpp" />
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\providers\asiVisu_PointsFromListDataProvider.cpp" />
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\providers\asiVisu_ReEdgeCurveDataProvider.cpp" />
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\providers\asiVisu_ReEdgePolylineDataProvider.cpp" />
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\providers\asiVisu_ReVertexDataProvider.cpp" />
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\providers\asiVisu_ShapeDataProvider.cpp" />
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\providers\asiVisu_SurfaceDeviationDataProvider.cpp" />
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\providers\asiVisu_TessNormalsDataProvider.cpp" />
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\providers\asiVisu_TriangulationDataProvider.cpp" />
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\providers\asiVisu_VectorsDataProvider.cpp" />
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\selection\asiVisu_InteractorStylePick.h" />
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\selection\asiVisu_InteractorStylePick2d.h" />
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\selection\asiVisu_NodeInfo.h" />
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\selection\asiVisu_PartNodeInfo.h" />
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\selection\asiVisu_Selection.h" />
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\selection\asiVisu_TriangulationNodeInfo.h" />
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\selection\asiVisu_InteractorStylePick.cpp" />
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\selection\asiVisu_InteractorStylePick2d.cpp" />
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\selection\asiVisu_NodeInfo.cpp" />
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\selection\asiVisu_PartNodeInfo.cpp" />
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\selection\asiVisu_Selection.cpp" />
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\selection\asiVisu_TriangulationNodeInfo.cpp" />
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\sources\asiVisu_BCurveHandlesSource.h" />
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\sources\asiVisu_BCurveKnotsSource.h" />
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\sources\asiVisu_BCurvePolesSource.h" />
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\sources\asiVisu_BCurveRepersSource.h" />
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\sources\asiVisu_BSurfAxesSource.h" />
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\sources\asiVisu_BSurfKnotsSource.h" />
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\sources\asiVisu_BSurfPolesSource.h" />
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\sources\asiVisu_CurvatureCombsSource.h" />
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\sources\asiVisu_CurveSource.h" />
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\sources\asiVisu_FuncLevelsSource2d.h" />
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\sources\asiVisu_FuncLevelsSource3d.h" />
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\sources\asiVisu_FuncLevelsSourceBase.h" />
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\sources\asiVisu_FuncUnivariateSource.h" />
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\sources\asiVisu_MeshSource.h" />
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\sources\asiVisu_PCurveSource.h" />
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\sources\asiVisu_PDomainSource.h" />
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\sources\asiVisu_PointsSource.h" />
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\sources\asiVisu_ShapeData.h" />
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\sources\asiVisu_ShapeRobustSource.h" />
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\sources\asiVisu_ShapeRobustTessellator.h" />
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\sources\asiVisu_SurfaceSource.h" />
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\sources\asiVisu_TriangulationSource.h" />
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\sources\asiVisu_BCurveHandlesSource.cpp" />
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\sources\asiVisu_BCurveKnotsSource.cpp" />
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\sources\asiVisu_BCurvePolesSource.cpp" />
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\sources\asiVisu_BCurveRepersSource.cpp" />
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\sources\asiVisu_BSurfAxesSource.cpp" />
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\sources\asiVisu_BSurfKnotsSource.cpp" />
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\sources\asiVisu_BSurfPolesSource.cpp" />
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\sources\asiVisu_CurvatureCombsSource.cpp" />
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\sources\asiVisu_CurveSource.cpp" />
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\sources\asiVisu_FuncUnivariateSource.cpp" />
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\sources\asiVisu_MeshSource.cpp" />
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\sources\asiVisu_PCurveSource.cpp" />
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\sources\asiVisu_PDomainSource.cpp" />
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\sources\asiVisu_PointsSource.cpp" />
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\sources\asiVisu_ShapeData.cpp" />
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\sources\asiVisu_ShapeRobustSource.cpp" />
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\sources\asiVisu_ShapeRobustTessellator.cpp" />
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\sources\asiVisu_SurfaceSource.cpp" />
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\sources\asiVisu_TriangulationSource.cpp" />
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\utils\asiVisu_GeomUtils.h" />
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\utils\asiVisu_MeshResultUtils.h" />
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\utils\asiVisu_MeshUtils.h" />
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\utils\asiVisu_Utils.h" />
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\utils\asiVisu_GeomUtils.cpp" />
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\utils\asiVisu_MeshResultUtils.cpp" />
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\utils\asiVisu_MeshUtils.cpp" />
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\utils\asiVisu_Utils.cpp" />
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\widgets\asiVisu_PlaneWidget.h" />
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\widgets\asiVisu_PlaneWidget.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:\WeNext3D\AnalysisSitus-v0.3.0\ZERO_CHECK.vcxproj">
+      <Project>{A2F89574-7973-3083-836F-7DF44CE5B3F0}</Project>
+      <Name>ZERO_CHECK</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\asiAlgo.vcxproj">
+      <Project>{5980D0B9-1BA1-3553-8BF2-50C02FA843B9}</Project>
+      <Name>asiAlgo</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiData\asiData.vcxproj">
+      <Project>{EE908CEE-E579-3C2B-917A-53BBB3B336C8}</Project>
+      <Name>asiData</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

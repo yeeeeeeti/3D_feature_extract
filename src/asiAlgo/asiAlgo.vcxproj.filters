@@ -1,0 +1,843 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\auxiliary\asiAlgo_BVHAlgo.cpp">
+      <Filter>Source Files\Auxiliary</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\auxiliary\asiAlgo_BVHFacets.cpp">
+      <Filter>Source Files\Auxiliary</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\auxiliary\asiAlgo_BVHIterator.cpp">
+      <Filter>Source Files\Auxiliary</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\auxiliary\asiAlgo_CheckContour.cpp">
+      <Filter>Source Files\Auxiliary</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\auxiliary\asiAlgo_CheckToler.cpp">
+      <Filter>Source Files\Auxiliary</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\auxiliary\asiAlgo_Classifier.cpp">
+      <Filter>Source Files\Auxiliary</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\auxiliary\asiAlgo_ClassifyPointFace.cpp">
+      <Filter>Source Files\Auxiliary</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\auxiliary\asiAlgo_CompleteEdgeLoop.cpp">
+      <Filter>Source Files\Auxiliary</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\auxiliary\asiAlgo_DesignLaw.cpp">
+      <Filter>Source Files\Auxiliary</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\auxiliary\asiAlgo_DivideByContinuity.cpp">
+      <Filter>Source Files\Auxiliary</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\auxiliary\asiAlgo_FuncUnivariate.cpp">
+      <Filter>Source Files\Auxiliary</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\auxiliary\asiAlgo_HitFacet.cpp">
+      <Filter>Source Files\Auxiliary</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\auxiliary\asiAlgo_IntersectCC.cpp">
+      <Filter>Source Files\Auxiliary</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\auxiliary\asiAlgo_IntersectCS.cpp">
+      <Filter>Source Files\Auxiliary</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\auxiliary\asiAlgo_IntersectSS.cpp">
+      <Filter>Source Files\Auxiliary</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\auxiliary\asiAlgo_ProjectPointOnMesh.cpp">
+      <Filter>Source Files\Auxiliary</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\auxiliary\asiAlgo_ReapproxContour.cpp">
+      <Filter>Source Files\Auxiliary</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\blends\asiAlgo_AttrBlendCandidate.cpp">
+      <Filter>Source Files\Blends</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\blends\asiAlgo_BlendTopoCondition.cpp">
+      <Filter>Source Files\Blends</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\blends\asiAlgo_FindCrossEdges.cpp">
+      <Filter>Source Files\Blends</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\blends\asiAlgo_FindSmoothEdges.cpp">
+      <Filter>Source Files\Blends</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\blends\asiAlgo_FindSpringEdges.cpp">
+      <Filter>Source Files\Blends</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\blends\asiAlgo_FindTermEdges.cpp">
+      <Filter>Source Files\Blends</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\blends\asiAlgo_RecognizeBlendFace.cpp">
+      <Filter>Source Files\Blends</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\blends\asiAlgo_RecognizeBlends.cpp">
+      <Filter>Source Files\Blends</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\blends\asiAlgo_SuppressBlendChain.cpp">
+      <Filter>Source Files\Blends</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\dict\asiAlgo_Dictionary.cpp">
+      <Filter>Source Files\Dictionary</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\dict\asiAlgo_DictionaryDimension.cpp">
+      <Filter>Source Files\Dictionary</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\dict\asiAlgo_DictionaryGroup.cpp">
+      <Filter>Source Files\Dictionary</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\dict\asiAlgo_DictionaryItem.cpp">
+      <Filter>Source Files\Dictionary</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\dict\asiAlgo_DictionaryUnit.cpp">
+      <Filter>Source Files\Dictionary</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\dict\asiAlgo_DictionaryUnitSystem.cpp">
+      <Filter>Source Files\Dictionary</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\dict\salome\DDS_DicGroup.cxx">
+      <Filter>Source Files\Dictionary\Salome</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\dict\salome\DDS_DicItem.cxx">
+      <Filter>Source Files\Dictionary\Salome</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\dict\salome\DDS_Dictionary.cxx">
+      <Filter>Source Files\Dictionary\Salome</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\dict\salome\DDS_KeyWords.cxx">
+      <Filter>Source Files\Dictionary\Salome</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\editing\asiAlgo_BRepNormalization.cpp">
+      <Filter>Source Files\Editing</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\editing\asiAlgo_BRepNormalizer.cpp">
+      <Filter>Source Files\Editing</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\editing\asiAlgo_DeleteEdges.cpp">
+      <Filter>Source Files\Editing</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\editing\asiAlgo_DetachFaces.cpp">
+      <Filter>Source Files\Editing</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\editing\asiAlgo_Euler.cpp">
+      <Filter>Source Files\Editing</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\editing\asiAlgo_EulerKEF.cpp">
+      <Filter>Source Files\Editing</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\editing\asiAlgo_EulerKEV.cpp">
+      <Filter>Source Files\Editing</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\editing\asiAlgo_EulerKFMV.cpp">
+      <Filter>Source Files\Editing</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\editing\asiAlgo_EulerPoincare.cpp">
+      <Filter>Source Files\Editing</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\editing\asiAlgo_FindFree.cpp">
+      <Filter>Source Files\Editing</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\editing\asiAlgo_FindNonmanifold.cpp">
+      <Filter>Source Files\Editing</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\editing\asiAlgo_FindSameHosts.cpp">
+      <Filter>Source Files\Editing</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\editing\asiAlgo_History.cpp">
+      <Filter>Source Files\Editing</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\editing\asiAlgo_InvertFaces.cpp">
+      <Filter>Source Files\Editing</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\editing\asiAlgo_InvertShells.cpp">
+      <Filter>Source Files\Editing</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\editing\asiAlgo_JoinEdges.cpp">
+      <Filter>Source Files\Editing</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\editing\asiAlgo_ModBase.cpp">
+      <Filter>Source Files\Editing</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\editing\asiAlgo_ModConstructEdge.cpp">
+      <Filter>Source Files\Editing</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\editing\asiAlgo_Naming.cpp">
+      <Filter>Source Files\Editing</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\editing\asiAlgo_RebuildEdge.cpp">
+      <Filter>Source Files\Editing</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\editing\asiAlgo_RepatchFaces.cpp">
+      <Filter>Source Files\Editing</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\editing\asiAlgo_RehostFaces.cpp">
+      <Filter>Source Files\Editing</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\editing\asiAlgo_SmallEdges.cpp">
+      <Filter>Source Files\Editing</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\editing\asiAlgo_SuppressFaces.cpp">
+      <Filter>Source Files\Editing</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\editing\asiAlgo_TopoKill.cpp">
+      <Filter>Source Files\Editing</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\features\asiAlgo_AAG.cpp">
+      <Filter>Source Files\Features</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\features\asiAlgo_AAGIterator.cpp">
+      <Filter>Source Files\Features</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\features\asiAlgo_CheckDihedralAngle.cpp">
+      <Filter>Source Files\Features</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\features\asiAlgo_ExtractFeatures.cpp">
+      <Filter>Source Files\Features</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\features\asiAlgo_ExtractFeaturesResult.cpp">
+      <Filter>Source Files\Features</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\features\asiAlgo_Recognizer.cpp">
+      <Filter>Source Files\Features</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\features\asiAlgo_TopoGraph.cpp">
+      <Filter>Source Files\Features</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\interop\asiAlgo_FileFormat.cpp">
+      <Filter>Source Files\Interoperability</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\interop\asiAlgo_IGES.cpp">
+      <Filter>Source Files\Interoperability</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\interop\asiAlgo_OBJ.cpp">
+      <Filter>Source Files\Interoperability</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\interop\asiAlgo_PLY.cpp">
+      <Filter>Source Files\Interoperability</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\interop\asiAlgo_STEP.cpp">
+      <Filter>Source Files\Interoperability</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\mesh\asiAlgo_MeshCheckInter.cpp">
+      <Filter>Source Files\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\mesh\asiAlgo_MeshComputeNorms.cpp">
+      <Filter>Source Files\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\mesh\asiAlgo_MeshConvert.cpp">
+      <Filter>Source Files\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\mesh\asiAlgo_MeshGen.cpp">
+      <Filter>Source Files\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\mesh\asiAlgo_MeshInfo.cpp">
+      <Filter>Source Files\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\mesh\asiAlgo_MeshInterPlane.cpp">
+      <Filter>Source Files\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\mesh\asiAlgo_MeshMerge.cpp">
+      <Filter>Source Files\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\mesh\asiAlgo_MeshOBB.cpp">
+      <Filter>Source Files\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\mesh\asiAlgo_MeshOffset.cpp">
+      <Filter>Source Files\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\mesh\asiAlgo_MeshParams.cpp">
+      <Filter>Source Files\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\mesh\asiAlgo_MeshProjectLine.cpp">
+      <Filter>Source Files\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\opt\asiAlgo_ArmijoRule.cpp">
+      <Filter>Source Files\Optimization</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\opt\asiAlgo_Function.cpp">
+      <Filter>Source Files\Optimization</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\opt\asiAlgo_FunctionWithGradient.cpp">
+      <Filter>Source Files\Optimization</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\opt\asiAlgo_GradientDescent.cpp">
+      <Filter>Source Files\Optimization</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\opt\asiAlgo_IneqOpt.cpp">
+      <Filter>Source Files\Optimization</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\opt\asiAlgo_IneqOptParams.cpp">
+      <Filter>Source Files\Optimization</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\opt\asiAlgo_IneqSystem.cpp">
+      <Filter>Source Files\Optimization</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\opt\asiAlgo_PSO.cpp">
+      <Filter>Source Files\Optimization</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\points\asiAlgo_BaseCloud.cpp">
+      <Filter>Source Files\Points</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\points\asiAlgo_Cloudify.cpp">
+      <Filter>Source Files\Points</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\points\asiAlgo_KHull2d.cpp">
+      <Filter>Source Files\Points</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\points\asiAlgo_PlaneOnPoints.cpp">
+      <Filter>Source Files\Points</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\points\asiAlgo_PlateOnPoints.cpp">
+      <Filter>Source Files\Points</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\points\asiAlgo_PointCloudUtils.cpp">
+      <Filter>Source Files\Points</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\points\asiAlgo_PointWithAttr.cpp">
+      <Filter>Source Files\Points</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\points\asiAlgo_QuickHull2d.cpp">
+      <Filter>Source Files\Points</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\points\asiAlgo_ReorientNorms.cpp">
+      <Filter>Source Files\Points</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\re\asiAlgo_BuildCoonsSurf.cpp">
+      <Filter>Source Files\RE</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\re\asiAlgo_InterpolateSurfMesh.cpp">
+      <Filter>Source Files\RE</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\re\asiAlgo_PlateOnEdges.cpp">
+      <Filter>Source Files\RE</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\utils\asiAlgo_CheckValidity.cpp">
+      <Filter>Source Files\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\utils\asiAlgo_FileDumper.cpp">
+      <Filter>Source Files\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\utils\asiAlgo_JSON.cpp">
+      <Filter>Source Files\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\utils\asiAlgo_Logger.cpp">
+      <Filter>Source Files\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\utils\asiAlgo_TimeStamp.cpp">
+      <Filter>Source Files\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\utils\asiAlgo_Utils.cpp">
+      <Filter>Source Files\Utilities</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\asiAlgo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\auxiliary\asiAlgo_BVHAlgo.h">
+      <Filter>Header Files\Auxiliary</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\auxiliary\asiAlgo_BVHFacets.h">
+      <Filter>Header Files\Auxiliary</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\auxiliary\asiAlgo_BVHIterator.h">
+      <Filter>Header Files\Auxiliary</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\auxiliary\asiAlgo_CheckContour.h">
+      <Filter>Header Files\Auxiliary</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\auxiliary\asiAlgo_CheckToler.h">
+      <Filter>Header Files\Auxiliary</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\auxiliary\asiAlgo_Classifier.h">
+      <Filter>Header Files\Auxiliary</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\auxiliary\asiAlgo_ClassifyPointFace.h">
+      <Filter>Header Files\Auxiliary</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\auxiliary\asiAlgo_CompleteEdgeLoop.h">
+      <Filter>Header Files\Auxiliary</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\auxiliary\asiAlgo_DesignLaw.h">
+      <Filter>Header Files\Auxiliary</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\auxiliary\asiAlgo_DivideByContinuity.h">
+      <Filter>Header Files\Auxiliary</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\auxiliary\asiAlgo_FuncUnivariate.h">
+      <Filter>Header Files\Auxiliary</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\auxiliary\asiAlgo_HitFacet.h">
+      <Filter>Header Files\Auxiliary</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\auxiliary\asiAlgo_IntersectCC.h">
+      <Filter>Header Files\Auxiliary</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\auxiliary\asiAlgo_IntersectCS.h">
+      <Filter>Header Files\Auxiliary</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\auxiliary\asiAlgo_IntersectionCurveSS.h">
+      <Filter>Header Files\Auxiliary</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\auxiliary\asiAlgo_IntersectionPointCC.h">
+      <Filter>Header Files\Auxiliary</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\auxiliary\asiAlgo_IntersectionPointCS.h">
+      <Filter>Header Files\Auxiliary</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\auxiliary\asiAlgo_IntersectSS.h">
+      <Filter>Header Files\Auxiliary</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\auxiliary\asiAlgo_Membership.h">
+      <Filter>Header Files\Auxiliary</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\auxiliary\asiAlgo_ProjectPointOnMesh.h">
+      <Filter>Header Files\Auxiliary</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\auxiliary\asiAlgo_ReapproxContour.h">
+      <Filter>Header Files\Auxiliary</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\blends\asiAlgo_AttrBlendCandidate.h">
+      <Filter>Header Files\Blends</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\blends\asiAlgo_BlendTopoCondition.h">
+      <Filter>Header Files\Blends</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\blends\asiAlgo_BlendTopoConditionFF.h">
+      <Filter>Header Files\Blends</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\blends\asiAlgo_BlendTopoConditionFFIsolated.h">
+      <Filter>Header Files\Blends</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\blends\asiAlgo_BlendType.h">
+      <Filter>Header Files\Blends</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\blends\asiAlgo_FindCrossEdges.h">
+      <Filter>Header Files\Blends</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\blends\asiAlgo_FindSmoothEdges.h">
+      <Filter>Header Files\Blends</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\blends\asiAlgo_FindSpringEdges.h">
+      <Filter>Header Files\Blends</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\blends\asiAlgo_FindTermEdges.h">
+      <Filter>Header Files\Blends</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\blends\asiAlgo_RecognizeBlendFace.h">
+      <Filter>Header Files\Blends</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\blends\asiAlgo_RecognizeBlends.h">
+      <Filter>Header Files\Blends</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\blends\asiAlgo_SuppressBlendChain.h">
+      <Filter>Header Files\Blends</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\dict\asiAlgo_Dictionary.h">
+      <Filter>Header Files\Dictionary</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\dict\asiAlgo_DictionaryDimension.h">
+      <Filter>Header Files\Dictionary</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\dict\asiAlgo_DictionaryGroup.h">
+      <Filter>Header Files\Dictionary</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\dict\asiAlgo_DictionaryItem.h">
+      <Filter>Header Files\Dictionary</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\dict\asiAlgo_DictionaryUnit.h">
+      <Filter>Header Files\Dictionary</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\dict\asiAlgo_DictionaryUnitSystem.h">
+      <Filter>Header Files\Dictionary</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\dict\salome\DDS.h">
+      <Filter>Header Files\Dictionary\Salome</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\dict\salome\DDS_DicGroup.h">
+      <Filter>Header Files\Dictionary\Salome</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\dict\salome\DDS_DicItem.h">
+      <Filter>Header Files\Dictionary\Salome</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\dict\salome\DDS_Dictionary.h">
+      <Filter>Header Files\Dictionary\Salome</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\dict\salome\DDS_KeyWords.h">
+      <Filter>Header Files\Dictionary\Salome</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\editing\asiAlgo_BRepNormalization.h">
+      <Filter>Header Files\Editing</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\editing\asiAlgo_BRepNormalizer.h">
+      <Filter>Header Files\Editing</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\editing\asiAlgo_DeleteEdges.h">
+      <Filter>Header Files\Editing</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\editing\asiAlgo_DetachFaces.h">
+      <Filter>Header Files\Editing</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\editing\asiAlgo_Edge2Rebuild.h">
+      <Filter>Header Files\Editing</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\editing\asiAlgo_Euler.h">
+      <Filter>Header Files\Editing</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\editing\asiAlgo_EulerKEF.h">
+      <Filter>Header Files\Editing</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\editing\asiAlgo_EulerKEV.h">
+      <Filter>Header Files\Editing</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\editing\asiAlgo_EulerKFMV.h">
+      <Filter>Header Files\Editing</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\editing\asiAlgo_EulerPoincare.h">
+      <Filter>Header Files\Editing</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\editing\asiAlgo_FindFree.h">
+      <Filter>Header Files\Editing</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\editing\asiAlgo_FindNonmanifold.h">
+      <Filter>Header Files\Editing</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\editing\asiAlgo_FindSameHosts.h">
+      <Filter>Header Files\Editing</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\editing\asiAlgo_FrozenVertices.h">
+      <Filter>Header Files\Editing</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\editing\asiAlgo_History.h">
+      <Filter>Header Files\Editing</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\editing\asiAlgo_InvertFaces.h">
+      <Filter>Header Files\Editing</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\editing\asiAlgo_InvertShells.h">
+      <Filter>Header Files\Editing</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\editing\asiAlgo_JoinEdges.h">
+      <Filter>Header Files\Editing</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\editing\asiAlgo_ModBase.h">
+      <Filter>Header Files\Editing</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\editing\asiAlgo_ModConstructEdge.h">
+      <Filter>Header Files\Editing</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\editing\asiAlgo_ModEdgeInfo.h">
+      <Filter>Header Files\Editing</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\editing\asiAlgo_Naming.h">
+      <Filter>Header Files\Editing</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\editing\asiAlgo_RebuildEdge.h">
+      <Filter>Header Files\Editing</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\editing\asiAlgo_RehostFaces.h">
+      <Filter>Header Files\Editing</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\editing\asiAlgo_RepatchFaces.h">
+      <Filter>Header Files\Editing</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\editing\asiAlgo_SmallEdges.h">
+      <Filter>Header Files\Editing</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\editing\asiAlgo_SuppressFaces.h">
+      <Filter>Header Files\Editing</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\editing\asiAlgo_TopoKill.h">
+      <Filter>Header Files\Editing</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\features\asiAlgo_AAG.h">
+      <Filter>Header Files\Features</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\features\asiAlgo_AAGIterator.h">
+      <Filter>Header Files\Features</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\features\asiAlgo_BorderTrihedron.h">
+      <Filter>Header Files\Features</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\features\asiAlgo_CheckDihedralAngle.h">
+      <Filter>Header Files\Features</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\features\asiAlgo_ExtractFeatures.h">
+      <Filter>Header Files\Features</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\features\asiAlgo_ExtractFeaturesResult.h">
+      <Filter>Header Files\Features</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\features\asiAlgo_FeatureAngleType.h">
+      <Filter>Header Files\Features</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\features\asiAlgo_FeatureAttr.h">
+      <Filter>Header Files\Features</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\features\asiAlgo_FeatureAttrAdjacency.h">
+      <Filter>Header Files\Features</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\features\asiAlgo_FeatureAttrAngle.h">
+      <Filter>Header Files\Features</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\features\asiAlgo_FeatureAttrFace.h">
+      <Filter>Header Files\Features</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\features\asiAlgo_FeatureFormulation.h">
+      <Filter>Header Files\Features</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\features\asiAlgo_FeatureType.h">
+      <Filter>Header Files\Features</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\features\asiAlgo_Recognizer.h">
+      <Filter>Header Files\Features</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\features\asiAlgo_TopoAttr.h">
+      <Filter>Header Files\Features</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\features\asiAlgo_TopoAttrLocation.h">
+      <Filter>Header Files\Features</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\features\asiAlgo_TopoAttrName.h">
+      <Filter>Header Files\Features</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\features\asiAlgo_TopoAttrOrientation.h">
+      <Filter>Header Files\Features</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\features\asiAlgo_TopoGraph.h">
+      <Filter>Header Files\Features</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\interop\asiAlgo_FileFormat.h">
+      <Filter>Header Files\Interoperability</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\interop\asiAlgo_IGES.h">
+      <Filter>Header Files\Interoperability</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\interop\asiAlgo_InteropVars.h">
+      <Filter>Header Files\Interoperability</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\interop\asiAlgo_OBJ.h">
+      <Filter>Header Files\Interoperability</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\interop\asiAlgo_PLY.h">
+      <Filter>Header Files\Interoperability</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\interop\asiAlgo_STEP.h">
+      <Filter>Header Files\Interoperability</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\mesh\asiAlgo_MeshCheckInter.h">
+      <Filter>Header Files\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\mesh\asiAlgo_MeshComputeNorms.h">
+      <Filter>Header Files\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\mesh\asiAlgo_MeshConvert.h">
+      <Filter>Header Files\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\mesh\asiAlgo_MeshGen.h">
+      <Filter>Header Files\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\mesh\asiAlgo_MeshInfo.h">
+      <Filter>Header Files\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\mesh\asiAlgo_MeshInterPlane.h">
+      <Filter>Header Files\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\mesh\asiAlgo_MeshLink.h">
+      <Filter>Header Files\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\mesh\asiAlgo_MeshMerge.h">
+      <Filter>Header Files\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\mesh\asiAlgo_MeshOBB.h">
+      <Filter>Header Files\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\mesh\asiAlgo_MeshOffset.h">
+      <Filter>Header Files\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\mesh\asiAlgo_MeshParams.h">
+      <Filter>Header Files\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\mesh\asiAlgo_MeshProjectLine.h">
+      <Filter>Header Files\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\opt\asiAlgo_ArmijoRule.h">
+      <Filter>Header Files\Optimization</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\opt\asiAlgo_Function.h">
+      <Filter>Header Files\Optimization</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\opt\asiAlgo_FunctionWithGradient.h">
+      <Filter>Header Files\Optimization</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\opt\asiAlgo_GradientDescent.h">
+      <Filter>Header Files\Optimization</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\opt\asiAlgo_IneqOpt.h">
+      <Filter>Header Files\Optimization</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\opt\asiAlgo_IneqOptParams.h">
+      <Filter>Header Files\Optimization</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\opt\asiAlgo_IneqSystem.h">
+      <Filter>Header Files\Optimization</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\opt\asiAlgo_PSO.h">
+      <Filter>Header Files\Optimization</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\points\asiAlgo_BaseCloud.h">
+      <Filter>Header Files\Points</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\points\asiAlgo_Cloudify.h">
+      <Filter>Header Files\Points</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\points\asiAlgo_CloudRegion.h">
+      <Filter>Header Files\Points</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\points\asiAlgo_KHull2d.h">
+      <Filter>Header Files\Points</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\points\asiAlgo_PlaneOnPoints.h">
+      <Filter>Header Files\Points</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\points\asiAlgo_PlateOnPoints.h">
+      <Filter>Header Files\Points</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\points\asiAlgo_PointCloudUtils.h">
+      <Filter>Header Files\Points</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\points\asiAlgo_PointWithAttr.h">
+      <Filter>Header Files\Points</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\points\asiAlgo_PurifyCloud.h">
+      <Filter>Header Files\Points</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\points\asiAlgo_QuickHull2d.h">
+      <Filter>Header Files\Points</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\points\asiAlgo_ReorientNorms.h">
+      <Filter>Header Files\Points</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\re\asiAlgo_BuildCoonsSurf.h">
+      <Filter>Header Files\RE</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\re\asiAlgo_InterpolateSurfMesh.h">
+      <Filter>Header Files\RE</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\re\asiAlgo_PlateOnEdges.h">
+      <Filter>Header Files\RE</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\utils\asiAlgo_CheckValidity.h">
+      <Filter>Header Files\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\utils\asiAlgo_FileDumper.h">
+      <Filter>Header Files\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\utils\asiAlgo_JSON.h">
+      <Filter>Header Files\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\utils\asiAlgo_Logger.h">
+      <Filter>Header Files\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\utils\asiAlgo_MemChecker.h">
+      <Filter>Header Files\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\utils\asiAlgo_Timer.h">
+      <Filter>Header Files\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\utils\asiAlgo_TimeStamp.h">
+      <Filter>Header Files\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\utils\asiAlgo_Utils.h">
+      <Filter>Header Files\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\utils\asiAlgo_Variable.h">
+      <Filter>Header Files\Utilities</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiAlgo\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{B95166DC-5349-363B-B2F3-9C707E092AAB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Auxiliary">
+      <UniqueIdentifier>{7AD44E3B-357A-3DED-9094-B7B6D0175649}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Blends">
+      <UniqueIdentifier>{6995619C-4C0C-3876-B7DA-2B70587372AD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Dictionary">
+      <UniqueIdentifier>{B81E7E03-6297-3B95-AABD-B6A069954FA6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Dictionary\Salome">
+      <UniqueIdentifier>{A6EB9049-335F-3971-9EF1-F5816CA38F32}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Editing">
+      <UniqueIdentifier>{D4FB55BE-9FC5-383D-AA02-223B1D82F69F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Features">
+      <UniqueIdentifier>{7B10C4A5-8F77-3FEF-87D8-8D61DCDAD36D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Interoperability">
+      <UniqueIdentifier>{E143E2AC-83ED-372D-8616-2DAF27E21E55}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Mesh">
+      <UniqueIdentifier>{BFE0EA80-EF71-3CFF-9807-F25BE7462803}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Optimization">
+      <UniqueIdentifier>{D7B2686B-8F54-3152-A18E-E8E0F1028E8F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Points">
+      <UniqueIdentifier>{8CF241E5-2310-3F7B-BA95-BAC67739F41D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\RE">
+      <UniqueIdentifier>{4BDFC8C8-9AEC-3B3B-A392-0B2EBC42DD40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Utilities">
+      <UniqueIdentifier>{EF9984F1-4E0E-361E-A478-EA3BF466F243}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{632DAB89-F98D-3A54-A4EB-6A26BA1E4645}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Auxiliary">
+      <UniqueIdentifier>{1846448B-7C01-396C-888E-2697393E3147}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Blends">
+      <UniqueIdentifier>{F010C979-F57A-36AE-BE9A-7438910457E2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Dictionary">
+      <UniqueIdentifier>{1586794B-526F-3CD1-8856-60F3B7E1D13B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Dictionary\Salome">
+      <UniqueIdentifier>{18B31FFF-5183-310F-B514-E173B8E959BC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Editing">
+      <UniqueIdentifier>{9EB0A4C8-870F-30C8-939A-B3A8D6FE6A2C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Features">
+      <UniqueIdentifier>{A9DB0869-4F4F-3A29-AAB9-C6D1E5428E23}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Interoperability">
+      <UniqueIdentifier>{E334EA66-E0E0-3A82-807C-93D230F74487}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Mesh">
+      <UniqueIdentifier>{CB3565F5-FABC-33F1-919E-5FADA2481AC3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Optimization">
+      <UniqueIdentifier>{032B318C-8FCC-37C0-A955-DB65D18075BE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Points">
+      <UniqueIdentifier>{A383F5A2-F7AD-315C-AB51-AB065C47524C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\RE">
+      <UniqueIdentifier>{723A8349-AB3F-386C-9EEC-3B8A96426FE5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Utilities">
+      <UniqueIdentifier>{5FD3CDA5-49A4-30E8-8400-B5E18328BBA9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

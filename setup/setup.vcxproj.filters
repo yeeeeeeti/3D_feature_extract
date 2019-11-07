@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\WeNext3D\AnalysisSitus-v0.3.0\CMakeFiles\4d0e88b5ac7f9d26d1ecacf8a34c5f79\setup.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\WeNext3D\AnalysisSitus-v0.3.0\setup\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="D:\WeNext3D\AnalysisSitus-v0.3.0\setup\CMakeFiles\setup" />
+    <None Include="D:\WeNext3D\AnalysisSitus-v0.3.0\setup\setup.iss">
+      <Filter>Source files</Filter>
+    </None>
+    <None Include="D:\WeNext3D\AnalysisSitus-v0.3.0\setup\config.iss.in">
+      <Filter>Source files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{882E4F4D-F98B-383B-BC7F-7A6DD8897F7B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files">
+      <UniqueIdentifier>{844CDC09-6F97-3EC4-8436-93CFA5B3403A}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

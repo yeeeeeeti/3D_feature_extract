@@ -1,0 +1,5 @@
+-DWIN32
+--compiler-flavor=msvc
+-o
+D:/WeNext3D/AnalysisSitus-v0.3.0/src/asiUI/plots/moc_asiUI_Plot2d.cpp
+D:/WeNext3D/AnalysisSitus-v0.3.0/src/asiUI/plots/asiUI_Plot2d.h

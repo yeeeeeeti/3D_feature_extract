@@ -1,0 +1,15 @@
+[TITLE]
+
+  Recognize blends
+
+[1-*:OVERVIEW]
+
+  Recognition of blends and blend chains.
+
+[1-*:DETAILS]
+
+  <b>Run to reproduce:</b>
+  <br>
+  <tt>source %%filename%%</tt>
+  <br><br>
+  Elapsed time [s]: %%time%%

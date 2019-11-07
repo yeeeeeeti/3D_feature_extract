@@ -1,0 +1,22 @@
+13>  ...	 info: =============================================                                                       
+13>  ...	 info: Rebuild edges                                                                                       
+13>  ...	 info: ---------------------------------------------                                                       
+13>  ...	 info: 	Elapsed time (seconds):  2.26493                                                                   
+13>  ...	 info: 	Elapsed time (minutes):  0                                                                         
+13>  ...	 info: 	Elapsed time (hours):    0                                                                         
+13>  ...	 info: 	Elapsed time (CPU time): 2.23438                                                                   
+13>  ...	 info: 	Memory before:           265 MiB                                                                   
+13>  ...	 info: 	Memory after [delta]:    265 MiB [0]                                                               
+13>  ...	 info: ... Finished.                                                                                       
+13>  ...	 info: =============================================                                                       
+13>  ...	 info: kill-blend                                                                                          
+13>  ...	 info: ---------------------------------------------                                                       
+13>  ...	 info: 	Elapsed time (seconds):  2.49183                                                                   
+13>  ...	 info: 	Elapsed time (minutes):  0                                                                         
+13>  ...	 info: 	Elapsed time (hours):    0                                                                         
+13>  ...	 info: 	Elapsed time (CPU time): 2.46875                                                                   
+13>  ...	 info: 	Memory before:           265 MiB                                                                   
+13>  ...	 info: 	Memory after [delta]:    265 MiB [0]                                                               
+13>  ...	 info: ... Finished.                                                                                       
+13>  ...	 info: Detected candidate radius: 18.                                                                      
+13>  ...	 info: =============================================             

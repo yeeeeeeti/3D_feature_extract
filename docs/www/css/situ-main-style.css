@@ -1,0 +1,121 @@
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial;
+  font-size: 14px;
+  color: rgb(40,40,40);
+  margin-left: 20%;
+  margin-right: 20%;
+  line-height: 1.3;
+}
+a {
+  color: #447790;
+}
+a.header-href {
+  color: #CFCFCF;
+  text-decoration: none;
+}
+a:hover {
+ color: #FD711F
+}
+a:visited {
+ color: #243F4B
+}
+a.header-href:visited {
+ color: #CFCFCF
+}
+a:visited:hover {
+ color: #FF9655
+}
+.citeus {
+  padding: 5px 10px;
+  background-color: rgb(231, 231, 231);
+  border: 1px solid rgb(50, 50, 50);
+  font-size: 10pt;
+}
+.quote {
+  padding-left: 10%;
+  font-style: italic;
+}
+.note {
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-right: 25%;
+  background-color: rgb(255, 246, 227);
+  border: 1px dotted rgb(100, 87, 71);
+  font-size: 10pt;
+}
+.bib {
+  margin: 0 0 8px 0
+}
+.bibtex {
+  padding-left: 10px;
+  background-color: rgb(231, 231, 231);
+  border: 1px solid rgb(50, 50, 50);
+  font-size: 10pt;
+}
+.header, .header-logo {
+  padding-left: 15px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color: rgb(60, 60, 60);
+  color: rgb(230, 230, 230);
+  font-size: 12pt;
+  font-family: monospace;
+}
+.header-logo {
+  color: rgb(230, 230, 230);
+  font-size: 23pt;
+  font-family: "Helvetica Neue", Helvetica, Arial;
+}
+.header-menu {
+  padding: 10px 25px;
+  margin: 10px 0;
+  background-color: rgb(220, 220, 220);
+  color: rgb(30, 30, 30);
+  font-size: 10pt;
+}
+.table-content-header {
+  padding-left: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background-color: rgb(230, 230, 230);
+  color: rgb(30, 30, 30);
+  font-size: 12pt;
+}
+.table-content-block {
+  color: rgb(30, 30, 30);
+  font-size: 10pt;
+}
+.code {
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background-color: rgb(235, 235, 235);
+  border: 1px solid rgb(150, 150, 150);
+  font-size: 10pt;
+  font-family: monospace;
+}
+.code-inline {
+  padding: 3px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  background-color: rgb(235, 235, 235);
+  border: 1px solid rgb(220, 220, 220);
+  font-size: 10pt;
+  font-family: monospace;
+}
+.license {
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background-color: rgb(235, 235, 235);
+  border: 1px solid rgb(150, 150, 150);
+  font-size: 10pt;
+  font-family: monospace;
+}
+ul.light {
+  list-style-type: circle;
+}

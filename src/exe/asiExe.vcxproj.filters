@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\exe\ui\moc_exe_MainWindow.cpp">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\exe\exe_Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\exe\ui\exe_CommonFacilities.cpp">
+      <Filter>Source Files\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\exe\ui\exe_MainWindow.cpp">
+      <Filter>Source Files\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\exe\qrc_style.cpp">
+      <Filter>Generated</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\exe\exe_Keywords.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\exe\exe_Version.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\exe\ui\exe_CommonFacilities.h">
+      <Filter>Header Files\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\exe\ui\exe_MainWindow.h">
+      <Filter>Header Files\UI</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\WeNext3D\AnalysisSitus-v0.3.0\CMakeFiles\fe9762208885a83d6906c203f12ff401\moc_exe_MainWindow.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\exe\resources\style.qrc">
+      <Filter>Resources</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\exe\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <XML Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\exe\resources\asiExeDictionary.xml">
+      <Filter>Resources</Filter>
+    </XML>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{882E4F4D-F98B-383B-BC7F-7A6DD8897F7B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Generated">
+      <UniqueIdentifier>{FC5362AC-1C8A-3276-9EF4-FFFDE7C8A97B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{B95166DC-5349-363B-B2F3-9C707E092AAB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\UI">
+      <UniqueIdentifier>{E88725D8-6FF7-3E44-87EE-F4C40EC26C24}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources">
+      <UniqueIdentifier>{12347B13-4151-3FBC-88BC-F5E9B9FB8E21}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{632DAB89-F98D-3A54-A4EB-6A26BA1E4645}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\UI">
+      <UniqueIdentifier>{57503A18-3323-3265-B861-7147418C6E5B}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

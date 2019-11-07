@@ -1,0 +1,876 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\filters\asiVisu_MeshENScalarFilter.cpp">
+      <Filter>Source Files\Filters</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\filters\asiVisu_MeshEScalarFilter.cpp">
+      <Filter>Source Files\Filters</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\filters\asiVisu_MeshEVectorFilter.cpp">
+      <Filter>Source Files\Filters</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\filters\asiVisu_MeshNScalarFilter.cpp">
+      <Filter>Source Files\Filters</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\filters\asiVisu_PointsVectorFilter.cpp">
+      <Filter>Source Files\Filters</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\filters\asiVisu_ShapeDisplayModeFilter.cpp">
+      <Filter>Source Files\Filters</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\filters\asiVisu_ShrinkPolyFilter.cpp">
+      <Filter>Source Files\Filters</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\filters\asiVisu_TriangulationDisplayModeFilter.cpp">
+      <Filter>Source Files\Filters</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\pipelines\asiVisu_BCurveHandlesPipeline.cpp">
+      <Filter>Source Files\Pipelines</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\pipelines\asiVisu_BCurveKnotsPipeline.cpp">
+      <Filter>Source Files\Pipelines</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\pipelines\asiVisu_BCurvePolesPipeline.cpp">
+      <Filter>Source Files\Pipelines</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\pipelines\asiVisu_BCurveRepersPipeline.cpp">
+      <Filter>Source Files\Pipelines</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\pipelines\asiVisu_BSurfAxesPipeline.cpp">
+      <Filter>Source Files\Pipelines</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\pipelines\asiVisu_BSurfKnotsPipeline.cpp">
+      <Filter>Source Files\Pipelines</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\pipelines\asiVisu_BSurfPolesPipeline.cpp">
+      <Filter>Source Files\Pipelines</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\pipelines\asiVisu_CurvatureCombsPipeline.cpp">
+      <Filter>Source Files\Pipelines</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\pipelines\asiVisu_CurvePipeline.cpp">
+      <Filter>Source Files\Pipelines</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\pipelines\asiVisu_EdgeCurvePipeline.cpp">
+      <Filter>Source Files\Pipelines</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\pipelines\asiVisu_EdgeDomainPipeline.cpp">
+      <Filter>Source Files\Pipelines</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\pipelines\asiVisu_FaceContourPipeline.cpp">
+      <Filter>Source Files\Pipelines</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\pipelines\asiVisu_FaceDomainPipeline.cpp">
+      <Filter>Source Files\Pipelines</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\pipelines\asiVisu_FaceSurfaceIsosPipeline.cpp">
+      <Filter>Source Files\Pipelines</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\pipelines\asiVisu_FaceSurfaceShadedPipeline.cpp">
+      <Filter>Source Files\Pipelines</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\pipelines\asiVisu_FuncUnivariatePipeline.cpp">
+      <Filter>Source Files\Pipelines</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\pipelines\asiVisu_IVSurfacePipeline.cpp">
+      <Filter>Source Files\Pipelines</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\pipelines\asiVisu_MeshContourPipeline.cpp">
+      <Filter>Source Files\Pipelines</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\pipelines\asiVisu_MeshENScalarPipeline.cpp">
+      <Filter>Source Files\Pipelines</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\pipelines\asiVisu_MeshEScalarPipeline.cpp">
+      <Filter>Source Files\Pipelines</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\pipelines\asiVisu_MeshEVectorPipeline.cpp">
+      <Filter>Source Files\Pipelines</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\pipelines\asiVisu_MeshNScalarPipeline.cpp">
+      <Filter>Source Files\Pipelines</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\pipelines\asiVisu_MeshPipeline.cpp">
+      <Filter>Source Files\Pipelines</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\pipelines\asiVisu_PartEdgesPipeline.cpp">
+      <Filter>Source Files\Pipelines</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\pipelines\asiVisu_PartPipeline.cpp">
+      <Filter>Source Files\Pipelines</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\pipelines\asiVisu_PartPipelineBase.cpp">
+      <Filter>Source Files\Pipelines</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\pipelines\asiVisu_Pipeline.cpp">
+      <Filter>Source Files\Pipelines</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\pipelines\asiVisu_PointsPipeline.cpp">
+      <Filter>Source Files\Pipelines</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\pipelines\asiVisu_ShapePipeline.cpp">
+      <Filter>Source Files\Pipelines</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\pipelines\asiVisu_SurfaceDeviationPipeline.cpp">
+      <Filter>Source Files\Pipelines</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\pipelines\asiVisu_TriangulationLinksPipeline.cpp">
+      <Filter>Source Files\Pipelines</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\pipelines\asiVisu_TriangulationPipeline.cpp">
+      <Filter>Source Files\Pipelines</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\pipelines\asiVisu_TriangulationPipelineBase.cpp">
+      <Filter>Source Files\Pipelines</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\pipelines\asiVisu_VectorsPipeline.cpp">
+      <Filter>Source Files\Pipelines</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\presentations\asiVisu_CalculusLawPrs.cpp">
+      <Filter>Source Files\Presentations</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\presentations\asiVisu_ContourPrs.cpp">
+      <Filter>Source Files\Presentations</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\presentations\asiVisu_CurvatureCombsPrs.cpp">
+      <Filter>Source Files\Presentations</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\presentations\asiVisu_DefaultPrs.cpp">
+      <Filter>Source Files\Presentations</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\presentations\asiVisu_GeomBoundaryEdgesPrs.cpp">
+      <Filter>Source Files\Presentations</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\presentations\asiVisu_GeomCurvePrs.cpp">
+      <Filter>Source Files\Presentations</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\presentations\asiVisu_GeomEdgePrs.cpp">
+      <Filter>Source Files\Presentations</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\presentations\asiVisu_GeomFaceContourPrs.cpp">
+      <Filter>Source Files\Presentations</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\presentations\asiVisu_GeomFaceNormsPrs.cpp">
+      <Filter>Source Files\Presentations</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\presentations\asiVisu_GeomFacePrs.cpp">
+      <Filter>Source Files\Presentations</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\presentations\asiVisu_GeomSurfPrs.cpp">
+      <Filter>Source Files\Presentations</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\presentations\asiVisu_IVCurve2dPrs.cpp">
+      <Filter>Source Files\Presentations</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\presentations\asiVisu_IVCurvePrs.cpp">
+      <Filter>Source Files\Presentations</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\presentations\asiVisu_IVPointSet2dPrs.cpp">
+      <Filter>Source Files\Presentations</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\presentations\asiVisu_IVPointSetPrs.cpp">
+      <Filter>Source Files\Presentations</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\presentations\asiVisu_IVSurfacePrs.cpp">
+      <Filter>Source Files\Presentations</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\presentations\asiVisu_IVTessItemPrs.cpp">
+      <Filter>Source Files\Presentations</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\presentations\asiVisu_IVTextItemPrs.cpp">
+      <Filter>Source Files\Presentations</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\presentations\asiVisu_IVTopoItemPrs.cpp">
+      <Filter>Source Files\Presentations</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\presentations\asiVisu_PartPrs.cpp">
+      <Filter>Source Files\Presentations</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\presentations\asiVisu_Prs.cpp">
+      <Filter>Source Files\Presentations</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\presentations\asiVisu_PrsManager.cpp">
+      <Filter>Source Files\Presentations</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\presentations\asiVisu_ReEdgePrs.cpp">
+      <Filter>Source Files\Presentations</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\presentations\asiVisu_ReVertexPrs.cpp">
+      <Filter>Source Files\Presentations</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\presentations\asiVisu_SurfDeviationPrs.cpp">
+      <Filter>Source Files\Presentations</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\presentations\asiVisu_TessellationNormsPrs.cpp">
+      <Filter>Source Files\Presentations</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\presentations\asiVisu_TessellationPrs.cpp">
+      <Filter>Source Files\Presentations</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\presentations\asiVisu_TolerantRangePrs.cpp">
+      <Filter>Source Files\Presentations</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\presentations\asiVisu_TriangulationPrs.cpp">
+      <Filter>Source Files\Presentations</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\providers\asiVisu_ContourDataProvider.cpp">
+      <Filter>Source Files\Providers</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\providers\asiVisu_ContourPointsDataProvider.cpp">
+      <Filter>Source Files\Providers</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\providers\asiVisu_ContourPolesDataProvider.cpp">
+      <Filter>Source Files\Providers</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\providers\asiVisu_DataProvider.cpp">
+      <Filter>Source Files\Providers</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\providers\asiVisu_EdgeDataProvider.cpp">
+      <Filter>Source Files\Providers</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\providers\asiVisu_FaceContourDataProvider.cpp">
+      <Filter>Source Files\Providers</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\providers\asiVisu_FaceDataProvider.cpp">
+      <Filter>Source Files\Providers</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\providers\asiVisu_FaceNormalsDataProvider.cpp">
+      <Filter>Source Files\Providers</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\providers\asiVisu_IVCurve2dDataProvider.cpp">
+      <Filter>Source Files\Providers</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\providers\asiVisu_IVCurveDataProvider.cpp">
+      <Filter>Source Files\Providers</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\providers\asiVisu_IVPointSet2dDataProvider.cpp">
+      <Filter>Source Files\Providers</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\providers\asiVisu_IVPointSetDataProvider.cpp">
+      <Filter>Source Files\Providers</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\providers\asiVisu_IVSurfaceDataProvider.cpp">
+      <Filter>Source Files\Providers</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\providers\asiVisu_LawDataProvider.cpp">
+      <Filter>Source Files\Providers</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\providers\asiVisu_MeshDataProvider.cpp">
+      <Filter>Source Files\Providers</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\providers\asiVisu_PartDataProvider.cpp">
+      <Filter>Source Files\Providers</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\providers\asiVisu_PointsDataProvider.cpp">
+      <Filter>Source Files\Providers</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\providers\asiVisu_PointsFromListDataProvider.cpp">
+      <Filter>Source Files\Providers</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\providers\asiVisu_ReEdgeCurveDataProvider.cpp">
+      <Filter>Source Files\Providers</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\providers\asiVisu_ReEdgePolylineDataProvider.cpp">
+      <Filter>Source Files\Providers</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\providers\asiVisu_ReVertexDataProvider.cpp">
+      <Filter>Source Files\Providers</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\providers\asiVisu_ShapeDataProvider.cpp">
+      <Filter>Source Files\Providers</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\providers\asiVisu_SurfaceDeviationDataProvider.cpp">
+      <Filter>Source Files\Providers</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\providers\asiVisu_TessNormalsDataProvider.cpp">
+      <Filter>Source Files\Providers</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\providers\asiVisu_TriangulationDataProvider.cpp">
+      <Filter>Source Files\Providers</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\providers\asiVisu_VectorsDataProvider.cpp">
+      <Filter>Source Files\Providers</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\selection\asiVisu_InteractorStylePick.cpp">
+      <Filter>Source Files\Selection</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\selection\asiVisu_InteractorStylePick2d.cpp">
+      <Filter>Source Files\Selection</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\selection\asiVisu_NodeInfo.cpp">
+      <Filter>Source Files\Selection</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\selection\asiVisu_PartNodeInfo.cpp">
+      <Filter>Source Files\Selection</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\selection\asiVisu_Selection.cpp">
+      <Filter>Source Files\Selection</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\selection\asiVisu_TriangulationNodeInfo.cpp">
+      <Filter>Source Files\Selection</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\sources\asiVisu_BCurveHandlesSource.cpp">
+      <Filter>Source Files\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\sources\asiVisu_BCurveKnotsSource.cpp">
+      <Filter>Source Files\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\sources\asiVisu_BCurvePolesSource.cpp">
+      <Filter>Source Files\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\sources\asiVisu_BCurveRepersSource.cpp">
+      <Filter>Source Files\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\sources\asiVisu_BSurfAxesSource.cpp">
+      <Filter>Source Files\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\sources\asiVisu_BSurfKnotsSource.cpp">
+      <Filter>Source Files\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\sources\asiVisu_BSurfPolesSource.cpp">
+      <Filter>Source Files\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\sources\asiVisu_CurvatureCombsSource.cpp">
+      <Filter>Source Files\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\sources\asiVisu_CurveSource.cpp">
+      <Filter>Source Files\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\sources\asiVisu_FuncUnivariateSource.cpp">
+      <Filter>Source Files\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\sources\asiVisu_MeshSource.cpp">
+      <Filter>Source Files\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\sources\asiVisu_PCurveSource.cpp">
+      <Filter>Source Files\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\sources\asiVisu_PDomainSource.cpp">
+      <Filter>Source Files\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\sources\asiVisu_PointsSource.cpp">
+      <Filter>Source Files\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\sources\asiVisu_ShapeData.cpp">
+      <Filter>Source Files\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\sources\asiVisu_ShapeRobustSource.cpp">
+      <Filter>Source Files\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\sources\asiVisu_ShapeRobustTessellator.cpp">
+      <Filter>Source Files\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\sources\asiVisu_SurfaceSource.cpp">
+      <Filter>Source Files\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\sources\asiVisu_TriangulationSource.cpp">
+      <Filter>Source Files\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\utils\asiVisu_GeomUtils.cpp">
+      <Filter>Source Files\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\utils\asiVisu_MeshResultUtils.cpp">
+      <Filter>Source Files\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\utils\asiVisu_MeshUtils.cpp">
+      <Filter>Source Files\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\utils\asiVisu_Utils.cpp">
+      <Filter>Source Files\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\widgets\asiVisu_PlaneWidget.cpp">
+      <Filter>Source Files\Widgets</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\asiVisu.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\asiVisu_Common.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\asiVisu_MeshDisplayMode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\asiVisu_MeshPrimitive.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\asiVisu_ShapeDisplayMode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\asiVisu_ShapePrimitive.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\filters\asiVisu_MeshENScalarFilter.h">
+      <Filter>Header Files\Filters</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\filters\asiVisu_MeshEScalarFilter.h">
+      <Filter>Header Files\Filters</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\filters\asiVisu_MeshEVectorFilter.h">
+      <Filter>Header Files\Filters</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\filters\asiVisu_MeshNScalarFilter.h">
+      <Filter>Header Files\Filters</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\filters\asiVisu_PointsVectorFilter.h">
+      <Filter>Header Files\Filters</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\filters\asiVisu_ShapeDisplayModeFilter.h">
+      <Filter>Header Files\Filters</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\filters\asiVisu_ShrinkPolyFilter.h">
+      <Filter>Header Files\Filters</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\filters\asiVisu_TriangulationDisplayModeFilter.h">
+      <Filter>Header Files\Filters</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\pipelines\asiVisu_BCurveHandlesPipeline.h">
+      <Filter>Header Files\Pipelines</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\pipelines\asiVisu_BCurveKnotsPipeline.h">
+      <Filter>Header Files\Pipelines</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\pipelines\asiVisu_BCurvePolesPipeline.h">
+      <Filter>Header Files\Pipelines</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\pipelines\asiVisu_BCurveRepersPipeline.h">
+      <Filter>Header Files\Pipelines</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\pipelines\asiVisu_BSurfAxesPipeline.h">
+      <Filter>Header Files\Pipelines</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\pipelines\asiVisu_BSurfKnotsPipeline.h">
+      <Filter>Header Files\Pipelines</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\pipelines\asiVisu_BSurfPolesPipeline.h">
+      <Filter>Header Files\Pipelines</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\pipelines\asiVisu_CurvatureCombsPipeline.h">
+      <Filter>Header Files\Pipelines</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\pipelines\asiVisu_CurvePipeline.h">
+      <Filter>Header Files\Pipelines</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\pipelines\asiVisu_EdgeCurvePipeline.h">
+      <Filter>Header Files\Pipelines</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\pipelines\asiVisu_EdgeDomainPipeline.h">
+      <Filter>Header Files\Pipelines</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\pipelines\asiVisu_FaceContourPipeline.h">
+      <Filter>Header Files\Pipelines</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\pipelines\asiVisu_FaceDomainPipeline.h">
+      <Filter>Header Files\Pipelines</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\pipelines\asiVisu_FaceSurfaceIsosPipeline.h">
+      <Filter>Header Files\Pipelines</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\pipelines\asiVisu_FaceSurfaceShadedPipeline.h">
+      <Filter>Header Files\Pipelines</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\pipelines\asiVisu_FuncLevelsPipeline2d.h">
+      <Filter>Header Files\Pipelines</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\pipelines\asiVisu_FuncLevelsPipeline3d.h">
+      <Filter>Header Files\Pipelines</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\pipelines\asiVisu_FuncUnivariatePipeline.h">
+      <Filter>Header Files\Pipelines</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\pipelines\asiVisu_IVSurfacePipeline.h">
+      <Filter>Header Files\Pipelines</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\pipelines\asiVisu_MeshContourPipeline.h">
+      <Filter>Header Files\Pipelines</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\pipelines\asiVisu_MeshENScalarPipeline.h">
+      <Filter>Header Files\Pipelines</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\pipelines\asiVisu_MeshEScalarPipeline.h">
+      <Filter>Header Files\Pipelines</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\pipelines\asiVisu_MeshEVectorPipeline.h">
+      <Filter>Header Files\Pipelines</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\pipelines\asiVisu_MeshNScalarPipeline.h">
+      <Filter>Header Files\Pipelines</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\pipelines\asiVisu_MeshPipeline.h">
+      <Filter>Header Files\Pipelines</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\pipelines\asiVisu_PartEdgesPipeline.h">
+      <Filter>Header Files\Pipelines</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\pipelines\asiVisu_PartPipeline.h">
+      <Filter>Header Files\Pipelines</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\pipelines\asiVisu_PartPipelineBase.h">
+      <Filter>Header Files\Pipelines</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\pipelines\asiVisu_Pipeline.h">
+      <Filter>Header Files\Pipelines</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\pipelines\asiVisu_PointsPipeline.h">
+      <Filter>Header Files\Pipelines</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\pipelines\asiVisu_ShapePipeline.h">
+      <Filter>Header Files\Pipelines</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\pipelines\asiVisu_SurfaceDeviationPipeline.h">
+      <Filter>Header Files\Pipelines</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\pipelines\asiVisu_TriangulationLinksPipeline.h">
+      <Filter>Header Files\Pipelines</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\pipelines\asiVisu_TriangulationPipeline.h">
+      <Filter>Header Files\Pipelines</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\pipelines\asiVisu_TriangulationPipelineBase.h">
+      <Filter>Header Files\Pipelines</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\pipelines\asiVisu_VectorsPipeline.h">
+      <Filter>Header Files\Pipelines</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\presentations\asiVisu_CalculusLawPrs.h">
+      <Filter>Header Files\Presentations</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\presentations\asiVisu_ContourPrs.h">
+      <Filter>Header Files\Presentations</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\presentations\asiVisu_CurvatureCombsPrs.h">
+      <Filter>Header Files\Presentations</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\presentations\asiVisu_DefaultPrs.h">
+      <Filter>Header Files\Presentations</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\presentations\asiVisu_GeomBoundaryEdgesPrs.h">
+      <Filter>Header Files\Presentations</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\presentations\asiVisu_GeomCurvePrs.h">
+      <Filter>Header Files\Presentations</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\presentations\asiVisu_GeomEdgePrs.h">
+      <Filter>Header Files\Presentations</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\presentations\asiVisu_GeomFaceContourPrs.h">
+      <Filter>Header Files\Presentations</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\presentations\asiVisu_GeomFaceNormsPrs.h">
+      <Filter>Header Files\Presentations</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\presentations\asiVisu_GeomFacePrs.h">
+      <Filter>Header Files\Presentations</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\presentations\asiVisu_GeomSurfPrs.h">
+      <Filter>Header Files\Presentations</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\presentations\asiVisu_IVCurve2dPrs.h">
+      <Filter>Header Files\Presentations</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\presentations\asiVisu_IVCurvePrs.h">
+      <Filter>Header Files\Presentations</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\presentations\asiVisu_IVPointSet2dPrs.h">
+      <Filter>Header Files\Presentations</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\presentations\asiVisu_IVPointSetPrs.h">
+      <Filter>Header Files\Presentations</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\presentations\asiVisu_IVSurfacePrs.h">
+      <Filter>Header Files\Presentations</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\presentations\asiVisu_IVTessItemPrs.h">
+      <Filter>Header Files\Presentations</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\presentations\asiVisu_IVTextItemPrs.h">
+      <Filter>Header Files\Presentations</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\presentations\asiVisu_IVTopoItemPrs.h">
+      <Filter>Header Files\Presentations</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\presentations\asiVisu_PartPrs.h">
+      <Filter>Header Files\Presentations</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\presentations\asiVisu_Prs.h">
+      <Filter>Header Files\Presentations</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\presentations\asiVisu_PrsManager.h">
+      <Filter>Header Files\Presentations</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\presentations\asiVisu_ReEdgePrs.h">
+      <Filter>Header Files\Presentations</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\presentations\asiVisu_ReVertexPrs.h">
+      <Filter>Header Files\Presentations</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\presentations\asiVisu_SurfDeviationPrs.h">
+      <Filter>Header Files\Presentations</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\presentations\asiVisu_TessellationNormsPrs.h">
+      <Filter>Header Files\Presentations</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\presentations\asiVisu_TessellationPrs.h">
+      <Filter>Header Files\Presentations</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\presentations\asiVisu_TolerantRangePrs.h">
+      <Filter>Header Files\Presentations</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\presentations\asiVisu_TriangulationPrs.h">
+      <Filter>Header Files\Presentations</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\providers\asiVisu_ContourDataProvider.h">
+      <Filter>Header Files\Providers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\providers\asiVisu_ContourPointsDataProvider.h">
+      <Filter>Header Files\Providers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\providers\asiVisu_ContourPolesDataProvider.h">
+      <Filter>Header Files\Providers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\providers\asiVisu_CurvatureCombsDataProvider.h">
+      <Filter>Header Files\Providers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\providers\asiVisu_CurveDataProvider.h">
+      <Filter>Header Files\Providers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\providers\asiVisu_DataProvider.h">
+      <Filter>Header Files\Providers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\providers\asiVisu_EdgeDataProvider.h">
+      <Filter>Header Files\Providers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\providers\asiVisu_FaceContourDataProvider.h">
+      <Filter>Header Files\Providers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\providers\asiVisu_FaceDataProvider.h">
+      <Filter>Header Files\Providers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\providers\asiVisu_FaceNormalsDataProvider.h">
+      <Filter>Header Files\Providers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\providers\asiVisu_FuncDataProvider.h">
+      <Filter>Header Files\Providers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\providers\asiVisu_FuncUnivariateDataProvider.h">
+      <Filter>Header Files\Providers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\providers\asiVisu_IVCurve2dDataProvider.h">
+      <Filter>Header Files\Providers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\providers\asiVisu_IVCurveDataProvider.h">
+      <Filter>Header Files\Providers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\providers\asiVisu_IVPointSet2dDataProvider.h">
+      <Filter>Header Files\Providers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\providers\asiVisu_IVPointSetDataProvider.h">
+      <Filter>Header Files\Providers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\providers\asiVisu_IVSurfaceDataProvider.h">
+      <Filter>Header Files\Providers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\providers\asiVisu_LawDataProvider.h">
+      <Filter>Header Files\Providers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\providers\asiVisu_MeshDataProvider.h">
+      <Filter>Header Files\Providers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\providers\asiVisu_PartDataProvider.h">
+      <Filter>Header Files\Providers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\providers\asiVisu_PointsDataProvider.h">
+      <Filter>Header Files\Providers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\providers\asiVisu_PointsFromListDataProvider.h">
+      <Filter>Header Files\Providers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\providers\asiVisu_ReEdgeCurveDataProvider.h">
+      <Filter>Header Files\Providers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\providers\asiVisu_ReEdgePolylineDataProvider.h">
+      <Filter>Header Files\Providers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\providers\asiVisu_ReVertexDataProvider.h">
+      <Filter>Header Files\Providers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\providers\asiVisu_ShapeDataProvider.h">
+      <Filter>Header Files\Providers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\providers\asiVisu_SurfaceDataProvider.h">
+      <Filter>Header Files\Providers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\providers\asiVisu_SurfaceDeviationDataProvider.h">
+      <Filter>Header Files\Providers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\providers\asiVisu_TessNormalsDataProvider.h">
+      <Filter>Header Files\Providers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\providers\asiVisu_TriangulationDataProvider.h">
+      <Filter>Header Files\Providers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\providers\asiVisu_VectorsDataProvider.h">
+      <Filter>Header Files\Providers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\selection\asiVisu_InteractorStylePick.h">
+      <Filter>Header Files\Selection</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\selection\asiVisu_InteractorStylePick2d.h">
+      <Filter>Header Files\Selection</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\selection\asiVisu_NodeInfo.h">
+      <Filter>Header Files\Selection</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\selection\asiVisu_PartNodeInfo.h">
+      <Filter>Header Files\Selection</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\selection\asiVisu_Selection.h">
+      <Filter>Header Files\Selection</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\selection\asiVisu_TriangulationNodeInfo.h">
+      <Filter>Header Files\Selection</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\sources\asiVisu_BCurveHandlesSource.h">
+      <Filter>Header Files\Sources</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\sources\asiVisu_BCurveKnotsSource.h">
+      <Filter>Header Files\Sources</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\sources\asiVisu_BCurvePolesSource.h">
+      <Filter>Header Files\Sources</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\sources\asiVisu_BCurveRepersSource.h">
+      <Filter>Header Files\Sources</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\sources\asiVisu_BSurfAxesSource.h">
+      <Filter>Header Files\Sources</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\sources\asiVisu_BSurfKnotsSource.h">
+      <Filter>Header Files\Sources</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\sources\asiVisu_BSurfPolesSource.h">
+      <Filter>Header Files\Sources</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\sources\asiVisu_CurvatureCombsSource.h">
+      <Filter>Header Files\Sources</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\sources\asiVisu_CurveSource.h">
+      <Filter>Header Files\Sources</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\sources\asiVisu_FuncLevelsSource2d.h">
+      <Filter>Header Files\Sources</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\sources\asiVisu_FuncLevelsSource3d.h">
+      <Filter>Header Files\Sources</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\sources\asiVisu_FuncLevelsSourceBase.h">
+      <Filter>Header Files\Sources</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\sources\asiVisu_FuncUnivariateSource.h">
+      <Filter>Header Files\Sources</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\sources\asiVisu_MeshSource.h">
+      <Filter>Header Files\Sources</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\sources\asiVisu_PCurveSource.h">
+      <Filter>Header Files\Sources</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\sources\asiVisu_PDomainSource.h">
+      <Filter>Header Files\Sources</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\sources\asiVisu_PointsSource.h">
+      <Filter>Header Files\Sources</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\sources\asiVisu_ShapeData.h">
+      <Filter>Header Files\Sources</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\sources\asiVisu_ShapeRobustSource.h">
+      <Filter>Header Files\Sources</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\sources\asiVisu_ShapeRobustTessellator.h">
+      <Filter>Header Files\Sources</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\sources\asiVisu_SurfaceSource.h">
+      <Filter>Header Files\Sources</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\sources\asiVisu_TriangulationSource.h">
+      <Filter>Header Files\Sources</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\utils\asiVisu_GeomUtils.h">
+      <Filter>Header Files\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\utils\asiVisu_MeshResultUtils.h">
+      <Filter>Header Files\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\utils\asiVisu_MeshUtils.h">
+      <Filter>Header Files\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\utils\asiVisu_Utils.h">
+      <Filter>Header Files\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\widgets\asiVisu_PlaneWidget.h">
+      <Filter>Header Files\Widgets</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiVisu\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{B95166DC-5349-363B-B2F3-9C707E092AAB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Filters">
+      <UniqueIdentifier>{71C78395-C7A2-3028-A9EE-EF7A287C5F5D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Pipelines">
+      <UniqueIdentifier>{AA1ABDF8-52DB-3E39-8C45-AC6C4A4BAD25}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Presentations">
+      <UniqueIdentifier>{E52FA92D-3EF6-3096-85BD-58B5ABF97ACA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Providers">
+      <UniqueIdentifier>{954C4643-4383-3F4D-8532-5896FE24FA15}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Selection">
+      <UniqueIdentifier>{248187C1-8B7F-39D2-876E-23CDCF99106C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Sources">
+      <UniqueIdentifier>{7E422CA4-F3B2-3F4A-AE0C-6BB30FBABB37}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Utilities">
+      <UniqueIdentifier>{EF9984F1-4E0E-361E-A478-EA3BF466F243}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Widgets">
+      <UniqueIdentifier>{7313E8BD-AAFB-3673-ADF7-64861C3BFF6C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{632DAB89-F98D-3A54-A4EB-6A26BA1E4645}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Filters">
+      <UniqueIdentifier>{13586791-2043-3607-A57A-958539D6D4A0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Pipelines">
+      <UniqueIdentifier>{741A6A21-C297-3B0B-9CE4-5810722AC3BC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Presentations">
+      <UniqueIdentifier>{D0D58741-CD62-326C-8620-57B73CC54FE8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Providers">
+      <UniqueIdentifier>{ABF9026D-438D-396F-B846-529862830D29}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Selection">
+      <UniqueIdentifier>{824CC748-24AA-3C99-861A-E5A3CA65501B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Sources">
+      <UniqueIdentifier>{FC0A8B8D-1800-3B7C-9542-03B5FCB25008}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Utilities">
+      <UniqueIdentifier>{5FD3CDA5-49A4-30E8-8400-B5E18328BBA9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Widgets">
+      <UniqueIdentifier>{4A48D95C-3CC5-3F0B-8E58-F0327452028D}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

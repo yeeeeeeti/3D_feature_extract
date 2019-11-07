@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="OBB" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/OBB" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Option projectIncludeDirsRelation="0" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add option="-std=c++11" />
+					<Add option="-g" />
+					<Add option="-std=gnu++11" />
+					<Add option="-static" />
+					<Add directory="D:/Program Files/CodeBlocks/MinGW/include" />
+				</Compiler>
+				<Linker>
+					<Add library="D:/Program Files/CodeBlocks/MinGW/lib/OPENGL32.LIB" />
+					<Add library="D:/Program Files/CodeBlocks/MinGW/lib/GLU32.LIB" />
+					<Add library="D:/Program Files/CodeBlocks/MinGW/lib/GLAUX.LIB" />
+					<Add library="D:/Program Files/CodeBlocks/MinGW/lib/glut32.lib" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/OBB" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add option="-std=c++11" />
+					<Add option="-g" />
+					<Add option="-std=gnu++11" />
+					<Add option="-static" />
+					<Add directory="D:/Program Files/CodeBlocks/MinGW/include" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-std=c++11" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="BoundingBox.cpp" />
+		<Unit filename="BoundingBox.h" />
+		<Unit filename="Edge.cpp" />
+		<Unit filename="Edge.h" />
+		<Unit filename="Face.cpp" />
+		<Unit filename="Face.h" />
+		<Unit filename="HalfEdge.cpp" />
+		<Unit filename="HalfEdge.h" />
+		<Unit filename="Mesh.cpp" />
+		<Unit filename="Mesh.h" />
+		<Unit filename="MeshIO.cpp" />
+		<Unit filename="MeshIO.h" />
+		<Unit filename="Types.h" />
+		<Unit filename="Vertex.cpp" />
+		<Unit filename="Vertex.h" />
+		<Unit filename="main.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

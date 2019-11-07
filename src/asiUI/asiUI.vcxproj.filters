@@ -1,0 +1,1395 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\controls\moc_asiUI_BgColorDialog.cpp">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\controls\moc_asiUI_ColorButton.cpp">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\controls\moc_asiUI_Console.cpp">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\controls\moc_asiUI_ControlsAnalysis.cpp">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\controls\moc_asiUI_ControlsAnalysisListener.cpp">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\controls\moc_asiUI_ControlsMesh.cpp">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\controls\moc_asiUI_ControlsMeshListener.cpp">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\controls\moc_asiUI_ControlsModeling.cpp">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\controls\moc_asiUI_ControlsModelingListener.cpp">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\controls\moc_asiUI_ControlsPart.cpp">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\controls\moc_asiUI_ControlsPartListener.cpp">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\controls\moc_asiUI_EvalButton.cpp">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\controls\moc_asiUI_LineEdit.cpp">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\controls\moc_asiUI_ObjectBrowser.cpp">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\controls\moc_asiUI_ParameterEditor.cpp">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\controls\moc_asiUI_ParameterEditorDelegate.cpp">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\controls\moc_asiUI_ParameterEditorListener.cpp">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\controls\moc_asiUI_ParameterEditorView.cpp">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\controls\moc_asiUI_StatusBar.cpp">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\controls\moc_asiUI_StyledTextEdit.cpp">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\salome\moc_QDS_CheckBox.cpp">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\salome\moc_QDS_ComboBox.cpp">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\salome\moc_QDS_Datum.cpp">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\salome\moc_QDS_LineEdit.cpp">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\salome\moc_QDS_RadioBox.cpp">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\salome\moc_QDS_SpinBox.cpp">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\salome\moc_QDS_SpinBoxDbl.cpp">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\salome\moc_QDS_TextEdit.cpp">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\salome\moc_QtxColorButton.cpp">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\salome\moc_QtxComboBox.cpp">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\salome\moc_QtxDoubleSpinBox.cpp">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\salome\moc_QtxIntSpinBox.cpp">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\salome\moc_SUIT_PopupClient.cpp">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\datum\moc_asiUI_Datum.cpp">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\datum\moc_asiUI_DatumCheckBox.cpp">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\datum\moc_asiUI_DatumColorEdit.cpp">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\datum\moc_asiUI_DatumColorItem.cpp">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\datum\moc_asiUI_DatumComboBox.cpp">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\datum\moc_asiUI_DatumCustomSelector.cpp">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\datum\moc_asiUI_DatumDateEdit.cpp">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\datum\moc_asiUI_DatumDelegate.cpp">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\datum\moc_asiUI_DatumItemEditor.cpp">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\datum\moc_asiUI_DatumLabel.cpp">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\datum\moc_asiUI_DatumLineEdit.cpp">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\datum\moc_asiUI_DatumPathEdit.cpp">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\datum\moc_asiUI_DatumPathItem.cpp">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\datum\moc_asiUI_DatumRadioBox.cpp">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\datum\moc_asiUI_DatumSelector.cpp">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\datum\moc_asiUI_DatumSpinBox.cpp">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\datum\moc_asiUI_DatumSpinBoxDbl.cpp">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\datum\moc_asiUI_DatumViewBase.cpp">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\datum\moc_asiUI_DatumViewDelegate.cpp">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\datum\moc_asiUI_DatumViewModel.cpp">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\dialogs\moc_asiUI_DialogCommands.cpp">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\dialogs\moc_asiUI_DialogCommandsDelegate.cpp">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\dialogs\moc_asiUI_DialogEuler.cpp">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\dialogs\moc_asiUI_DialogFindEdge.cpp">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\dialogs\moc_asiUI_DialogFindFace.cpp">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\dialogs\moc_asiUI_DialogGapFilling.cpp">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\dialogs\moc_asiUI_DialogGeomDef.cpp">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\dialogs\moc_asiUI_DialogOCAFDump.cpp">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\dialogs\moc_asiUI_DialogPipelines.cpp">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\dialogs\moc_asiUI_DialogRefineTessellation.cpp">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\dialogs\moc_asiUI_DialogSewing.cpp">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\dialogs\moc_asiUI_DialogSmoothAngleTol.cpp">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\dialogs\moc_asiUI_DialogSTEP.cpp">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\dialogs\moc_asiUI_DialogSTEPDelegate.cpp">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\dialogs\moc_asiUI_DialogTopoGraphDepth.cpp">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\graphs\moc_asiUI_HistoryGraph.cpp">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\graphs\moc_asiUI_HistoryGraphItem.cpp">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\graphs\moc_asiUI_PartGraph.cpp">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\graphs\moc_asiUI_PartGraphItem.cpp">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\plots\moc_asiUI_Plot2d.cpp">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\interaction\moc_asiUI_AddCurveHandleCallback.cpp">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\interaction\moc_asiUI_BaseCurveCallback.cpp">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\interaction\moc_asiUI_MoveCurveHandleCallback.cpp">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\interaction\moc_asiUI_PartCallback.cpp">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\interaction\moc_asiUI_PDomainCallback.cpp">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\interaction\moc_asiUI_PickCallback.cpp">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\interaction\moc_asiUI_PickContourCallback.cpp">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\interaction\moc_asiUI_PickCurveCallback.cpp">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\utils\moc_asiUI_OverrideCursor.cpp">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\utils\moc_asiUI_PrimDataView.cpp">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\utils\moc_asiUI_ProgressListener.cpp">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\utils\moc_asiUI_ProgressNotifier.cpp">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\utils\moc_asiUI_UnitManager.cpp">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\viewers\moc_asiUI_Viewer.cpp">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\viewers\moc_asiUI_Viewer3dListener.cpp">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\viewers\moc_asiUI_ViewerCurve2d.cpp">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\viewers\moc_asiUI_ViewerDomain.cpp">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\viewers\moc_asiUI_ViewerDomainListener.cpp">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\viewers\moc_asiUI_ViewerFuncUnivariate.cpp">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\viewers\moc_asiUI_ViewerHost.cpp">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\viewers\moc_asiUI_ViewerHostListener.cpp">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\viewers\moc_asiUI_ViewerPart.cpp">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\viewers\moc_asiUI_ViewerPartListener.cpp">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\viewers\moc_asiUI_VtkWindow.cpp">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\controls\asiUI_BgColorDialog.cpp">
+      <Filter>Source Files\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\controls\asiUI_ColorButton.cpp">
+      <Filter>Source Files\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\controls\asiUI_Console.cpp">
+      <Filter>Source Files\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\controls\asiUI_ControlsAnalysis.cpp">
+      <Filter>Source Files\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\controls\asiUI_ControlsAnalysisListener.cpp">
+      <Filter>Source Files\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\controls\asiUI_ControlsMesh.cpp">
+      <Filter>Source Files\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\controls\asiUI_ControlsMeshListener.cpp">
+      <Filter>Source Files\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\controls\asiUI_ControlsModeling.cpp">
+      <Filter>Source Files\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\controls\asiUI_ControlsModelingListener.cpp">
+      <Filter>Source Files\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\controls\asiUI_ControlsPart.cpp">
+      <Filter>Source Files\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\controls\asiUI_ControlsPartListener.cpp">
+      <Filter>Source Files\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\controls\asiUI_EvalButton.cpp">
+      <Filter>Source Files\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\controls\asiUI_LineEdit.cpp">
+      <Filter>Source Files\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\controls\asiUI_ObjectBrowser.cpp">
+      <Filter>Source Files\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\controls\asiUI_ParamEditorImpl.cpp">
+      <Filter>Source Files\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\controls\asiUI_ParameterEditor.cpp">
+      <Filter>Source Files\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\controls\asiUI_ParameterEditorDelegate.cpp">
+      <Filter>Source Files\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\controls\asiUI_ParameterEditorListener.cpp">
+      <Filter>Source Files\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\controls\asiUI_ParameterEditorItem.cpp">
+      <Filter>Source Files\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\controls\asiUI_ParameterEditorView.cpp">
+      <Filter>Source Files\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\controls\asiUI_StatusBar.cpp">
+      <Filter>Source Files\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\controls\asiUI_StatusBarImpl.cpp">
+      <Filter>Source Files\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\controls\asiUI_StyledTextEdit.cpp">
+      <Filter>Source Files\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\controls\asiUI_WidgetFactory.cpp">
+      <Filter>Source Files\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\salome\QDS.cxx">
+      <Filter>Source Files\Salome</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\salome\QDS_CheckBox.cxx">
+      <Filter>Source Files\Salome</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\salome\QDS_ComboBox.cxx">
+      <Filter>Source Files\Salome</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\salome\QDS_Datum.cxx">
+      <Filter>Source Files\Salome</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\salome\QDS_LineEdit.cxx">
+      <Filter>Source Files\Salome</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\salome\QDS_RadioBox.cxx">
+      <Filter>Source Files\Salome</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\salome\QDS_SpinBox.cxx">
+      <Filter>Source Files\Salome</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\salome\QDS_SpinBoxDbl.cxx">
+      <Filter>Source Files\Salome</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\salome\QDS_TextEdit.cxx">
+      <Filter>Source Files\Salome</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\salome\QDS_Validator.cxx">
+      <Filter>Source Files\Salome</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\salome\Qtx.cxx">
+      <Filter>Source Files\Salome</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\salome\QtxColorButton.cxx">
+      <Filter>Source Files\Salome</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\salome\QtxComboBox.cxx">
+      <Filter>Source Files\Salome</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\salome\QtxDoubleSpinBox.cxx">
+      <Filter>Source Files\Salome</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\salome\QtxIntSpinBox.cxx">
+      <Filter>Source Files\Salome</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\salome\SUIT_PopupClient.cxx">
+      <Filter>Source Files\Salome</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\datum\asiUI_Datum.cpp">
+      <Filter>Source Files\Datum</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\datum\asiUI_DatumCheckBox.cpp">
+      <Filter>Source Files\Datum</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\datum\asiUI_DatumColorEdit.cpp">
+      <Filter>Source Files\Datum</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\datum\asiUI_DatumColorItem.cpp">
+      <Filter>Source Files\Datum</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\datum\asiUI_DatumComboBox.cpp">
+      <Filter>Source Files\Datum</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\datum\asiUI_DatumCustomSelector.cpp">
+      <Filter>Source Files\Datum</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\datum\asiUI_DatumDateEdit.cpp">
+      <Filter>Source Files\Datum</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\datum\asiUI_DatumDelegate.cpp">
+      <Filter>Source Files\Datum</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\datum\asiUI_DatumFormat.cpp">
+      <Filter>Source Files\Datum</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\datum\asiUI_DatumItemEditor.cpp">
+      <Filter>Source Files\Datum</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\datum\asiUI_DatumLabel.cpp">
+      <Filter>Source Files\Datum</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\datum\asiUI_DatumLineEdit.cpp">
+      <Filter>Source Files\Datum</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\datum\asiUI_DatumPathEdit.cpp">
+      <Filter>Source Files\Datum</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\datum\asiUI_DatumPathItem.cpp">
+      <Filter>Source Files\Datum</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\datum\asiUI_DatumRadioBox.cpp">
+      <Filter>Source Files\Datum</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\datum\asiUI_DatumSelector.cpp">
+      <Filter>Source Files\Datum</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\datum\asiUI_DatumSpinBox.cpp">
+      <Filter>Source Files\Datum</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\datum\asiUI_DatumSpinBoxDbl.cpp">
+      <Filter>Source Files\Datum</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\datum\asiUI_DatumViewBase.cpp">
+      <Filter>Source Files\Datum</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\datum\asiUI_DatumViewItem.cpp">
+      <Filter>Source Files\Datum</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\datum\asiUI_DatumViewDelegate.cpp">
+      <Filter>Source Files\Datum</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\datum\asiUI_DatumViewModel.cpp">
+      <Filter>Source Files\Datum</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\dialogs\asiUI_DialogCommands.cpp">
+      <Filter>Source Files\Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\dialogs\asiUI_DialogCommandsDelegate.cpp">
+      <Filter>Source Files\Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\dialogs\asiUI_DialogEuler.cpp">
+      <Filter>Source Files\Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\dialogs\asiUI_DialogFindEdge.cpp">
+      <Filter>Source Files\Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\dialogs\asiUI_DialogFindFace.cpp">
+      <Filter>Source Files\Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\dialogs\asiUI_DialogGapFilling.cpp">
+      <Filter>Source Files\Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\dialogs\asiUI_DialogGeomDef.cpp">
+      <Filter>Source Files\Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\dialogs\asiUI_DialogOCAFDump.cpp">
+      <Filter>Source Files\Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\dialogs\asiUI_DialogPipelines.cpp">
+      <Filter>Source Files\Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\dialogs\asiUI_DialogRefineTessellation.cpp">
+      <Filter>Source Files\Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\dialogs\asiUI_DialogSewing.cpp">
+      <Filter>Source Files\Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\dialogs\asiUI_DialogSmoothAngleTol.cpp">
+      <Filter>Source Files\Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\dialogs\asiUI_DialogSTEP.cpp">
+      <Filter>Source Files\Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\dialogs\asiUI_DialogSTEPDelegate.cpp">
+      <Filter>Source Files\Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\dialogs\asiUI_DialogTopoGraphDepth.cpp">
+      <Filter>Source Files\Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\graphs\asiUI_AAGAdaptor.cpp">
+      <Filter>Source Files\Graphs</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\graphs\asiUI_HistoryGraph.cpp">
+      <Filter>Source Files\Graphs</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\graphs\asiUI_HistoryGraphAdaptor.cpp">
+      <Filter>Source Files\Graphs</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\graphs\asiUI_HistoryGraphItem.cpp">
+      <Filter>Source Files\Graphs</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\graphs\asiUI_PartGraph.cpp">
+      <Filter>Source Files\Graphs</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\graphs\asiUI_PartGraphItem.cpp">
+      <Filter>Source Files\Graphs</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\graphs\asiUI_TopoGraphAdaptor.cpp">
+      <Filter>Source Files\Graphs</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\plots\asiUI_Plot2d.cpp">
+      <Filter>Source Files\Plots</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\interaction\asiUI_AddCurveHandleCallback.cpp">
+      <Filter>Source Files\Interaction</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\interaction\asiUI_BaseCurveCallback.cpp">
+      <Filter>Source Files\Interaction</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\interaction\asiUI_MoveCurveHandleCallback.cpp">
+      <Filter>Source Files\Interaction</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\interaction\asiUI_PartCallback.cpp">
+      <Filter>Source Files\Interaction</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\interaction\asiUI_PDomainCallback.cpp">
+      <Filter>Source Files\Interaction</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\interaction\asiUI_PickCallback.cpp">
+      <Filter>Source Files\Interaction</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\interaction\asiUI_PickContourCallback.cpp">
+      <Filter>Source Files\Interaction</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\interaction\asiUI_PickCurveCallback.cpp">
+      <Filter>Source Files\Interaction</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\interaction\asiUI_PickEdgeCallback.cpp">
+      <Filter>Source Files\Interaction</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\interaction\asiUI_PickFacetCallback.cpp">
+      <Filter>Source Files\Interaction</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\interaction\asiUI_RotationCallback.cpp">
+      <Filter>Source Files\Interaction</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\interaction\asiUI_ViewerCallback.cpp">
+      <Filter>Source Files\Interaction</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\utils\asiUI_Common.cpp">
+      <Filter>Source Files\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\utils\asiUI_CommonFacilities.cpp">
+      <Filter>Source Files\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\utils\asiUI_DataAdaptor.cpp">
+      <Filter>Source Files\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\utils\asiUI_IV.cpp">
+      <Filter>Source Files\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\utils\asiUI_Logger.cpp">
+      <Filter>Source Files\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\utils\asiUI_OverrideCursor.cpp">
+      <Filter>Source Files\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\utils\asiUI_PrimDataAdaptor.cpp">
+      <Filter>Source Files\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\utils\asiUI_PrimDataView.cpp">
+      <Filter>Source Files\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\utils\asiUI_ProgressListener.cpp">
+      <Filter>Source Files\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\utils\asiUI_ProgressNotifier.cpp">
+      <Filter>Source Files\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\utils\asiUI_UnitManager.cpp">
+      <Filter>Source Files\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\viewers\asiUI_Viewer.cpp">
+      <Filter>Source Files\Viewers</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\viewers\asiUI_Viewer3dListener.cpp">
+      <Filter>Source Files\Viewers</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\viewers\asiUI_ViewerCurve2d.cpp">
+      <Filter>Source Files\Viewers</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\viewers\asiUI_ViewerDomain.cpp">
+      <Filter>Source Files\Viewers</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\viewers\asiUI_ViewerDomainListener.cpp">
+      <Filter>Source Files\Viewers</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\viewers\asiUI_ViewerFuncUnivariate.cpp">
+      <Filter>Source Files\Viewers</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\viewers\asiUI_ViewerHost.cpp">
+      <Filter>Source Files\Viewers</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\viewers\asiUI_ViewerHostListener.cpp">
+      <Filter>Source Files\Viewers</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\viewers\asiUI_ViewerPart.cpp">
+      <Filter>Source Files\Viewers</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\viewers\asiUI_ViewerPartListener.cpp">
+      <Filter>Source Files\Viewers</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\viewers\asiUI_VtkWindow.cpp">
+      <Filter>Source Files\Viewers</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\asiUI.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\controls\asiUI_IParamEditor.h">
+      <Filter>Header Files\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\controls\asiUI_IStatusBar.h">
+      <Filter>Header Files\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\controls\asiUI_ItemRoles.h">
+      <Filter>Header Files\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\controls\asiUI_HeaderViewAPI.h">
+      <Filter>Header Files\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\controls\asiUI_ParamEditorImpl.h">
+      <Filter>Header Files\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\controls\asiUI_ParameterEditorItem.h">
+      <Filter>Header Files\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\controls\asiUI_StatusBarImpl.h">
+      <Filter>Header Files\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\controls\asiUI_WidgetFactory.h">
+      <Filter>Header Files\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\controls\asiUI_BgColorDialog.h">
+      <Filter>Header Files\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\controls\asiUI_ColorButton.h">
+      <Filter>Header Files\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\controls\asiUI_Console.h">
+      <Filter>Header Files\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\controls\asiUI_ControlsAnalysis.h">
+      <Filter>Header Files\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\controls\asiUI_ControlsAnalysisListener.h">
+      <Filter>Header Files\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\controls\asiUI_ControlsMesh.h">
+      <Filter>Header Files\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\controls\asiUI_ControlsMeshListener.h">
+      <Filter>Header Files\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\controls\asiUI_ControlsModeling.h">
+      <Filter>Header Files\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\controls\asiUI_ControlsModelingListener.h">
+      <Filter>Header Files\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\controls\asiUI_ControlsPart.h">
+      <Filter>Header Files\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\controls\asiUI_ControlsPartListener.h">
+      <Filter>Header Files\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\controls\asiUI_EvalButton.h">
+      <Filter>Header Files\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\controls\asiUI_LineEdit.h">
+      <Filter>Header Files\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\controls\asiUI_ObjectBrowser.h">
+      <Filter>Header Files\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\controls\asiUI_ParameterEditor.h">
+      <Filter>Header Files\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\controls\asiUI_ParameterEditorDelegate.h">
+      <Filter>Header Files\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\controls\asiUI_ParameterEditorListener.h">
+      <Filter>Header Files\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\controls\asiUI_ParameterEditorView.h">
+      <Filter>Header Files\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\controls\asiUI_StatusBar.h">
+      <Filter>Header Files\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\controls\asiUI_StyledTextEdit.h">
+      <Filter>Header Files\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\salome\QDS.h">
+      <Filter>Header Files\Salome</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\salome\QDS_Validator.h">
+      <Filter>Header Files\Salome</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\salome\Qtx.h">
+      <Filter>Header Files\Salome</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\salome\SUIT_TreeSync.h">
+      <Filter>Header Files\Salome</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\salome\QDS_CheckBox.h">
+      <Filter>Header Files\Salome</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\salome\QDS_ComboBox.h">
+      <Filter>Header Files\Salome</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\salome\QDS_Datum.h">
+      <Filter>Header Files\Salome</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\salome\QDS_LineEdit.h">
+      <Filter>Header Files\Salome</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\salome\QDS_RadioBox.h">
+      <Filter>Header Files\Salome</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\salome\QDS_SpinBox.h">
+      <Filter>Header Files\Salome</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\salome\QDS_SpinBoxDbl.h">
+      <Filter>Header Files\Salome</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\salome\QDS_TextEdit.h">
+      <Filter>Header Files\Salome</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\salome\QtxColorButton.h">
+      <Filter>Header Files\Salome</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\salome\QtxComboBox.h">
+      <Filter>Header Files\Salome</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\salome\QtxDoubleSpinBox.h">
+      <Filter>Header Files\Salome</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\salome\QtxIntSpinBox.h">
+      <Filter>Header Files\Salome</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\salome\SUIT_PopupClient.h">
+      <Filter>Header Files\Salome</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\datum\asiUI_DatumFormat.h">
+      <Filter>Header Files\Datum</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\datum\asiUI_DatumViewApi.h">
+      <Filter>Header Files\Datum</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\datum\asiUI_DatumViewItem.h">
+      <Filter>Header Files\Datum</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\datum\asiUI_Datum.h">
+      <Filter>Header Files\Datum</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\datum\asiUI_DatumCheckBox.h">
+      <Filter>Header Files\Datum</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\datum\asiUI_DatumColorEdit.h">
+      <Filter>Header Files\Datum</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\datum\asiUI_DatumColorItem.h">
+      <Filter>Header Files\Datum</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\datum\asiUI_DatumComboBox.h">
+      <Filter>Header Files\Datum</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\datum\asiUI_DatumCustomSelector.h">
+      <Filter>Header Files\Datum</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\datum\asiUI_DatumDateEdit.h">
+      <Filter>Header Files\Datum</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\datum\asiUI_DatumDelegate.h">
+      <Filter>Header Files\Datum</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\datum\asiUI_DatumItemEditor.h">
+      <Filter>Header Files\Datum</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\datum\asiUI_DatumLabel.h">
+      <Filter>Header Files\Datum</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\datum\asiUI_DatumLineEdit.h">
+      <Filter>Header Files\Datum</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\datum\asiUI_DatumPathEdit.h">
+      <Filter>Header Files\Datum</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\datum\asiUI_DatumPathItem.h">
+      <Filter>Header Files\Datum</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\datum\asiUI_DatumRadioBox.h">
+      <Filter>Header Files\Datum</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\datum\asiUI_DatumSelector.h">
+      <Filter>Header Files\Datum</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\datum\asiUI_DatumSpinBox.h">
+      <Filter>Header Files\Datum</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\datum\asiUI_DatumSpinBoxDbl.h">
+      <Filter>Header Files\Datum</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\datum\asiUI_DatumViewBase.h">
+      <Filter>Header Files\Datum</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\datum\asiUI_DatumViewDelegate.h">
+      <Filter>Header Files\Datum</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\datum\asiUI_DatumViewModel.h">
+      <Filter>Header Files\Datum</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\dialogs\asiUI_DialogCommands.h">
+      <Filter>Header Files\Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\dialogs\asiUI_DialogCommandsDelegate.h">
+      <Filter>Header Files\Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\dialogs\asiUI_DialogEuler.h">
+      <Filter>Header Files\Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\dialogs\asiUI_DialogFindEdge.h">
+      <Filter>Header Files\Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\dialogs\asiUI_DialogFindFace.h">
+      <Filter>Header Files\Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\dialogs\asiUI_DialogGapFilling.h">
+      <Filter>Header Files\Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\dialogs\asiUI_DialogGeomDef.h">
+      <Filter>Header Files\Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\dialogs\asiUI_DialogOCAFDump.h">
+      <Filter>Header Files\Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\dialogs\asiUI_DialogPipelines.h">
+      <Filter>Header Files\Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\dialogs\asiUI_DialogRefineTessellation.h">
+      <Filter>Header Files\Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\dialogs\asiUI_DialogSewing.h">
+      <Filter>Header Files\Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\dialogs\asiUI_DialogSmoothAngleTol.h">
+      <Filter>Header Files\Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\dialogs\asiUI_DialogSTEP.h">
+      <Filter>Header Files\Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\dialogs\asiUI_DialogSTEPDelegate.h">
+      <Filter>Header Files\Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\dialogs\asiUI_DialogTopoGraphDepth.h">
+      <Filter>Header Files\Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\graphs\asiUI_AAGAdaptor.h">
+      <Filter>Header Files\Graphs</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\graphs\asiUI_HistoryGraphAdaptor.h">
+      <Filter>Header Files\Graphs</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\graphs\asiUI_TopoGraphAdaptor.h">
+      <Filter>Header Files\Graphs</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\graphs\asiUI_HistoryGraph.h">
+      <Filter>Header Files\Graphs</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\graphs\asiUI_HistoryGraphItem.h">
+      <Filter>Header Files\Graphs</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\graphs\asiUI_PartGraph.h">
+      <Filter>Header Files\Graphs</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\graphs\asiUI_PartGraphItem.h">
+      <Filter>Header Files\Graphs</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\plots\asiUI_Plot2d.h">
+      <Filter>Header Files\Plots</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\interaction\asiUI_PickEdgeCallback.h">
+      <Filter>Header Files\Interaction</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\interaction\asiUI_PickFacetCallback.h">
+      <Filter>Header Files\Interaction</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\interaction\asiUI_RotationCallback.h">
+      <Filter>Header Files\Interaction</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\interaction\asiUI_ViewerCallback.h">
+      <Filter>Header Files\Interaction</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\interaction\asiUI_AddCurveHandleCallback.h">
+      <Filter>Header Files\Interaction</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\interaction\asiUI_BaseCurveCallback.h">
+      <Filter>Header Files\Interaction</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\interaction\asiUI_MoveCurveHandleCallback.h">
+      <Filter>Header Files\Interaction</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\interaction\asiUI_PartCallback.h">
+      <Filter>Header Files\Interaction</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\interaction\asiUI_PDomainCallback.h">
+      <Filter>Header Files\Interaction</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\interaction\asiUI_PickCallback.h">
+      <Filter>Header Files\Interaction</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\interaction\asiUI_PickContourCallback.h">
+      <Filter>Header Files\Interaction</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\interaction\asiUI_PickCurveCallback.h">
+      <Filter>Header Files\Interaction</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\utils\asiUI_Common.h">
+      <Filter>Header Files\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\utils\asiUI_CommonFacilities.h">
+      <Filter>Header Files\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\utils\asiUI_DataAdaptor.h">
+      <Filter>Header Files\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\utils\asiUI_IV.h">
+      <Filter>Header Files\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\utils\asiUI_Logger.h">
+      <Filter>Header Files\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\utils\asiUI_OverrideCursor.h">
+      <Filter>Header Files\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\utils\asiUI_PrimDataAdaptor.h">
+      <Filter>Header Files\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\utils\asiUI_PrimDataView.h">
+      <Filter>Header Files\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\utils\asiUI_ProgressListener.h">
+      <Filter>Header Files\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\utils\asiUI_ProgressNotifier.h">
+      <Filter>Header Files\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\utils\asiUI_UnitManager.h">
+      <Filter>Header Files\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\viewers\asiUI_Viewer.h">
+      <Filter>Header Files\Viewers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\viewers\asiUI_Viewer3dListener.h">
+      <Filter>Header Files\Viewers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\viewers\asiUI_ViewerCurve2d.h">
+      <Filter>Header Files\Viewers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\viewers\asiUI_ViewerDomain.h">
+      <Filter>Header Files\Viewers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\viewers\asiUI_ViewerDomainListener.h">
+      <Filter>Header Files\Viewers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\viewers\asiUI_ViewerFuncUnivariate.h">
+      <Filter>Header Files\Viewers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\viewers\asiUI_ViewerHost.h">
+      <Filter>Header Files\Viewers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\viewers\asiUI_ViewerHostListener.h">
+      <Filter>Header Files\Viewers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\viewers\asiUI_ViewerPart.h">
+      <Filter>Header Files\Viewers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\viewers\asiUI_ViewerPartListener.h">
+      <Filter>Header Files\Viewers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\viewers\asiUI_VtkWindow.h">
+      <Filter>Header Files\Viewers</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\WeNext3D\AnalysisSitus-v0.3.0\CMakeFiles\db5b6521eed884c54fe657fd752a19d3\moc_asiUI_BgColorDialog.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\WeNext3D\AnalysisSitus-v0.3.0\CMakeFiles\db5b6521eed884c54fe657fd752a19d3\moc_asiUI_ColorButton.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\WeNext3D\AnalysisSitus-v0.3.0\CMakeFiles\db5b6521eed884c54fe657fd752a19d3\moc_asiUI_Console.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\WeNext3D\AnalysisSitus-v0.3.0\CMakeFiles\db5b6521eed884c54fe657fd752a19d3\moc_asiUI_ControlsAnalysis.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\WeNext3D\AnalysisSitus-v0.3.0\CMakeFiles\db5b6521eed884c54fe657fd752a19d3\moc_asiUI_ControlsAnalysisListener.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\WeNext3D\AnalysisSitus-v0.3.0\CMakeFiles\db5b6521eed884c54fe657fd752a19d3\moc_asiUI_ControlsMesh.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\WeNext3D\AnalysisSitus-v0.3.0\CMakeFiles\db5b6521eed884c54fe657fd752a19d3\moc_asiUI_ControlsMeshListener.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\WeNext3D\AnalysisSitus-v0.3.0\CMakeFiles\db5b6521eed884c54fe657fd752a19d3\moc_asiUI_ControlsModeling.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\WeNext3D\AnalysisSitus-v0.3.0\CMakeFiles\db5b6521eed884c54fe657fd752a19d3\moc_asiUI_ControlsModelingListener.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\WeNext3D\AnalysisSitus-v0.3.0\CMakeFiles\db5b6521eed884c54fe657fd752a19d3\moc_asiUI_ControlsPart.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\WeNext3D\AnalysisSitus-v0.3.0\CMakeFiles\db5b6521eed884c54fe657fd752a19d3\moc_asiUI_ControlsPartListener.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\WeNext3D\AnalysisSitus-v0.3.0\CMakeFiles\db5b6521eed884c54fe657fd752a19d3\moc_asiUI_EvalButton.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\WeNext3D\AnalysisSitus-v0.3.0\CMakeFiles\db5b6521eed884c54fe657fd752a19d3\moc_asiUI_LineEdit.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\WeNext3D\AnalysisSitus-v0.3.0\CMakeFiles\db5b6521eed884c54fe657fd752a19d3\moc_asiUI_ObjectBrowser.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\WeNext3D\AnalysisSitus-v0.3.0\CMakeFiles\db5b6521eed884c54fe657fd752a19d3\moc_asiUI_ParameterEditor.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\WeNext3D\AnalysisSitus-v0.3.0\CMakeFiles\db5b6521eed884c54fe657fd752a19d3\moc_asiUI_ParameterEditorDelegate.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\WeNext3D\AnalysisSitus-v0.3.0\CMakeFiles\db5b6521eed884c54fe657fd752a19d3\moc_asiUI_ParameterEditorListener.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\WeNext3D\AnalysisSitus-v0.3.0\CMakeFiles\db5b6521eed884c54fe657fd752a19d3\moc_asiUI_ParameterEditorView.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\WeNext3D\AnalysisSitus-v0.3.0\CMakeFiles\db5b6521eed884c54fe657fd752a19d3\moc_asiUI_StatusBar.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\WeNext3D\AnalysisSitus-v0.3.0\CMakeFiles\db5b6521eed884c54fe657fd752a19d3\moc_asiUI_StyledTextEdit.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\WeNext3D\AnalysisSitus-v0.3.0\CMakeFiles\cf4acfa20fda5e8a5f1357f6dbf6dce9\moc_QDS_CheckBox.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\WeNext3D\AnalysisSitus-v0.3.0\CMakeFiles\cf4acfa20fda5e8a5f1357f6dbf6dce9\moc_QDS_ComboBox.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\WeNext3D\AnalysisSitus-v0.3.0\CMakeFiles\cf4acfa20fda5e8a5f1357f6dbf6dce9\moc_QDS_Datum.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\WeNext3D\AnalysisSitus-v0.3.0\CMakeFiles\cf4acfa20fda5e8a5f1357f6dbf6dce9\moc_QDS_LineEdit.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\WeNext3D\AnalysisSitus-v0.3.0\CMakeFiles\cf4acfa20fda5e8a5f1357f6dbf6dce9\moc_QDS_RadioBox.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\WeNext3D\AnalysisSitus-v0.3.0\CMakeFiles\cf4acfa20fda5e8a5f1357f6dbf6dce9\moc_QDS_SpinBox.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\WeNext3D\AnalysisSitus-v0.3.0\CMakeFiles\cf4acfa20fda5e8a5f1357f6dbf6dce9\moc_QDS_SpinBoxDbl.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\WeNext3D\AnalysisSitus-v0.3.0\CMakeFiles\cf4acfa20fda5e8a5f1357f6dbf6dce9\moc_QDS_TextEdit.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\WeNext3D\AnalysisSitus-v0.3.0\CMakeFiles\cf4acfa20fda5e8a5f1357f6dbf6dce9\moc_QtxColorButton.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\WeNext3D\AnalysisSitus-v0.3.0\CMakeFiles\cf4acfa20fda5e8a5f1357f6dbf6dce9\moc_QtxComboBox.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\WeNext3D\AnalysisSitus-v0.3.0\CMakeFiles\cf4acfa20fda5e8a5f1357f6dbf6dce9\moc_QtxDoubleSpinBox.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\WeNext3D\AnalysisSitus-v0.3.0\CMakeFiles\cf4acfa20fda5e8a5f1357f6dbf6dce9\moc_QtxIntSpinBox.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\WeNext3D\AnalysisSitus-v0.3.0\CMakeFiles\cf4acfa20fda5e8a5f1357f6dbf6dce9\moc_SUIT_PopupClient.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\WeNext3D\AnalysisSitus-v0.3.0\CMakeFiles\e01f282ffe67110807dcfdc04cee7cd5\moc_asiUI_Datum.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\WeNext3D\AnalysisSitus-v0.3.0\CMakeFiles\e01f282ffe67110807dcfdc04cee7cd5\moc_asiUI_DatumCheckBox.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\WeNext3D\AnalysisSitus-v0.3.0\CMakeFiles\e01f282ffe67110807dcfdc04cee7cd5\moc_asiUI_DatumColorEdit.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\WeNext3D\AnalysisSitus-v0.3.0\CMakeFiles\e01f282ffe67110807dcfdc04cee7cd5\moc_asiUI_DatumColorItem.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\WeNext3D\AnalysisSitus-v0.3.0\CMakeFiles\e01f282ffe67110807dcfdc04cee7cd5\moc_asiUI_DatumComboBox.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\WeNext3D\AnalysisSitus-v0.3.0\CMakeFiles\e01f282ffe67110807dcfdc04cee7cd5\moc_asiUI_DatumCustomSelector.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\WeNext3D\AnalysisSitus-v0.3.0\CMakeFiles\e01f282ffe67110807dcfdc04cee7cd5\moc_asiUI_DatumDateEdit.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\WeNext3D\AnalysisSitus-v0.3.0\CMakeFiles\e01f282ffe67110807dcfdc04cee7cd5\moc_asiUI_DatumDelegate.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\WeNext3D\AnalysisSitus-v0.3.0\CMakeFiles\e01f282ffe67110807dcfdc04cee7cd5\moc_asiUI_DatumItemEditor.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\WeNext3D\AnalysisSitus-v0.3.0\CMakeFiles\e01f282ffe67110807dcfdc04cee7cd5\moc_asiUI_DatumLabel.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\WeNext3D\AnalysisSitus-v0.3.0\CMakeFiles\e01f282ffe67110807dcfdc04cee7cd5\moc_asiUI_DatumLineEdit.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\WeNext3D\AnalysisSitus-v0.3.0\CMakeFiles\e01f282ffe67110807dcfdc04cee7cd5\moc_asiUI_DatumPathEdit.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\WeNext3D\AnalysisSitus-v0.3.0\CMakeFiles\e01f282ffe67110807dcfdc04cee7cd5\moc_asiUI_DatumPathItem.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\WeNext3D\AnalysisSitus-v0.3.0\CMakeFiles\e01f282ffe67110807dcfdc04cee7cd5\moc_asiUI_DatumRadioBox.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\WeNext3D\AnalysisSitus-v0.3.0\CMakeFiles\e01f282ffe67110807dcfdc04cee7cd5\moc_asiUI_DatumSelector.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\WeNext3D\AnalysisSitus-v0.3.0\CMakeFiles\e01f282ffe67110807dcfdc04cee7cd5\moc_asiUI_DatumSpinBox.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\WeNext3D\AnalysisSitus-v0.3.0\CMakeFiles\e01f282ffe67110807dcfdc04cee7cd5\moc_asiUI_DatumSpinBoxDbl.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\WeNext3D\AnalysisSitus-v0.3.0\CMakeFiles\e01f282ffe67110807dcfdc04cee7cd5\moc_asiUI_DatumViewBase.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\WeNext3D\AnalysisSitus-v0.3.0\CMakeFiles\e01f282ffe67110807dcfdc04cee7cd5\moc_asiUI_DatumViewDelegate.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\WeNext3D\AnalysisSitus-v0.3.0\CMakeFiles\e01f282ffe67110807dcfdc04cee7cd5\moc_asiUI_DatumViewModel.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\WeNext3D\AnalysisSitus-v0.3.0\CMakeFiles\68a228f07bcf669bc60e211f2b7b0d23\moc_asiUI_DialogCommands.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\WeNext3D\AnalysisSitus-v0.3.0\CMakeFiles\68a228f07bcf669bc60e211f2b7b0d23\moc_asiUI_DialogCommandsDelegate.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\WeNext3D\AnalysisSitus-v0.3.0\CMakeFiles\68a228f07bcf669bc60e211f2b7b0d23\moc_asiUI_DialogEuler.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\WeNext3D\AnalysisSitus-v0.3.0\CMakeFiles\68a228f07bcf669bc60e211f2b7b0d23\moc_asiUI_DialogFindEdge.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\WeNext3D\AnalysisSitus-v0.3.0\CMakeFiles\68a228f07bcf669bc60e211f2b7b0d23\moc_asiUI_DialogFindFace.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\WeNext3D\AnalysisSitus-v0.3.0\CMakeFiles\68a228f07bcf669bc60e211f2b7b0d23\moc_asiUI_DialogGapFilling.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\WeNext3D\AnalysisSitus-v0.3.0\CMakeFiles\68a228f07bcf669bc60e211f2b7b0d23\moc_asiUI_DialogGeomDef.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\WeNext3D\AnalysisSitus-v0.3.0\CMakeFiles\68a228f07bcf669bc60e211f2b7b0d23\moc_asiUI_DialogOCAFDump.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\WeNext3D\AnalysisSitus-v0.3.0\CMakeFiles\68a228f07bcf669bc60e211f2b7b0d23\moc_asiUI_DialogPipelines.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\WeNext3D\AnalysisSitus-v0.3.0\CMakeFiles\68a228f07bcf669bc60e211f2b7b0d23\moc_asiUI_DialogRefineTessellation.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\WeNext3D\AnalysisSitus-v0.3.0\CMakeFiles\68a228f07bcf669bc60e211f2b7b0d23\moc_asiUI_DialogSewing.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\WeNext3D\AnalysisSitus-v0.3.0\CMakeFiles\68a228f07bcf669bc60e211f2b7b0d23\moc_asiUI_DialogSmoothAngleTol.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\WeNext3D\AnalysisSitus-v0.3.0\CMakeFiles\68a228f07bcf669bc60e211f2b7b0d23\moc_asiUI_DialogSTEP.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\WeNext3D\AnalysisSitus-v0.3.0\CMakeFiles\68a228f07bcf669bc60e211f2b7b0d23\moc_asiUI_DialogSTEPDelegate.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\WeNext3D\AnalysisSitus-v0.3.0\CMakeFiles\68a228f07bcf669bc60e211f2b7b0d23\moc_asiUI_DialogTopoGraphDepth.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\WeNext3D\AnalysisSitus-v0.3.0\CMakeFiles\502d8ffe6a2095f54a3552417690b027\moc_asiUI_HistoryGraph.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\WeNext3D\AnalysisSitus-v0.3.0\CMakeFiles\502d8ffe6a2095f54a3552417690b027\moc_asiUI_HistoryGraphItem.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\WeNext3D\AnalysisSitus-v0.3.0\CMakeFiles\502d8ffe6a2095f54a3552417690b027\moc_asiUI_PartGraph.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\WeNext3D\AnalysisSitus-v0.3.0\CMakeFiles\502d8ffe6a2095f54a3552417690b027\moc_asiUI_PartGraphItem.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\WeNext3D\AnalysisSitus-v0.3.0\CMakeFiles\09ff03f7c086735e12ce9baca8a11184\moc_asiUI_Plot2d.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\WeNext3D\AnalysisSitus-v0.3.0\CMakeFiles\cded5d951288b66d957cd078f4f109bc\moc_asiUI_AddCurveHandleCallback.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\WeNext3D\AnalysisSitus-v0.3.0\CMakeFiles\cded5d951288b66d957cd078f4f109bc\moc_asiUI_BaseCurveCallback.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\WeNext3D\AnalysisSitus-v0.3.0\CMakeFiles\cded5d951288b66d957cd078f4f109bc\moc_asiUI_MoveCurveHandleCallback.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\WeNext3D\AnalysisSitus-v0.3.0\CMakeFiles\cded5d951288b66d957cd078f4f109bc\moc_asiUI_PartCallback.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\WeNext3D\AnalysisSitus-v0.3.0\CMakeFiles\cded5d951288b66d957cd078f4f109bc\moc_asiUI_PDomainCallback.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\WeNext3D\AnalysisSitus-v0.3.0\CMakeFiles\cded5d951288b66d957cd078f4f109bc\moc_asiUI_PickCallback.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\WeNext3D\AnalysisSitus-v0.3.0\CMakeFiles\cded5d951288b66d957cd078f4f109bc\moc_asiUI_PickContourCallback.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\WeNext3D\AnalysisSitus-v0.3.0\CMakeFiles\cded5d951288b66d957cd078f4f109bc\moc_asiUI_PickCurveCallback.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\WeNext3D\AnalysisSitus-v0.3.0\CMakeFiles\b84ebfdc7823edd3f55cb120b87a9db2\moc_asiUI_OverrideCursor.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\WeNext3D\AnalysisSitus-v0.3.0\CMakeFiles\b84ebfdc7823edd3f55cb120b87a9db2\moc_asiUI_PrimDataView.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\WeNext3D\AnalysisSitus-v0.3.0\CMakeFiles\b84ebfdc7823edd3f55cb120b87a9db2\moc_asiUI_ProgressListener.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\WeNext3D\AnalysisSitus-v0.3.0\CMakeFiles\b84ebfdc7823edd3f55cb120b87a9db2\moc_asiUI_ProgressNotifier.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\WeNext3D\AnalysisSitus-v0.3.0\CMakeFiles\b84ebfdc7823edd3f55cb120b87a9db2\moc_asiUI_UnitManager.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\WeNext3D\AnalysisSitus-v0.3.0\CMakeFiles\110ab634d19f64ead0de42990ec0200a\moc_asiUI_Viewer.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\WeNext3D\AnalysisSitus-v0.3.0\CMakeFiles\110ab634d19f64ead0de42990ec0200a\moc_asiUI_Viewer3dListener.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\WeNext3D\AnalysisSitus-v0.3.0\CMakeFiles\110ab634d19f64ead0de42990ec0200a\moc_asiUI_ViewerCurve2d.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\WeNext3D\AnalysisSitus-v0.3.0\CMakeFiles\110ab634d19f64ead0de42990ec0200a\moc_asiUI_ViewerDomain.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\WeNext3D\AnalysisSitus-v0.3.0\CMakeFiles\110ab634d19f64ead0de42990ec0200a\moc_asiUI_ViewerDomainListener.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\WeNext3D\AnalysisSitus-v0.3.0\CMakeFiles\110ab634d19f64ead0de42990ec0200a\moc_asiUI_ViewerFuncUnivariate.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\WeNext3D\AnalysisSitus-v0.3.0\CMakeFiles\110ab634d19f64ead0de42990ec0200a\moc_asiUI_ViewerHost.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\WeNext3D\AnalysisSitus-v0.3.0\CMakeFiles\110ab634d19f64ead0de42990ec0200a\moc_asiUI_ViewerHostListener.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\WeNext3D\AnalysisSitus-v0.3.0\CMakeFiles\110ab634d19f64ead0de42990ec0200a\moc_asiUI_ViewerPart.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\WeNext3D\AnalysisSitus-v0.3.0\CMakeFiles\110ab634d19f64ead0de42990ec0200a\moc_asiUI_ViewerPartListener.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\WeNext3D\AnalysisSitus-v0.3.0\CMakeFiles\110ab634d19f64ead0de42990ec0200a\moc_asiUI_VtkWindow.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiUI\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{882E4F4D-F98B-383B-BC7F-7A6DD8897F7B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Generated">
+      <UniqueIdentifier>{FC5362AC-1C8A-3276-9EF4-FFFDE7C8A97B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{B95166DC-5349-363B-B2F3-9C707E092AAB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Controls">
+      <UniqueIdentifier>{314CEBA1-29AE-3292-A877-2D7E09B6A4F4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Datum">
+      <UniqueIdentifier>{59C627A2-D52D-34A2-8BCD-FD2FF258EA4F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Dialogs">
+      <UniqueIdentifier>{6A6E80BA-0615-3C49-A027-62AAFAD4B2E5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Graphs">
+      <UniqueIdentifier>{4D0E5A01-ABAC-3061-80E5-215702C0BC39}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Interaction">
+      <UniqueIdentifier>{C66E588C-AC62-3B88-B2D0-DC8BA33F20BD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Plots">
+      <UniqueIdentifier>{54C2F369-BC40-3A13-8E91-B65A2ACBFBB4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Salome">
+      <UniqueIdentifier>{516CCCAB-7BC1-3D2F-B5C6-2EBF03D86EDE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Utilities">
+      <UniqueIdentifier>{EF9984F1-4E0E-361E-A478-EA3BF466F243}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Viewers">
+      <UniqueIdentifier>{7CE16D82-F0FA-334B-AF7F-9320778739DC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{632DAB89-F98D-3A54-A4EB-6A26BA1E4645}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Controls">
+      <UniqueIdentifier>{84C7386D-C8C7-334D-91C0-5DEAAECBECDC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Datum">
+      <UniqueIdentifier>{C2702D2F-9236-3F2C-8D09-FDD6C19FF0C7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Dialogs">
+      <UniqueIdentifier>{1E12B76D-E5EE-32AA-9A18-F99206438FC2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Graphs">
+      <UniqueIdentifier>{72DECDD2-FD29-383E-BB11-717023ECAA7A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Interaction">
+      <UniqueIdentifier>{2AAC5A64-BC9D-375C-82DB-6A3753DBD839}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Plots">
+      <UniqueIdentifier>{88C7E49A-E5D9-357A-9702-BC115B19DC07}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Salome">
+      <UniqueIdentifier>{92A29539-880A-3D05-88AD-CD2350BCA9FE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Utilities">
+      <UniqueIdentifier>{5FD3CDA5-49A4-30E8-8400-B5E18328BBA9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Viewers">
+      <UniqueIdentifier>{E7121615-ACAE-36FE-BA3C-915812C9FDF7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

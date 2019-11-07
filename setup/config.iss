@@ -1,0 +1,8 @@
+#define MyAppVersion "Analysis Situs 0.3.0"
+#define MyAppInstName "asitus_0.3.0"
+#define MyAppExeName "asiExe.exe"
+#define MyAppIcoName "icon.ico"
+#define MyAppDesktopIcoName "icon64.ico"
+#define BIN_INPUT ""
+#define DOC_INPUT ""
+#define SETUP_OUTPUT ""

@@ -1,0 +1,15 @@
+[TITLE]
+
+  KEV
+
+[1-*:OVERVIEW]
+
+  This test verifies KEV operation.
+
+[1-*:DETAILS]
+
+  <b>Run to reproduce:</b>
+  <br>
+  <tt>source %%filename%%</tt>
+  <br><br>
+  Elapsed time [s]: %%time%%

@@ -1,0 +1,5 @@
+-DWIN32
+--compiler-flavor=msvc
+-o
+D:/WeNext3D/AnalysisSitus-v0.3.0/src/asiUI/utils/moc_asiUI_PrimDataView.cpp
+D:/WeNext3D/AnalysisSitus-v0.3.0/src/asiUI/utils/asiUI_PrimDataView.h

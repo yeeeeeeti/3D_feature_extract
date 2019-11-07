@@ -1,0 +1,5 @@
+-DWIN32
+--compiler-flavor=msvc
+-o
+D:/WeNext3D/AnalysisSitus-v0.3.0/src/asiUI/interaction/moc_asiUI_PickCurveCallback.cpp
+D:/WeNext3D/AnalysisSitus-v0.3.0/src/asiUI/interaction/asiUI_PickCurveCallback.h

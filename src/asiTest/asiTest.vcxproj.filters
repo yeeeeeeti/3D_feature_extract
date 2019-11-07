@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiTest\asiTest_CommonFacilities.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiTest\asiTest_Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiTest\asiTest_ProgressNotifier.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiTest\asiTest_TclTestCase.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiTest\cases\editing\asiTest_InvertShells.cpp">
+      <Filter>Source Files\Cases\Editing</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiTest\cases\editing\asiTest_KEV.cpp">
+      <Filter>Source Files\Cases\Editing</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiTest\cases\editing\asiTest_RecognizeBlends.cpp">
+      <Filter>Source Files\Cases\Editing</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiTest\cases\editing\asiTest_SuppressBlends.cpp">
+      <Filter>Source Files\Cases\Editing</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiTest\cases\framework\asiTest_DataDictionary.cpp">
+      <Filter>Source Files\Cases\Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiTest\cases\inspection\asiTest_AAG.cpp">
+      <Filter>Source Files\Cases\Inspection</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiTest\cases\inspection\asiTest_EdgeVexity.cpp">
+      <Filter>Source Files\Cases\Inspection</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiTest\cases\inspection\asiTest_IsContourClosed.cpp">
+      <Filter>Source Files\Cases\Inspection</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiTest\asiTest.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiTest\asiTest_CaseIDs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiTest\asiTest_CommonFacilities.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiTest\asiTest_ProgressNotifier.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiTest\asiTest_TclTestCase.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiTest\cases\editing\asiTest_InvertShells.h">
+      <Filter>Header Files\Cases\Editing</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiTest\cases\editing\asiTest_KEV.h">
+      <Filter>Header Files\Cases\Editing</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiTest\cases\editing\asiTest_RecognizeBlends.h">
+      <Filter>Header Files\Cases\Editing</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiTest\cases\editing\asiTest_SuppressBlends.h">
+      <Filter>Header Files\Cases\Editing</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiTest\cases\framework\asiTest_DataDictionary.h">
+      <Filter>Header Files\Cases\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiTest\cases\inspection\asiTest_AAG.h">
+      <Filter>Header Files\Cases\Inspection</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiTest\cases\inspection\asiTest_EdgeVexity.h">
+      <Filter>Header Files\Cases\Inspection</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiTest\cases\inspection\asiTest_IsContourClosed.h">
+      <Filter>Header Files\Cases\Inspection</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiTest\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <XML Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiTest\resources\asiTestDictionary.xml">
+      <Filter>Resources</Filter>
+    </XML>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{B95166DC-5349-363B-B2F3-9C707E092AAB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Cases">
+      <UniqueIdentifier>{1E00BA43-91B7-34A3-A8D4-859068605328}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Cases\Editing">
+      <UniqueIdentifier>{7F666481-1662-3243-8803-E1C07D8ED8A0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Cases\Framework">
+      <UniqueIdentifier>{63BCBE88-4BFD-3453-9BED-92EB14385160}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Cases\Inspection">
+      <UniqueIdentifier>{47075C5E-A745-3347-BB00-F0969FEF9CFB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources">
+      <UniqueIdentifier>{12347B13-4151-3FBC-88BC-F5E9B9FB8E21}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{632DAB89-F98D-3A54-A4EB-6A26BA1E4645}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Cases">
+      <UniqueIdentifier>{4029EF1B-ACD8-3DE2-924D-2412DA399F8E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Cases\Editing">
+      <UniqueIdentifier>{7EC9BD43-F907-3DA3-815A-A6F08263C221}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Cases\Framework">
+      <UniqueIdentifier>{EE12E732-EB23-392D-B749-46CCE83C1E91}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Cases\Inspection">
+      <UniqueIdentifier>{85DC1902-BA1A-3291-889B-20C1AB4947BA}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,5 @@
+-DWIN32
+--compiler-flavor=msvc
+-o
+D:/WeNext3D/AnalysisSitus-v0.3.0/src/asiUI/graphs/moc_asiUI_PartGraph.cpp
+D:/WeNext3D/AnalysisSitus-v0.3.0/src/asiUI/graphs/asiUI_PartGraph.h

@@ -1,0 +1,152 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+ <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <title>Analysis Situs: features</title>
+  <link rel="shortcut icon" type="image/png" href="./imgs/favicon.png"/>
+  <link rel="stylesheet" type="text/css" href="./css/situ-main-style.css">
+
+  <!-- [begin] Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-112292727-2"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-112292727-2');
+  </script>
+  <!-- [end] Google Analytics -->
+
+ </head>
+<body>
+
+<table align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr>
+  <td align="left" class="header">
+    <span class="header-logo"><a href="./index.html" class="header-href">Analysis&nbsp;Situs</a></span>
+    &nbsp;
+    ./features
+  </td>
+</tr>
+</table>
+<table align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr>
+  <td class="header-menu"><a href='http://quaoar.su/blog/page/analysis-situs'>Download</a></td>
+  <td class="header-menu"><a href="./features.html">Features</a></td>
+  <td class="header-menu"><a href="https://gitlab.com/ssv/AnalysisSitus">Source code</a></td>
+  <td class="header-menu"><a href="./terminology.html">Terminology</a></td>
+  <td class="header-menu"><a href="./references.html">References</a></td>
+</tr>
+</table>
+
+<h1>Common</h1>
+
+<ul>
+  <li><a href="./features/features_batch-mode.html">Batch processing</a>.</li>
+  <li><a href="./features/features_active-script.html">Active script</a>.</li>
+  <li><a href="./features/features_unit-testing.html">Unit testing</a>.</li>
+  <li><a href="./features/features_listing-commands.html">Listing available Tcl commands</a>.</li>
+  <li><a href="./features/features_writing-plugins.html">Writing Tcl plugins</a>.</li>
+  <li><a href="./features/features_visu-pipelines.html">Manage visualization pipelines</a>.</li>
+</ul>
+
+<h1>Project structure</h1>
+
+<ul>
+  <li><a href="./features/features_project-overview.html">Project internals overview</a>.</li>
+  <li><a href="./features/features_part-node.html">Part Node</a>.</li>
+  <li>Tessellation Nodes.</li>
+  <li>Imperative plotter.</li>
+</ul>
+
+<h1>Precise modeling</h1>
+
+<ul>
+  <li><a href="./features/features_nurbs.html">NURBS modeling</a>.</li>
+  <li><a href="./features/features_topo-killer.html">Topology killer</a>.</li>
+  <li><a href="./features/features_euler-ops.html">Euler operators</a>.</li>
+  <li><a href="./features/features_rebuild-edge.html">Rebuild edge</a>.</li>
+  <li><a href="./features/features_suppress-blends.html">Suppress blends</a>.</li>
+  <li>Basic surface and solid modeling operators.</li>
+  <li>Detach and remove faces.</li>
+  <li>Explode shapes to sub-shapes.</li>
+  <li>Compute distances between shapes.</li>
+  <li>Repatch faces.</li>
+  <li>Fill gaps.</li>
+  <li>Stitch faces.</li>
+  <li>Getting rid of small edges.</li>
+  <li>History of modifications.</li>
+  <li>On-fly naming service.</li>
+</ul>
+
+<h1>Mesh toolkit</h1>
+
+<ul>
+  <li>Read/write STL and PLY.</li>
+  <li>Offset mesh shells.</li>
+</ul>
+
+<h1>Inspection</h1>
+
+<div class="note">
+This block contains description of the shape interrogation facilities available in Analysis Situs. In general,
+using the inspection tools, it is possible to extract the following information:
+
+<ul class="light">
+  <li>Topological connectivity in form of graphs.</li>
+  <li>Host geometry of edges and faces (types of curves and surfaces, their properties).</li>
+  <li>Local tolerances, locations and orientations associated with the boundary elements.</li>
+</ul>
+</div>
+
+<ul>
+  <li><a href="./features/features_aag.html">Attributed adjacency graph</a>.</li>
+  <li>Topology graph.</li>
+  <li><a href="./features/features_check-shape.html">Check CAD model validity</a>.</li>
+  <li><a href="./features/features_check-toler.html">Check geometric tolerances</a>.</li>
+  <li>Check naked (open) edges.</li>
+  <li>Check non-manifold edges.</li>
+  <li>Check dihedral angles.</li>
+  <li>Curvature plots and combs.</li>
+  <li>Gaussian and mean curvature maps.</li>
+  <li><a href="./features/features_is-contour-closed.html">Check if face contour is closed</a>.</li>
+  <li>Check face contour.</li>
+  <li>Check face normal vectors.</li>
+</ul>
+
+<h1>Reverse engineering</h1>
+
+<div class="note">
+Reverse engineering eliminates the need to design from a blank sheet. The
+process takes an existing part, captures its surface measurements, and uses
+this information as a reference to create the new design. Reverse engineering
+techniques can contribute to solving the following tasks:
+
+<ul class="light">
+  <li>Create CAD models for legacy parts where no digital models are available.</li>
+  <li>Design organic shapes whose features are very difficult to reproduce without a polygonal underlayer.</li>
+  <li>Change (optimize) design of existing product.</li>
+  <li>Replicate existing products.</li>
+  <li>Repair worn-out or broken parts.</li>
+  <li>Understand better the properties of the existing parts (e.g. it symmetry, defects, etc.).</li>
+</ul>
+</div>
+
+<ul>
+  <li><a href="./features/features_re-overview.html">Reverse engineering overview</a>.</li>
+  <li><a href="./features/features_re-define-topology.html">Define topology interactively</a>.</li>
+  <li>Interpolate mesh by regular grid.</li>
+  <li>Curve smoothing.</li>
+  <li>Surface smoothing.</li>
+  <li>Extend surface.</li>
+</ul>
+
+<h1>Tips & tricks</h1>
+
+<ul>
+  <li><a href="./features/features_find-entity.html">Find entity</a>.</li>
+  <li>JSON representation of curves and surfaces.</li>
+</ul>
+
+</body>
+</html>

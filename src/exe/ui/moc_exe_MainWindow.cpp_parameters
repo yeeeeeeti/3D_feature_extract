@@ -1,0 +1,5 @@
+-DWIN32
+--compiler-flavor=msvc
+-o
+D:/WeNext3D/AnalysisSitus-v0.3.0/src/exe/ui/moc_exe_MainWindow.cpp
+D:/WeNext3D/AnalysisSitus-v0.3.0/src/exe/ui/exe_MainWindow.h

@@ -1,0 +1,118 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+ <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <title>Analysis Situs: rebuild edge</title>
+  <link rel="shortcut icon" type="image/png" href="../imgs/favicon.png"/>
+  <link rel="stylesheet" type="text/css" href="../css/situ-main-style.css">
+
+  <!-- [begin] Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-112292727-2"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-112292727-2');
+  </script>
+  <!-- [end] Google Analytics -->
+
+ </head>
+<body>
+
+<table align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr>
+  <td align="left" class="header">
+    <span class="header-logo"><a href="../index.html" class="header-href">Analysis&nbsp;Situs</a></span>
+    &nbsp;
+    ./<a class="header-href" href="../features.html">features</a>/rebuild edge
+  </td>
+</tr>
+</table>
+<table align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr>
+  <td class="header-menu"><a href='http://quaoar.su/blog/page/analysis-situs'>Download</a></td>
+  <td class="header-menu"><a href="../features.html">Features</a></td>
+  <td class="header-menu"><a href="https://gitlab.com/ssv/AnalysisSitus">Source code</a></td>
+  <td class="header-menu"><a href="../terminology.html">Terminology</a></td>
+  <td class="header-menu"><a href="../references.html">References</a></td>
+</tr>
+</table>
+
+<h1>Rebuild edge</h1>
+
+<h2>Topological condition</h2>
+
+<p>
+To rebuild an edge by re-intersecting its neighbor faces, use <span class="code-inline">rebuild-edge</span>
+command. Analysis Situs will analyze the local topological condition around the edge trying to find
+the support faces to intersect (faces <span class="code-inline">s1</span> and <span class="code-inline">s2</span> in the following figure).
+</p>
+
+<div align="center"><img src="../imgs/rebuild_edge_01.png"/></div>
+
+<p>
+As the figure above shows, the normal situation is to have ten adjacent topological
+elements for the edge in question (denoted as <span class="code-inline">s1-s2</span>).
+This tuple of ten boundary elements we call a <i>topological condition</i> which requires
+a certain <i>geometric resolution</i>. It is assumed that resolution does not change the topology
+of the model. If any topological changes are required, consider
+applying <a href="./features_euler-ops.html">Euler operators</a>.
+</p>
+
+<p>
+Faces <span class="code-inline">s1</span> and <span class="code-inline">s2</span>
+are chosen w.r.t. the orientation of the target edge. The face which contains
+a coedge oriented equally with <span class="code-inline">s1-s2</span> edge is chosen
+as <span class="code-inline">s1</span> without reducing the generality. The vertex
+<span class="code-inline">s1-s2-t1</span> is chosen as the first vertex of the edge
+<span class="code-inline">s1-s2</span>. The vertex <span class="code-inline">s1-s2-t2</span>
+is chosen as the last vertex of the edge <span class="code-inline">s1-s2</span>.
+</p>
+
+<h2>Knowledge-guided computation</h2>
+
+<p>
+The process of edge rebuilding employs recomputation of its host curve and extremities
+(i.e. vertices). However, in some circumstances you may know a priori that
+no recomputation is necessary for certain vertex positions. This knowledge
+can be taken into account in the algorithm by specifying the so called "frozen"
+vertices. Let's expand a bit on why this possibility is important.
+A vertex is generally recomputed using <i>curve-surface intersection algorithm</i>.
+However, if the intersection operands are not in general position
+(see <a href="../references.html#barnhill-1987">[Barnhill et al, 1987]</a> for
+the discussion of "general position" term in the context of intersection), the
+recomputation routine is likely to fail or give inaccurate results. The figure below
+illustrates two situations which are tricky to resolve. In the fist figure, the
+intersection point was not found because of small proximity between the operands.
+Such a proximity has no sense from the engineering point of view as most likely the
+geometries are meant to be tangent. The next figure illustrates a possible result
+of intersection if the operand curve is pulled a bit closer to the surface. We see
+multiple intersection points (none is accurate) while only one point is actually
+meant there.
+</p>
+
+<div align="center"><img src="../imgs/rebuild_edge_genpos.png"/></div>
+
+<p>
+The best practice in geometric modeling is to identify special cases of intersection to enable
+specific treatment for them. Since multiple intersection points may emerge in tangential cases, the
+<span class="code-inline">rebuild-edge</span> command attempts to average the
+obtained points to produce a single result out of them. However, this technique is error-prone as
+it does not guarantee that the average point is more accurate than any of the contributing positions. In
+practice, it is much better just to avoid recomputation of intersections as much as possible
+(and especially in non-general-position cases). The possibility to specify the "frozen" vertices
+enables the principle known as "knowledge-guided computation" (see <a href="../references.html#piegl-2005">[Piegl, 2005]</a>
+for a comprehensive discussion of robustness issues in CAD).
+</p>
+
+<div class="note">
+One practical example where "frozen" vertices are used is a blends suppression algorithm. In this algorithm,
+the edge <span class="code-inline">s1-s2</span> is the image of the collapsed blend face, and the edges
+<span class="code-inline">s1-t1</span>, <span class="code-inline">s2-t1</span>, <span class="code-inline">s1-t2</span>
+and <span class="code-inline">s2-t2</span> require recomputation. Each of the latter edges has one vertex which does
+not require recomputation (the vertex on the back face which is not touched by the operation).
+</div>
+
+</body>
+</html>

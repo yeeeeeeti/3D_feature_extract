@@ -1,0 +1,14 @@
+# CMake generation dependency list for this directory.
+D:/WeNext3D/AnalysisSitus-v0.3.0/setup/CMakeLists.txt
+D:/WeNext3D/AnalysisSitus-v0.3.0/CMakeFiles/3.11.3/CMakeCCompiler.cmake
+D:/Program Files/CMake/share/cmake-3.11/Modules/CMakeCInformation.cmake
+D:/Program Files/CMake/share/cmake-3.11/Modules/CMakeLanguageInformation.cmake
+D:/Program Files/CMake/share/cmake-3.11/Modules/Platform/Windows-MSVC-C.cmake
+D:/Program Files/CMake/share/cmake-3.11/Modules/Platform/Windows-MSVC.cmake
+D:/Program Files/CMake/share/cmake-3.11/Modules/CMakeCommonLanguageInclude.cmake
+D:/WeNext3D/AnalysisSitus-v0.3.0/setup/config.iss.in
+D:/WeNext3D/AnalysisSitus-v0.3.0/setup/setup.iss
+D:/WeNext3D/AnalysisSitus-v0.3.0/src/exe/resources/asitus/icon.ico
+D:/WeNext3D/AnalysisSitus-v0.3.0/src/exe/resources/asitus/icon64.ico
+D:/WeNext3D/AnalysisSitus-v0.3.0/setup/imgs/setup_image.bmp
+D:/WeNext3D/AnalysisSitus-v0.3.0/setup/imgs/setup_image_small.bmp

@@ -1,0 +1,174 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="头文件\vflib">
+      <UniqueIdentifier>{b6fa07d8-ddfd-48b9-b44f-f991fcb6636e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\argedit.cc">
+      <Filter>头文件\vflib</Filter>
+    </ClCompile>
+    <ClCompile Include="src\argloader.cc">
+      <Filter>头文件\vflib</Filter>
+    </ClCompile>
+    <ClCompile Include="src\argraph.cc">
+      <Filter>头文件\vflib</Filter>
+    </ClCompile>
+    <ClCompile Include="src\error.cc">
+      <Filter>头文件\vflib</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gene.cc">
+      <Filter>头文件\vflib</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gene_mesh.cc">
+      <Filter>头文件\vflib</Filter>
+    </ClCompile>
+    <ClCompile Include="src\match.cc">
+      <Filter>头文件\vflib</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sd_state.cc">
+      <Filter>头文件\vflib</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sortnodes.cc">
+      <Filter>头文件\vflib</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ull_state.cc">
+      <Filter>头文件\vflib</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ull_sub_state.cc">
+      <Filter>头文件\vflib</Filter>
+    </ClCompile>
+    <ClCompile Include="src\vf_mono_state.cc">
+      <Filter>头文件\vflib</Filter>
+    </ClCompile>
+    <ClCompile Include="src\vf_state.cc">
+      <Filter>头文件\vflib</Filter>
+    </ClCompile>
+    <ClCompile Include="src\vf_sub_state.cc">
+      <Filter>头文件\vflib</Filter>
+    </ClCompile>
+    <ClCompile Include="src\vf2_mono_state.cc">
+      <Filter>头文件\vflib</Filter>
+    </ClCompile>
+    <ClCompile Include="src\vf2_state.cc">
+      <Filter>头文件\vflib</Filter>
+    </ClCompile>
+    <ClCompile Include="src\vf2_sub_state.cc">
+      <Filter>头文件\vflib</Filter>
+    </ClCompile>
+    <ClCompile Include="src\xsubgraph.cc">
+      <Filter>头文件\vflib</Filter>
+    </ClCompile>
+    <ClCompile Include="VF2_Matching.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="GetFeatureList.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="featureExtraction.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="FeatureMatching.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="getDataFeatureList.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="generateEAAG.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="EAAG_Adapter.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Attribute.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\allocpool.h">
+      <Filter>头文件\vflib</Filter>
+    </ClInclude>
+    <ClInclude Include="src\argedit.h">
+      <Filter>头文件\vflib</Filter>
+    </ClInclude>
+    <ClInclude Include="src\argloader.h">
+      <Filter>头文件\vflib</Filter>
+    </ClInclude>
+    <ClInclude Include="src\argraph.h">
+      <Filter>头文件\vflib</Filter>
+    </ClInclude>
+    <ClInclude Include="src\dict.h">
+      <Filter>头文件\vflib</Filter>
+    </ClInclude>
+    <ClInclude Include="src\error.h">
+      <Filter>头文件\vflib</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gene.h">
+      <Filter>头文件\vflib</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gene_mesh.h">
+      <Filter>头文件\vflib</Filter>
+    </ClInclude>
+    <ClInclude Include="src\match.h">
+      <Filter>头文件\vflib</Filter>
+    </ClInclude>
+    <ClInclude Include="src\sd_state.h">
+      <Filter>头文件\vflib</Filter>
+    </ClInclude>
+    <ClInclude Include="src\sortnodes.h">
+      <Filter>头文件\vflib</Filter>
+    </ClInclude>
+    <ClInclude Include="src\state.h">
+      <Filter>头文件\vflib</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ull_state.h">
+      <Filter>头文件\vflib</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ull_sub_state.h">
+      <Filter>头文件\vflib</Filter>
+    </ClInclude>
+    <ClInclude Include="src\vf_mono_state.h">
+      <Filter>头文件\vflib</Filter>
+    </ClInclude>
+    <ClInclude Include="src\vf_state.h">
+      <Filter>头文件\vflib</Filter>
+    </ClInclude>
+    <ClInclude Include="src\vf_sub_state.h">
+      <Filter>头文件\vflib</Filter>
+    </ClInclude>
+    <ClInclude Include="src\vf2_mono_state.h">
+      <Filter>头文件\vflib</Filter>
+    </ClInclude>
+    <ClInclude Include="src\vf2_state.h">
+      <Filter>头文件\vflib</Filter>
+    </ClInclude>
+    <ClInclude Include="src\vf2_sub_state.h">
+      <Filter>头文件\vflib</Filter>
+    </ClInclude>
+    <ClInclude Include="src\xsubgraph.h">
+      <Filter>头文件\vflib</Filter>
+    </ClInclude>
+    <ClInclude Include="dataFormat.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="EAAG_Adapter.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

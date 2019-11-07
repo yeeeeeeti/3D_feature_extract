@@ -1,0 +1,5 @@
+-DWIN32
+--compiler-flavor=msvc
+-o
+D:/WeNext3D/AnalysisSitus-v0.3.0/src/asiUI/controls/moc_asiUI_StyledTextEdit.cpp
+D:/WeNext3D/AnalysisSitus-v0.3.0/src/asiUI/controls/asiUI_StyledTextEdit.h

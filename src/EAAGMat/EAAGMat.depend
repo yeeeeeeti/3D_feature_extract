@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1567834991 source:d:\wenext3d\analysissitus-v0.3.0\src\eaagmat\main.cpp
+	<iostream>
+	<iomanip>
+	<stdio.h>
+	<stdlib.h>
+	<errno.h>
+	<string.h>
+

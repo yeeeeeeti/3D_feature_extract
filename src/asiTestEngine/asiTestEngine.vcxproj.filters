@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiTestEngine\asiTestEngine_FileComparator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiTestEngine\asiTestEngine_Launcher.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiTestEngine\asiTestEngine_TestCase.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiTestEngine\reportgen\asiTestEngine_DescriptionProc.cpp">
+      <Filter>Source Files\Reporting</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiTestEngine\reportgen\asiTestEngine_ReportRenderer.cpp">
+      <Filter>Source Files\Reporting</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiTestEngine\reportgen\asiTestEngine_ReportStyle.cpp">
+      <Filter>Source Files\Reporting</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiTestEngine\reportgen\asiTestEngine_ReportStyleFactory.cpp">
+      <Filter>Source Files\Reporting</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiTestEngine\reportgen\asiTestEngine_ReportTag.cpp">
+      <Filter>Source Files\Reporting</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiTestEngine\reportgen\asiTestEngine_ReportTagFactory.cpp">
+      <Filter>Source Files\Reporting</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiTestEngine\asiTestEngine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiTestEngine\asiTestEngine_Launcher.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiTestEngine\asiTestEngine_FileComparator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiTestEngine\asiTestEngine_Macro.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiTestEngine\asiTestEngine_TestCase.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiTestEngine\outcome.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiTestEngine\reportgen\asiTestEngine_DescriptionProc.h">
+      <Filter>Header Files\Reporting</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiTestEngine\reportgen\asiTestEngine_ReportRenderer.h">
+      <Filter>Header Files\Reporting</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiTestEngine\reportgen\asiTestEngine_ReportStyle.h">
+      <Filter>Header Files\Reporting</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiTestEngine\reportgen\asiTestEngine_ReportStyleFactory.h">
+      <Filter>Header Files\Reporting</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiTestEngine\reportgen\asiTestEngine_ReportTag.h">
+      <Filter>Header Files\Reporting</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiTestEngine\reportgen\asiTestEngine_ReportTagFactory.h">
+      <Filter>Header Files\Reporting</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\WeNext3D\AnalysisSitus-v0.3.0\src\asiTestEngine\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{B95166DC-5349-363B-B2F3-9C707E092AAB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Reporting">
+      <UniqueIdentifier>{3BBA3C2B-0E54-37E3-92C8-A4F2C2898388}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{632DAB89-F98D-3A54-A4EB-6A26BA1E4645}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Reporting">
+      <UniqueIdentifier>{31344E07-5056-31F6-8294-51FD7CEE8C00}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
